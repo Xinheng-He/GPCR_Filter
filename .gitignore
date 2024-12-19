@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# data
+data/split-random/
+data/split-target-inter/
+data/split-target-intra/
+data/dict_ligand.pkl
+data/dict_target.pkl
+data/idmapping_ligand.csv
+data/idmapping_target.csv
+save/
+test.py
+tmp.py
