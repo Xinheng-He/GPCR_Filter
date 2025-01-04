@@ -1,84 +1,34 @@
 import torch.nn as nn
 import torch
+from torch_geometric.nn import Set2Set
 
-class Decoder1218(nn.Module):
-    def __init__(self, hidden_target, hidden_ligand, hidden):
-        super().__init__()
-        self.hidden_target = hidden_target
-        self.hidden_ligand = hidden_ligand
-        self.hidden = hidden
-        self.init_Q = nn.Sequential(
-            nn.Linear(self.hidden_target, self.hidden),
-            nn.ReLU(),
-        )
-        self.init_K = nn.Sequential(
-            nn.Linear(self.hidden_ligand, self.hidden),
-            nn.ReLU(),
-        )
-        self.init_V = nn.Sequential(
-            nn.Linear(self.hidden_ligand, self.hidden),
-            nn.ReLU(),
-        )
-        self.attention_layer = nn.MultiheadAttention(self.hidden, num_heads=8)
-        self.classifier = nn.Sequential(
-            nn.Linear(self.hidden, self.hidden // 2),
-            nn.ReLU(),
-            nn.Linear(self.hidden // 2, 2)
-        )
-    def forward(self, x_target, x_ligand):
-        '''
-        co-attention
-        Q: target
-        K, V: ligand
-        '''
-        # (batch_size, hidden_dim)
-        Q_target = self.init_Q(x_target)
-        K_ligand = self.init_K(x_ligand)
-        V_ligand = self.init_V(x_ligand)
-        # To: (batch_size, 1, hidden_dim)
-        Q_target = Q_target.unsqueeze(1)
-        K_ligand = K_ligand.unsqueeze(1)
-        V_ligand = V_ligand.unsqueeze(1)
-        # To: (1, batch_size, hidden_dim)
-        Q_target = Q_target.transpose(0, 1)
-        K_ligand = K_ligand.transpose(0, 1)
-        V_ligand = V_ligand.transpose(0, 1)    
-        # To: (batch_size, hidden_dim)
-        attn_output, attn_output_weights = self.attention_layer(Q_target, K_ligand, V_ligand)
-        attn_output = attn_output.transpose(0, 1)
-        attn_output = attn_output.squeeze()
-        # To: (batch_size, 2)
-        x = self.classifier(attn_output)
-        return x
-    
 class Decoder(nn.Module):
-    def __init__(self, hidden_target, hidden_ligand, hidden):
+    def __init__(self, protein_dim, atom_dim, hidden, set2set_steps=3):
         super().__init__()
-        self.hidden_target = hidden_target
-        self.hidden_ligand = hidden_ligand
+        self.protein_dim = protein_dim
+        self.atom_dim = atom_dim
         self.hidden = hidden
-        self.init_target = nn.Sequential(
-            nn.Linear(self.hidden_target, self.hidden),
-            nn.ReLU(),
-        )
-        self.init_ligand = nn.Sequential(
-            nn.Linear(self.hidden_ligand, self.hidden),
-            nn.ReLU(),
-        )
+
+        self.ligand_transform = nn.Linear(atom_dim, hidden)
+        self.protein_transform = nn.Linear(protein_dim, hidden)
+
+        self.ligand_set2set = Set2Set(hidden, processing_steps=set2set_steps)
+        self.protein_set2set = Set2Set(hidden, processing_steps=set2set_steps)
+
         self.classifier = nn.Sequential(
-            nn.Linear(self.hidden * 2, self.hidden // 2),
+            nn.Linear(2 * hidden * 2, hidden),
             nn.ReLU(),
-            nn.Linear(self.hidden // 2, 2)
+            nn.Linear(hidden, 2)
         )
-    def forward(self, x_target, x_ligand):
-        '''
-        just cat
-        '''
-        # (batch_size, hidden_dim)
-        # breakpoint()
-        x_target = self.init_target(x_target)
-        x_ligand = self.init_ligand(x_ligand)
-        # To: (batch_size, 2)
-        x = torch.cat((x_target, x_ligand), dim=1)
-        x = self.classifier(x)
+
+    def forward(self, repr_protein, repr_ligand):
+        repr_protein.x = self.protein_transform(repr_protein.x)  # (batch_size, seq_len_protein, hidden)
+        repr_ligand.x = self.ligand_transform(repr_ligand.x)    # (batch_size, seq_len_ligand, hidden)
+
+        global_protein = self.protein_set2set(repr_protein.x, repr_protein.batch)  # (batch_size, hidden)
+        global_ligand = self.ligand_set2set(repr_ligand.x, repr_ligand.batch)      # (batch_size, hidden)
+
+        global_feature = torch.cat([global_protein, global_ligand], dim=-1)  # (batch_size, 2 * hidden)
+
+        x = self.classifier(global_feature)
         return x

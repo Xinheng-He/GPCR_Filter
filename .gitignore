@@ -13,3 +13,5 @@ data/idmapping_target.csv
 save/
 test.py
 tmp.py
+run/
+*.txt

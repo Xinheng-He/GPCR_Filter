@@ -4,26 +4,28 @@ import torch.optim as optim
 from tqdm import tqdm
 from model.decoder import Decoder
 from data.dataset import CPIDataset
-from torch.utils.data import DataLoader
+from torch_geometric.loader import DataLoader
+from torch.utils.tensorboard import SummaryWriter
 import argparse
 from sklearn.metrics import accuracy_score, roc_auc_score, average_precision_score, f1_score
 import numpy as np
+from datetime import datetime
 import os
 import random
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_tag', type=str, default='split-target-inter')
-    parser.add_argument('--dataset_dir', type=str, default='data/split-random')
+    parser.add_argument('--dataset_tag', type=str, default='split-random')
+    parser.add_argument('--data_dir', type=str, default='data')
     parser.add_argument('--dict_target', type=str, default='data/dict_target.pkl')
     parser.add_argument('--dict_ligand', type=str, default='data/dict_ligand.pkl')
     parser.add_argument('--batchsize', type=int, default=128)
     parser.add_argument('--num_epochs', type=int, default=100)
     parser.add_argument('--cuda_use', type=str, default='cuda:7')
     parser.add_argument('--hidden_target', type=int, default=1536)
-    parser.add_argument('--hidden_ligand', type=int, default=200)
+    parser.add_argument('--hidden_ligand', type=int, default=512)
     parser.add_argument('--hidden', type=int, default=128)
-    parser.add_argument('--lr', type=float, default=1e-3)
+    parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--dir_save_model', type=str, default='save/best_model.pth')
     parser.add_argument('--seed', type=int, default=1)
     args = parser.parse_args()
@@ -39,41 +41,44 @@ def seed_torch(seed=0):
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
 
-def train(args, device, model, loader_train, criterion, optimizer, loader_valid):
+def train(args, device, model, loader_train, loader_valid, loader_test, criterion, optimizer, writer):
     acc_best = 0.0
     model.train()
     for epoch in range(args.num_epochs):
         loss_running = 0.0
         for data in tqdm(loader_train, desc=f'epoch: {epoch+1}/{args.num_epochs}', unit='batch'):
-            inputs_target, inputs_ligand, labels = data
-            inputs_target, inputs_ligand, labels = inputs_target.to(device), inputs_ligand.to(device), labels.to(device)
+            repr_protein, repr_ligand, labels = data
+            repr_protein, repr_ligand, labels = repr_protein.to(device), repr_ligand.to(device), labels.to(device)
             optimizer.zero_grad()
-            outputs = model(inputs_target, inputs_ligand)
+            outputs = model(repr_protein, repr_ligand)
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
-            loss_running += loss.item() * inputs_target.size(0)
+            loss_running += loss.item() * args.batchsize
         loss_epoch = loss_running / len(loader_train.dataset)
         print(f'epoch[{epoch+1}/{args.num_epochs}, Train_loss: {loss_epoch:.4f}]')
+        writer.add_scalar('Loss/train', loss_epoch, epoch)
         
-        acc_running = eval(args, device, model, loader_valid, criterion)    
+        acc_running = eval(args, device, model, loader_valid, criterion, writer, 'valid', epoch)    
         if acc_running > acc_best:
             acc_best = acc_running
             torch.save(model.state_dict(), args.dir_save_model)
+        model.train()
+    
+    eval(args, device, model, loader_test, criterion, writer, 'test', 0)
         
-        
-def eval(args, device, model, loader_data, criterion):
+def eval(args, device, model, loader_data, criterion, writer, phase, epoch):
     model.eval()
     all_labels = []
     all_outputs = []    
     with torch.no_grad():
         loss_running = 0.0
         for data in tqdm(loader_data, desc=f'eval', unit='batch'):
-            inputs_target, inputs_ligand, labels = data
-            inputs_target, inputs_ligand, labels = inputs_target.to(device), inputs_ligand.to(device), labels.to(device)
-            outputs = model(inputs_target, inputs_ligand)
+            repr_protein, repr_ligand, labels = data
+            repr_protein, repr_ligand, labels = repr_protein.to(device), repr_ligand.to(device), labels.to(device)
+            outputs = model(repr_protein, repr_ligand)
             loss = criterion(outputs, labels)
-            loss_running += loss.item() * inputs_target.size(0)
+            loss_running += loss.item() * args.batchsize
             
             all_labels.append(labels.cpu().numpy())
             all_outputs.append(outputs.cpu().numpy())
@@ -87,19 +92,29 @@ def eval(args, device, model, loader_data, criterion):
         auroc = roc_auc_score(all_labels, probs)
         aupr = average_precision_score(all_labels, probs)
         f1 = f1_score(all_labels, preds)
-        print(f'eval[Eval_loss: {loss_eval:.4f}, Accuracy: {acc:.4f}, AUROC: {auroc:.4f}, AUPR: {aupr:.4f}, F1: {f1:.4f}]')           
+        print(f'eval[Eval_loss: {loss_eval:.4f}, Accuracy: {acc:.4f}, AUROC: {auroc:.4f}, AUPR: {aupr:.4f}, F1: {f1:.4f}]')
+
+        writer.add_scalar(f'Loss/{phase}', loss_eval, epoch)
+        writer.add_scalar(f'Accuracy/{phase}', acc, epoch)
+        writer.add_scalar(f'AUROC/{phase}', auroc, epoch)
+        writer.add_scalar(f'AUPR/{phase}', aupr, epoch)
+        writer.add_scalar(f'F1/{phase}', f1, epoch)           
     
     return acc
 
 if __name__ == '__main__':
+    # init
     args = get_args()
-    args.dataset_dir = os.path.join('data', f'{args.dataset_tag}')
-    args.dir_save_model = os.path.join('save', f'{args.dataset_tag}.pth')
+    current_date = datetime.now().strftime("%Y%m%d-%H%M")
+    run_dir = os.path.join('run', f'{current_date}_{args.dataset_tag}')
+    os.makedirs(run_dir, exist_ok=True)
+    writer = SummaryWriter(log_dir=run_dir)
+    args.dir_save_model = os.path.join(run_dir, f'best_acc.pth')
     seed_torch(args.seed)
     # prepare-data
-    data_train = CPIDataset(os.path.join(args.dataset_dir, 'train.csv'), args.dict_target, args.dict_ligand)
-    data_valid = CPIDataset(os.path.join(args.dataset_dir, 'valid.csv'), args.dict_target, args.dict_ligand)
-    data_test = CPIDataset(os.path.join(args.dataset_dir, 'test.csv'), args.dict_target, args.dict_ligand)
+    data_train = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'train.csv'), args.dict_target, args.dict_ligand)
+    data_valid = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'valid.csv'), args.dict_target, args.dict_ligand)
+    data_test = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'test.csv'), args.dict_target, args.dict_ligand)
     loader_train = DataLoader(data_train, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
     loader_valid = DataLoader(data_valid, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
     loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
@@ -109,6 +124,5 @@ if __name__ == '__main__':
     model.to(device)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
-    train(args, device, model, loader_train, criterion, optimizer, loader_valid)
-    eval(args, device, model, loader_test, criterion)
-    
+    train(args, device, model, loader_train, loader_valid, loader_test, criterion, optimizer, writer)
+    writer.close()
