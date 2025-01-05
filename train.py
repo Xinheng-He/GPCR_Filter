@@ -23,7 +23,8 @@ def get_args():
     parser.add_argument('--num_epochs', type=int, default=100)
     parser.add_argument('--cuda_use', type=str, default='cuda:7')
     parser.add_argument('--hidden_target', type=int, default=1536)
-    parser.add_argument('--hidden_ligand', type=int, default=512)
+    parser.add_argument('--hidden_ligand_1d', type=int, default=512)
+    parser.add_argument('--hidden_ligand_2d', type=int, default=55)
     parser.add_argument('--hidden', type=int, default=128)
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--dir_save_model', type=str, default='save/best_model.pth')
@@ -47,10 +48,10 @@ def train(args, device, model, loader_train, loader_valid, loader_test, criterio
     for epoch in range(args.num_epochs):
         loss_running = 0.0
         for data in tqdm(loader_train, desc=f'epoch: {epoch+1}/{args.num_epochs}', unit='batch'):
-            repr_protein, repr_ligand, labels = data
-            repr_protein, repr_ligand, labels = repr_protein.to(device), repr_ligand.to(device), labels.to(device)
+            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = data
+            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = repr_protein.to(device), repr_ligand_1d.to(device), repr_ligand_2d.to(device), labels.to(device)
             optimizer.zero_grad()
-            outputs = model(repr_protein, repr_ligand)
+            outputs = model(repr_protein, repr_ligand_1d, repr_ligand_2d)
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
@@ -74,9 +75,9 @@ def eval(args, device, model, loader_data, criterion, writer, phase, epoch):
     with torch.no_grad():
         loss_running = 0.0
         for data in tqdm(loader_data, desc=f'eval', unit='batch'):
-            repr_protein, repr_ligand, labels = data
-            repr_protein, repr_ligand, labels = repr_protein.to(device), repr_ligand.to(device), labels.to(device)
-            outputs = model(repr_protein, repr_ligand)
+            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = data
+            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = repr_protein.to(device), repr_ligand_1d.to(device), repr_ligand_2d.to(device), labels.to(device)
+            outputs = model(repr_protein, repr_ligand_1d, repr_ligand_2d)
             loss = criterion(outputs, labels)
             loss_running += loss.item() * args.batchsize
             
@@ -120,7 +121,7 @@ if __name__ == '__main__':
     loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
     # prepare-model
     device = torch.device(args.cuda_use if torch.cuda.is_available() else 'cpu')
-    model = Decoder(args.hidden_target, args.hidden_ligand, args.hidden)
+    model = Decoder(args.hidden_target, args.hidden_ligand_1d, args.hidden_ligand_2d, args.hidden)
     model.to(device)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
