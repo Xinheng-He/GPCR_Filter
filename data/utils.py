@@ -1,6 +1,9 @@
 import torch
 from rdkit import Chem
 import numpy as np
+# from tape import TAPETokenizer
+from torch_geometric.data import Data, Batch
+import torch.nn.utils.rnn as rnn_utils
 
 def one_of_k_encoding_unk(x, allowable_set):
     if x not in allowable_set:
@@ -51,3 +54,56 @@ def get_mol_edge_list_and_feat_mtx(mol_smiles):
     if undirected_edge_list.numel() == 0:
         undirected_edge_list = torch.LongTensor([(0, 0),(0, 0)])
     return n_features, undirected_edge_list.T
+
+def seq_cat(prot,tokenizer):
+    xs = tokenizer.encode(prot)
+    return xs
+
+# def create_target_data(sequence):
+#     tokenizer = TAPETokenizer(vocab='iupac')
+#     sequence = seq_cat(sequence, tokenizer)
+#     with torch.no_grad():
+#         protein_embedding = torch.tensor([sequence], dtype=torch.int64)
+#     protein_tensor = protein_embedding.squeeze(0)
+#     return protein_tensor
+
+def create_graph_data(ligand_smiles):
+    n_features, edge_index = get_mol_edge_list_and_feat_mtx(ligand_smiles)
+    return Data(x=n_features, edge_index=edge_index)
+
+def make_masks(batch):
+    proteins, ligands, labels = zip(*batch)
+    padded_proteins = rnn_utils.pad_sequence(proteins, batch_first=True, padding_value=0)
+    padded_ligands = rnn_utils.pad_sequence(ligands, batch_first=True, padding_value=0)
+    protein_mask = torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None]
+    ligand_mask = torch.arange(padded_ligands.size(1))[None, :] < torch.tensor([l.size(0) for l in ligands])[:, None]
+    labels = torch.stack(labels)
+    return padded_proteins, padded_ligands, protein_mask, ligand_mask, labels
+
+def make_masks_protein(batch):
+    proteins, ligands, labels = zip(*batch)
+    proteins = list(proteins)
+    ligands = Batch.from_data_list(list(ligands))
+    padded_proteins = rnn_utils.pad_sequence(proteins, batch_first=True, padding_value=0)
+    protein_mask = ~(torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None])
+    labels = torch.stack(labels)
+    return padded_proteins, ligands, protein_mask, labels
+
+def pad_graphs_with_mask(data):
+    batch = data.batch
+    x = data.x
+    # obtain max atom num
+    num_graphs = batch.max().item() + 1 
+    max_nodes = [batch.eq(i).sum().item() for i in range(num_graphs)] 
+    max_atom_num = max(max_nodes)
+    # for padding
+    padded_x = torch.zeros((num_graphs, max_atom_num, x.size(1)), device=x.device)
+    padded_mask = torch.ones((num_graphs, max_atom_num), device=x.device)
+    for i in range(num_graphs):
+        graph_nodes = batch.eq(i)
+        num_nodes_in_graph = graph_nodes.sum().item()
+        padded_x[i, :num_nodes_in_graph, :] = x[graph_nodes]
+        padded_mask[i, :num_nodes_in_graph] = 0
+    padded_mask = padded_mask.to(torch.bool)
+    
+    return padded_x, padded_mask

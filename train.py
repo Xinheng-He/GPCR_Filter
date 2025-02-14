@@ -2,9 +2,11 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
-from model.decoder import Decoder
+from model import Predictor
 from data.dataset import CPIDataset
-from torch_geometric.loader import DataLoader
+from data.utils import make_masks_protein
+# from torch_geometric.loader import DataLoader
+from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 import argparse
 from sklearn.metrics import accuracy_score, roc_auc_score, average_precision_score, f1_score
@@ -22,13 +24,17 @@ def get_args():
     parser.add_argument('--batchsize', type=int, default=128)
     parser.add_argument('--num_epochs', type=int, default=100)
     parser.add_argument('--cuda_use', type=str, default='cuda:7')
-    parser.add_argument('--hidden_target', type=int, default=1536)
-    parser.add_argument('--hidden_ligand_1d', type=int, default=512)
-    parser.add_argument('--hidden_ligand_2d', type=int, default=55)
-    parser.add_argument('--hidden', type=int, default=128)
+    parser.add_argument('--hid_target', type=int, default=1536)
+    parser.add_argument('--hid_ligand_1d', type=int, default=512)
+    parser.add_argument('--hid_ligand_2d', type=int, default=55)
+    parser.add_argument('--hid_dim', type=int, default=256)
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--dir_save_model', type=str, default='save/best_model.pth')
     parser.add_argument('--seed', type=int, default=1)
+    parser.add_argument('--n_layers', type=int, default=2)
+    parser.add_argument('--dropout', type=float, default=0.1)
+    parser.add_argument('--fetch_pretrained_target', action='store_true', default=False)
+    parser.add_argument('--fetch_pretrained_ligand', action='store_true', default=False)
     args = parser.parse_args()
     return args
 
@@ -45,13 +51,16 @@ def seed_torch(seed=0):
 def train(args, device, model, loader_train, loader_valid, loader_test, criterion, optimizer, writer):
     acc_best = 0.0
     model.train()
+    if args.dataset_tag == 'split-target-inter':
+        loader_test = loader_valid
     for epoch in range(args.num_epochs):
         loss_running = 0.0
         for data in tqdm(loader_train, desc=f'epoch: {epoch+1}/{args.num_epochs}', unit='batch'):
-            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = data
-            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = repr_protein.to(device), repr_ligand_1d.to(device), repr_ligand_2d.to(device), labels.to(device)
+            data = [x.to(device) for x in data] 
+            inputs = data[:-1] 
+            labels = data[-1]
             optimizer.zero_grad()
-            outputs = model(repr_protein, repr_ligand_1d, repr_ligand_2d)
+            outputs = model(inputs)
             loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
@@ -59,14 +68,14 @@ def train(args, device, model, loader_train, loader_valid, loader_test, criterio
         loss_epoch = loss_running / len(loader_train.dataset)
         print(f'epoch[{epoch+1}/{args.num_epochs}, Train_loss: {loss_epoch:.4f}]')
         writer.add_scalar('Loss/train', loss_epoch, epoch)
-        
+
         acc_running = eval(args, device, model, loader_valid, criterion, writer, 'valid', epoch)    
         if acc_running > acc_best:
             acc_best = acc_running
             torch.save(model.state_dict(), args.dir_save_model)
         model.train()
     
-    eval(args, device, model, loader_test, criterion, writer, 'test', 0)
+    # eval(args, device, model, loader_test, criterion, writer, 'test', 0)
         
 def eval(args, device, model, loader_data, criterion, writer, phase, epoch):
     model.eval()
@@ -75,9 +84,10 @@ def eval(args, device, model, loader_data, criterion, writer, phase, epoch):
     with torch.no_grad():
         loss_running = 0.0
         for data in tqdm(loader_data, desc=f'eval', unit='batch'):
-            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = data
-            repr_protein, repr_ligand_1d, repr_ligand_2d, labels = repr_protein.to(device), repr_ligand_1d.to(device), repr_ligand_2d.to(device), labels.to(device)
-            outputs = model(repr_protein, repr_ligand_1d, repr_ligand_2d)
+            data = [x.to(device) for x in data] 
+            inputs = data[:-1] 
+            labels = data[-1]
+            outputs = model(inputs)
             loss = criterion(outputs, labels)
             loss_running += loss.item() * args.batchsize
             
@@ -113,17 +123,20 @@ if __name__ == '__main__':
     args.dir_save_model = os.path.join(run_dir, f'best_acc.pth')
     seed_torch(args.seed)
     # prepare-data
-    data_train = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'train.csv'), args.dict_target, args.dict_ligand)
-    data_valid = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'valid.csv'), args.dict_target, args.dict_ligand)
-    data_test = CPIDataset(os.path.join(args.data_dir, args.dataset_tag, 'test.csv'), args.dict_target, args.dict_ligand)
-    loader_train = DataLoader(data_train, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
-    loader_valid = DataLoader(data_valid, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
-    loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=True, worker_init_fn=np.random.seed(args.seed))
+    data_train = CPIDataset(args, 'train')
+    data_valid = CPIDataset(args, 'valid')
+    data_test = CPIDataset(args, 'test')
+    loader_train = DataLoader(data_train, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
+    loader_valid = DataLoader(data_valid, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
+    loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
     # prepare-model
     device = torch.device(args.cuda_use if torch.cuda.is_available() else 'cpu')
-    model = Decoder(args.hidden_target, args.hidden_ligand_1d, args.hidden_ligand_2d, args.hidden)
+    
+    model = Predictor(args)
     model.to(device)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     train(args, device, model, loader_train, loader_valid, loader_test, criterion, optimizer, writer)
+    model.load_state_dict(torch.load(args.dir_save_model))
+    eval(args, device, model, loader_test, criterion, writer, 'test', 0)
     writer.close()
