@@ -4,7 +4,7 @@ import torch.optim as optim
 from tqdm import tqdm
 from model import Predictor
 from data.dataset import CPIDataset
-from data.utils import make_masks_protein
+from data.utils import make_masks
 # from torch_geometric.loader import DataLoader
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
@@ -126,9 +126,9 @@ if __name__ == '__main__':
     data_train = CPIDataset(args, 'train')
     data_valid = CPIDataset(args, 'valid')
     data_test = CPIDataset(args, 'test')
-    loader_train = DataLoader(data_train, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
-    loader_valid = DataLoader(data_valid, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
-    loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks_protein)
+    loader_train = DataLoader(data_train, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks)
+    loader_valid = DataLoader(data_valid, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks)
+    loader_test = DataLoader(data_test, batch_size=args.batchsize, shuffle=False, worker_init_fn=np.random.seed(args.seed), collate_fn=make_masks)
     # prepare-model
     device = torch.device(args.cuda_use if torch.cuda.is_available() else 'cpu')
     

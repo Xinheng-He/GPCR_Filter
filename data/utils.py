@@ -71,12 +71,23 @@ def create_graph_data(ligand_smiles):
     n_features, edge_index = get_mol_edge_list_and_feat_mtx(ligand_smiles)
     return Data(x=n_features, edge_index=edge_index)
 
+# def make_masks(batch):
+#     proteins, ligands, labels = zip(*batch)
+#     padded_proteins = rnn_utils.pad_sequence(proteins, batch_first=True, padding_value=0)
+#     padded_ligands = rnn_utils.pad_sequence(ligands, batch_first=True, padding_value=0)
+#     protein_mask = torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None]
+#     ligand_mask = torch.arange(padded_ligands.size(1))[None, :] < torch.tensor([l.size(0) for l in ligands])[:, None]
+#     labels = torch.stack(labels)
+#     return padded_proteins, padded_ligands, protein_mask, ligand_mask, labels
+
 def make_masks(batch):
     proteins, ligands, labels = zip(*batch)
+    proteins = list(proteins)
+    ligands = list(ligands)
     padded_proteins = rnn_utils.pad_sequence(proteins, batch_first=True, padding_value=0)
+    protein_mask = ~(torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None])
     padded_ligands = rnn_utils.pad_sequence(ligands, batch_first=True, padding_value=0)
-    protein_mask = torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None]
-    ligand_mask = torch.arange(padded_ligands.size(1))[None, :] < torch.tensor([l.size(0) for l in ligands])[:, None]
+    ligand_mask = ~(torch.arange(padded_ligands.size(1))[None, :] < torch.tensor([p.size(0) for p in ligands])[:, None])
     labels = torch.stack(labels)
     return padded_proteins, padded_ligands, protein_mask, ligand_mask, labels
 

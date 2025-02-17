@@ -66,23 +66,21 @@ class Predictor(nn.Module):
         super().__init__()
         self.hid_dim = args.hid_dim
         self.hid_target = args.hid_target
-        self.hid_ligand_2d = args.hid_ligand_2d
+        self.hid_ligand = args.hid_ligand_1d
 
         self.encoder = Encoder(args)
         self.decoder = Decoder(args)
         self.fc_protein = nn.Linear(self.hid_target, self.hid_dim)
-        self.fc_compound = nn.Linear(self.hid_ligand_2d, self.hid_dim)
+        self.fc_compound = nn.Linear(self.hid_ligand, self.hid_dim)
         self.gcn = GCNConv(self.hid_dim, self.hid_dim)
     
     def forward(self, inputs):
-        protein, compound, protein_mask = inputs
+        protein, compound, protein_mask, compound_mask = inputs
         # tgt-compound
-        compound.x = F.relu(self.fc_compound(compound.x))
-        compound.x = self.gcn(compound.x, compound.edge_index)
-        compound_tgt, tgt_mask = pad_graphs_with_mask(compound)
+        compound = F.relu(self.fc_compound(compound))
         # src-protein
         protein = F.relu(self.fc_protein(protein))
         protein_src = self.encoder(protein, protein_mask)
-        out = self.decoder(compound_tgt, protein_src, tgt_mask, protein_mask)
+        out = self.decoder(compound, protein_src, compound_mask, protein_mask)
         # out = [batch size, 2]
         return out
