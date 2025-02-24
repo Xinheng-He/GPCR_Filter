@@ -64,7 +64,7 @@ python test.py \
 ```
 Or run the following script directly:
 `bash run-test.sh`
-## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.co/Xinheng/DeepGlycanSite/tree/main**, just put **xx.pth, xx.pth, xx.pth to ./weights**
+## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.co**, just put **xx.pth, xx.pth, xx.pth to ./weights**
 # Retraining
 ```
 python train.py \
