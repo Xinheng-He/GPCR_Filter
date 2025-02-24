@@ -51,8 +51,8 @@ def seed_torch(seed=0):
 def train(args, device, model, loader_train, loader_valid, loader_test, criterion, optimizer, writer):
     acc_best = 0.0
     model.train()
-    if args.dataset_tag == 'split-target-inter':
-        loader_test = loader_valid
+    # if args.dataset_tag == 'split-target-inter':
+    #     loader_test = loader_valid
     for epoch in range(args.num_epochs):
         loss_running = 0.0
         for data in tqdm(loader_train, desc=f'epoch: {epoch+1}/{args.num_epochs}', unit='batch'):

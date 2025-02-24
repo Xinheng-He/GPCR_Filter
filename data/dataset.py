@@ -5,6 +5,13 @@ from torch.utils.data import Dataset
 from torch_geometric.data import Data
 from data.utils import *
 import os
+from esm.models.esm3 import ESM3
+from esm.sdk.api import ESMProtein, SamplingConfig
+from esm.utils.constants.models import ESM3_OPEN_SMALL
+import torch
+import pickle
+import pandas as pd
+from tqdm import tqdm
 class CPIDataset(Dataset):
     def __init__(self, args, type):
         self.csv_file = os.path.join(args.data_dir, args.dataset_tag, f'{type}.csv')
@@ -13,17 +20,21 @@ class CPIDataset(Dataset):
         self.fetch_pretrained_target = args.fetch_pretrained_target
         self.fetch_pretrained_ligand = args.fetch_pretrained_ligand
 
-        self.dataset_raw = pd.read_csv(self.csv_file)
-        if self.fetch_pretrained_target:
+        self.id_target = pd.read_csv('data/idmapping_target.csv')
+        self.id_target.set_index('Target UniProt ID', inplace=True)
+        self.id_ligand = pd.read_csv('data/idmapping_ligand.csv')
+        self.id_ligand.set_index('Ligand ID', inplace=True)
+
+        if os.path.exists(self.dict_target_dir):
             with open(self.dict_target_dir, 'rb') as f:
                 self.dict_target = pickle.load(f)
-        if self.fetch_pretrained_ligand:
-            with open(self.dict_ligand_dir, 'rb') as f:
-                self.dict_ligand = pickle.load(f)
-        self.id_target = pd.read_csv('/datapool/data2/home/majianzhu/xinheng/xiangzhen/DTI2/DTI/data/idmapping_target.csv')
-        self.id_target.set_index('Target UniProt ID', inplace=True)
-        self.id_ligand = pd.read_csv('/datapool/data2/home/majianzhu/xinheng/xiangzhen/DTI2/DTI/data/idmapping_ligand.csv')
-        self.id_ligand.set_index('Ligand ID', inplace=True)
+        else:
+            print(f'Not exist: dict_protein, process...')
+            self.dict_target = self.get_pretrain_feature(args)
+            print(f'Process done...')
+
+        self.dataset_raw = pd.read_csv(self.csv_file)
+
     def __len__(self):
         return len(self.dataset_raw)
 
@@ -46,5 +57,30 @@ class CPIDataset(Dataset):
             ligand_smiles = self.id_ligand.loc[ligand_id, 'SMILES']
             ligand_data = create_graph_data(ligand_smiles)
         return protein_data, ligand_data, label
+    
+    def get_pretrain_feature(self, args):
+        # client = ESM3.from_pretrained(ESM3_OPEN_SMALL, device=torch.device("cpu"))
+        device = torch.device(args.cuda_use)
+        client = ESM3.from_pretrained(ESM3_OPEN_SMALL, device=device)
+        data = self.id_target
+        print(f'Process protein nums: {len(data)}...')
+        dict_target = {}
+        for _, row in tqdm(data.iterrows()):
+            protein_id = row.name 
+            sequence_item = self.id_target.loc[protein_id, 'Target Sequence']
+            protein = ESMProtein(
+                sequence=sequence_item
+            )
+            protein_tensor = client.encode(protein)
+
+            output = client.forward_and_sample(
+                protein_tensor, SamplingConfig(return_per_residue_embeddings=True)
+            )
+            val = output.per_residue_embedding
+            dict_target[protein_id] = val
+        with open(self.dict_target_dir, 'wb') as f:
+            pickle.dump(dict_target, f)
+
+        return dict_target
 
 
