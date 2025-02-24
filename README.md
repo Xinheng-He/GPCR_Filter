@@ -1,11 +1,10 @@
 # XDTI
 # Description
-**XDTI** is an open-source method for carbohydrate-binding site detection, with or without known glycan. It can perform a whole range of carbohydrate-binding site prediction tasks.
+**XDTI** is ...
 
 **Things XDTI can do**
-- Discover common glycan binding site based on protein structure
-- Discover binding site for specified glycan based on protein structure
-- Guide mutation design for known glycan targets
+- Discover ...
+- Discover ...
 
 ----
 # Table of contents
