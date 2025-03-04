@@ -52,18 +52,18 @@ Or use the
 # Running on test system
 
 ```
-python test.py \
-    --dataset_tag split-random\
-    --cuda_use cuda:0 \
-    --data_dir data \
-    --dict_target data/dict_target.pkl \
-    --num_epochs 100 \
+python predict.py \
+    --input_data_dir To-Predict.csv \
+    --output_data_dir To-Predict-/output.csv \
+    --dir_save_model To-Use-Checkpoint.pth \
     --fetch_pretrained_target \
-    --lr 1e-5 \
-    --batchsize 32
+    --hid_dim 128 \
+    --dropout 0 \
+    --batchsize 32 \
+    --cuda_use cuda:0 \
 ```
 Or run the following script directly:
-`bash run-test.sh`
+`bash run-predict.sh`
 ## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.co**, just put **xx.pth, xx.pth, xx.pth to ./weights**
 # Retraining
 ```

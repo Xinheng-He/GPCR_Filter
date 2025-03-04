@@ -20,3 +20,4 @@ tmp/
 run-train-2.sh
 run.sh
 *.pkl
+check.py
