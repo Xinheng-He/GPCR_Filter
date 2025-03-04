@@ -14,7 +14,10 @@ import pandas as pd
 from tqdm import tqdm
 class CPIDataset(Dataset):
     def __init__(self, args, type):
-        self.csv_file = os.path.join(args.data_dir, args.dataset_tag, f'{type}.csv')
+        if type == 'predict':
+            self.csv_file = args.input_data_dir
+        else:
+            self.csv_file = os.path.join(args.data_dir, args.dataset_tag, f'{type}.csv')
         self.dict_target_dir = args.dict_target
         self.dict_ligand_dir = args.dict_ligand
         self.fetch_pretrained_target = args.fetch_pretrained_target

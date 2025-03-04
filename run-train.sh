@@ -1,13 +1,4 @@
-# python train.py \
-#     --dataset_tag split-test\
-#     --cuda_use cuda:7 \
-#     --data_dir /datapool/data2/home/majianzhu/xinheng/xiangzhen/DTI2/DTI/data \
-#     --dict_target data/dict_target.pkl \
-#     --num_epochs 3 \
-#     --fetch_pretrained_target \
-#     --batchsize 2 \
-#     --lr 1e-5 \
-
+# split-random
 python train.py \
     --dataset_tag split-random\
     --cuda_use cuda:7 \
@@ -18,6 +9,7 @@ python train.py \
     --lr 1e-5 \
     --batchsize 32
 
+# split-intra
 python train.py \
     --dataset_tag split-target-intra\
     --cuda_use cuda:7 \
@@ -28,8 +20,9 @@ python train.py \
     --lr 1e-5 \
     --batchsize 32
 
+# split-inter
 python train.py \
-    --dataset_tag split-target-inter-pure4\
+    --dataset_tag split-target-inter-pure6\
     --cuda_use cuda:7 \
     --data_dir /datapool/data2/home/majianzhu/xinheng/xiangzhen/DTI2/DTI/data \
     --dict_target data/dict_target.pkl \
@@ -39,4 +32,5 @@ python train.py \
     --dropout 0 \
     --lr 1e-5 \
     --batchsize 32
+    
     
