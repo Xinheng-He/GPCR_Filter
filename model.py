@@ -53,7 +53,6 @@ class Decoder(nn.Module):
         self.dropout = nn.Dropout(self.dropout)
 
     def forward(self, trg, src, trg_mask=None,src_mask=None):
-        # breakpoint()
         trg = self.decoder(trg, src, tgt_key_padding_mask=trg_mask, memory_key_padding_mask=src_mask)
         x = trg[:,0,:]
         label = F.relu(self.fc_1(x))

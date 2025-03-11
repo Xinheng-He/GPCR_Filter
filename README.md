@@ -25,6 +25,8 @@ The default data contains the following things:
    data/dataset_tag/test.csv
    ```
    which `dataset_tag` is your dataset name.
+
+The dataset can be downloaded from https://huggingface.co/datasets/0soyo0/GPCR-dataset-GL-filter
 # Setup Environment
 We will set up the environment using Anaconda. Clone the current repo:
 `git clone https://github.com/wayyzt/DTI.git`
@@ -47,7 +49,7 @@ pip install torch_geometric
 pip install tensorboard
 pip install rdkit==2024.9.5
 ```
-Or use the 
+Or use the environment pack from https://huggingface.co/datasets/0soyo0/GPCR-dataset-GL-filter
 ## In case any version is incompatible, check the environment.yml file.
 # Running on test system
 
@@ -64,7 +66,7 @@ python predict.py \
 ```
 Or run the following script directly:
 `bash run-predict.sh`
-## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.co**, just put **xx.pth, xx.pth, xx.pth to ./weights**
+## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.com**
 # Retraining
 ```
 python train.py \
