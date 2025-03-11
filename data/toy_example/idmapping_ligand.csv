@@ -1,0 +1,2 @@
+Ligand ID,SMILES
+drug67787,CC[C@H](C)[C@H](NC(=O)[C@H](Cc1ccc(N=[N+]=[N-])cc1)NC(=O)[C@H](CCCNC(=N)N)NC(=O)CNC(=O)[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](N)CO)[C@@H](C)CC)C(N)=O
