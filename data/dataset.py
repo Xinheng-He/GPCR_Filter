@@ -35,7 +35,7 @@ class CPIDataset(Dataset):
             print(f'Not exist: dict_protein, process...')
             self.dict_target = self.get_pretrain_feature(args)
             print(f'Process done...')
-
+        # self.dict_target = self.get_pretrain_feature(args)
         self.dataset_raw = pd.read_csv(self.csv_file)
 
     def __len__(self):

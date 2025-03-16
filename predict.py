@@ -75,9 +75,9 @@ def getMetrics(output_file):
     acc = accuracy_score(y_true, (y_pred >= 0.5).astype(int))
     precision = precision_score(y_true, (y_pred >= 0.5).astype(int))
     recall = recall_score(y_true, (y_pred >= 0.5).astype(int))
-    f1 = f1_score(y_true, (y_pred >= 0.5).astype(int))
-    mcc = matthews_corrcoef(y_true, (y_pred >= 0.5).astype(int))
-    logloss = log_loss(y_true, y_pred)
+    # f1 = f1_score(y_true, (y_pred >= 0.5).astype(int))
+    # mcc = matthews_corrcoef(y_true, (y_pred >= 0.5).astype(int))
+    # logloss = log_loss(y_true, y_pred)
     
     print(f'''
             auc: {auc:.4f}, 
@@ -85,9 +85,8 @@ def getMetrics(output_file):
             acc: {acc:.4f}, 
             precision: {precision:.4f}, 
             recall: {recall:.4f}, 
-            f1: {f1:.4f},
-            mcc: {mcc:.4f},
-            logloss: {logloss:.4f}\n'''
+            \n
+            '''
             )
 
 if __name__ == '__main__':
@@ -101,8 +100,9 @@ if __name__ == '__main__':
     device = torch.device(args.cuda_use if torch.cuda.is_available() else 'cpu')
     model = Predictor(args)
     model.to(device)
-    model.load_state_dict(torch.load(args.dir_save_model))
+    # model.load_state_dict(torch.load(args.dir_save_model))
+    model.load_state_dict(torch.load(args.dir_save_model, map_location=device))
     input_file = os.path.join(args.input_data_dir)
     output_file = os.path.join(args.output_data_dir)
     getScore(device, model, loader_test, input_file, output_file)
-    getMetrics(output_file)
+    # getMetrics(output_file)

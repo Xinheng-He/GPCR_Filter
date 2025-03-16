@@ -66,7 +66,17 @@ python predict.py \
 ```
 Or run the following script directly:
 `bash run-predict.sh`
-## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.com**
+## If **you meet problem with "no checkpoint file"**, you can also download the checkpoints from **https://huggingface.co/0soyo0/GL-Filter/tree/main**
+Toy example (or just run the run-predict-toy-example.sh)
+```
+python predict.py \
+    --input_data_dir data/toy_example/toy_dataset/test.csv \
+    --output_data_dir predict-toy-example.csv \
+    --dir_save_model split-random.pth \
+    --fetch_pretrained_target \
+    --batchsize 1 \
+    --cuda_use cuda:0 \
+```
 # Retraining
 ```
 python train.py \
