@@ -11,7 +11,7 @@
 1. [Dataset](#dataset)
 2. [Setup Environment](#setup-environment)
    1. [For GPU](#For-GPU)
-3. [Running DeepGlycanSite on test system](#running-on-test-system)
+3. [Running on test system](#running-on-test-system)
 4. [Retraining](#retraining)
 5. [License](#license)
 # Dataset
@@ -92,4 +92,4 @@ python train.py \
 Or run the following script directly:
 `bash run-train.sh`
 # License
-No
+MIT
