@@ -129,5 +129,3 @@ bash run-train.sh
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
-
-This version maintains all technical details while improving clarity and professionalism. Let me know if you’d like further adjustments!
