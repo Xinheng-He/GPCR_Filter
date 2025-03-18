@@ -23,9 +23,9 @@ class CPIDataset(Dataset):
         self.fetch_pretrained_target = args.fetch_pretrained_target
         self.fetch_pretrained_ligand = args.fetch_pretrained_ligand
 
-        self.id_target = pd.read_csv('data/idmapping_target.csv')
+        self.id_target = pd.read_csv(f'{args.id_mapping_dir}/idmapping_target.csv')
         self.id_target.set_index('Target UniProt ID', inplace=True)
-        self.id_ligand = pd.read_csv('data/idmapping_ligand.csv')
+        self.id_ligand = pd.read_csv(f'{args.id_mapping_dir}/idmapping_ligand.csv')
         self.id_ligand.set_index('Ligand ID', inplace=True)
 
         if os.path.exists(self.dict_target_dir):
@@ -46,9 +46,15 @@ class CPIDataset(Dataset):
         row = self.dataset_raw.iloc[idx]
         protein_id = row['Target UniProt ID']
         ligand_id = row['Ligand ID']
-        label = row['Label']
+        
+        # Handle the case where 'Label' might not exist
+        try:
+            label = row['Label']
+            label = torch.tensor(label, dtype=torch.int64).clone().detach()
+        except KeyError:
+            label = torch.tensor(0, dtype=torch.int64).clone().detach() 
+        
         # process
-        label = torch.tensor(label, dtype=torch.int64).clone().detach()
         if self.fetch_pretrained_target:
             protein_data = self.dict_target[protein_id].clone().detach().to(torch.float32)
         else:
@@ -58,7 +64,9 @@ class CPIDataset(Dataset):
             ligand_data = torch.tensor(self.dict_ligand[ligand_id], dtype=torch.float32).clone().detach()
         else:
             ligand_smiles = self.id_ligand.loc[ligand_id, 'SMILES']
+            # print(ligand_smiles, 'ligand_smiles', idx, row)
             ligand_data = create_graph_data(ligand_smiles)
+        
         return protein_data, ligand_data, label
     
     def get_pretrain_feature(self, args):

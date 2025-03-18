@@ -18,6 +18,7 @@ import pandas as pd
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_data_dir', type=str, default='data')
+    parser.add_argument('--id_mapping_dir', type=str, default='data')
     parser.add_argument('--output_data_dir', type=str, default='data')
     parser.add_argument('--dict_target', type=str, default='data/dict_target.pkl')
     parser.add_argument('--dict_ligand', type=str, default='data/dict_ligand.pkl')

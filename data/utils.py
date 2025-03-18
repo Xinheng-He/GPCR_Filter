@@ -43,6 +43,7 @@ def atom_features(atom, explicit_H=True, use_chirality=False):
     return torch.tensor(results)
 
 def get_mol_edge_list_and_feat_mtx(mol_smiles):
+    # print(mol_smiles)
     mol_graph = Chem.MolFromSmiles(mol_smiles)
     n_features = [(atom.GetIdx(), atom_features(atom)) for atom in mol_graph.GetAtoms()]
     n_features.sort() # to make sure that the feature matrix is aligned according to the idx of the atom
@@ -58,14 +59,6 @@ def get_mol_edge_list_and_feat_mtx(mol_smiles):
 def seq_cat(prot,tokenizer):
     xs = tokenizer.encode(prot)
     return xs
-
-# def create_target_data(sequence):
-#     tokenizer = TAPETokenizer(vocab='iupac')
-#     sequence = seq_cat(sequence, tokenizer)
-#     with torch.no_grad():
-#         protein_embedding = torch.tensor([sequence], dtype=torch.int64)
-#     protein_tensor = protein_embedding.squeeze(0)
-#     return protein_tensor
 
 def create_graph_data(ligand_smiles):
     n_features, edge_index = get_mol_edge_list_and_feat_mtx(ligand_smiles)
