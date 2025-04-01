@@ -13,7 +13,7 @@ import pickle
 import pandas as pd
 from tqdm import tqdm
 class CPIDataset(Dataset):
-    def __init__(self, args, type):
+    def __init__(self, args, type, return_attn=True):
         if type == 'predict':
             self.csv_file = args.input_data_dir
         else:
@@ -25,8 +25,9 @@ class CPIDataset(Dataset):
 
         self.id_target = pd.read_csv('data/idmapping_target.csv')
         self.id_target.set_index('Target UniProt ID', inplace=True)
-        self.id_ligand = pd.read_csv('data/idmapping_ligand.csv')
+        self.id_ligand = pd.read_csv('crawl-0401/filtered_idmapping_ligand_visual.csv') # TODO
         self.id_ligand.set_index('Ligand ID', inplace=True)
+        self.return_attn = return_attn
 
         if os.path.exists(self.dict_target_dir):
             with open(self.dict_target_dir, 'rb') as f:
@@ -47,6 +48,7 @@ class CPIDataset(Dataset):
         protein_id = row['Target UniProt ID']
         ligand_id = row['Ligand ID']
         label = row['Label']
+        pdb_id = row['PDB ID']
         # process
         label = torch.tensor(label, dtype=torch.int64).clone().detach()
         if self.fetch_pretrained_target:
@@ -59,6 +61,8 @@ class CPIDataset(Dataset):
         else:
             ligand_smiles = self.id_ligand.loc[ligand_id, 'SMILES']
             ligand_data = create_graph_data(ligand_smiles)
+        if self.return_attn:
+            return protein_data, ligand_data, label, protein_id, ligand_id, pdb_id
         return protein_data, ligand_data, label
     
     def get_pretrain_feature(self, args):

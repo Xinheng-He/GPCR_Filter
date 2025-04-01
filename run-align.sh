@@ -1,0 +1,1 @@
+python align-fasta-pdb-2.py --protein_id_uniprot Q92633 --protein_id_pdb 9izh --batch_id 0 --predict_dir crawl-0401

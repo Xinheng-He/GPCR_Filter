@@ -1,0 +1,1070 @@
+Target UniProt ID,Ligand ID,Label,Target GPCRName,PDB ID,All Info
+Q92633,lysophosphatidic acid,1,LPAR1,9IZH,"GPR55 GPR55 GPR18, GPR55 and GPR119 A Human Cryo-EM 9IYA - 3.0 A Active 56 86 - - - - BRIL anti-BRIL Fab heavy chain
+anti-BRIL Fab light chain
+anti-BRIL Fab Nanobody 4-(3-Bromo-5-ethoxy-4-hydroxyphenyl)-N-(2-methoxyphenyl)-2-methyl-5-oxo-1,4,5,6,7,8-hexahydroquinoline-3-carboxamide
+small-molecule Antagonist anandamide, lysophosphatidylinositol, N-palmitoylethanolamine, 2-arachidonoylglycerolphosphoinositol, 2-arachidonoylglycerol small-molecule No No - - 2025-01-01 Yes"
+P49019,3-hydroxyoctanoic acid,1,HCAR3,8JEF,"AA2AR A2A Adenosine A Human X-ray 8UGW - 3.9 A Active 69 67 - - - - T4-Lysozyme - CGS 21680
+small-molecule Agonist adenosine small-molecule No No - - 2024-12-18 Yes"
+O14842,docosahexaenoic acid,1,FFAR1,9K1C,"MCHR1 MCH1 Melanin-concentrating hormone A Human Cryo-EM 8YNS - 3.3 R Inactive 8 65 - - - - BRIL Fab 1B3 heavy chain
+Fab 1B3 light chain CHEMBL242004
+small-molecule Antagonist melanin-concentrating hormone peptide No No - - 2024-12-18 Yes"
+O15552,butyric acid,1,FFAR2,9K1D,"FFAR1 FFA1 Free fatty acid A Human Cryo-EM 9K1C 9K1C_refined 3.2 R Active 100 93 Gi/o αi1 - 62 - - docosahexaenoic acid
+small-molecule Agonist oleic acid, α-linolenic acid, myristic acid, docosahexaenoic acid small-molecule No No Ke Y, Huang Y, Yi C, Ma L, Chu X, Wu B, Zhao Q, Han S 10.1016/J.CELREP.2024.115024 2024-12-11 Yes"
+P46095,CVN424,1,GPR6,8T1W,"APJ apelin Apelin A Human X-ray 8S4D - 2.6 A Inactive 16 73 - - - - BRIL - CMF-019
+small-molecule Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No - - 2024-12-04 Yes"
+P46095,CHEMBL4763822,1,GPR6,8T1V,"GPR6 GPR6 A orphans A Human Cryo-EM 8TYW 8TYW_refined 3.4 A Active 100 73 Gs αs - 60 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) sphingosine 1-phosphate small-molecule No No Barekatain M, Johansson LC, Lam JH, Chang H, Sadybekov AV, Han GW, Russo J, Bliesath J, Brice NL, Carlton MBL, Saikatendu KS, Sun H, Murphy ST, Monenschein H, Schiffer HH, Popov P, Lutomski CA, Robinson CV, Liu ZJ, Hua T, Katritch V, Cherezov V 10.1126/SCISIGNAL.ADO8741 2024-12-04 Yes"
+P46095,oleic acid,1,GPR6,8TF5,"GPR6 GPR6 A orphans A Human X-ray 8T1V - 2.6 A Inactive 1 73 - - - - BRIL - CHEMBL4763822
+small-molecule Inverse agonist sphingosine 1-phosphate small-molecule No No Barekatain M, Johansson LC, Lam JH, Chang H, Sadybekov AV, Han GW, Russo J, Bliesath J, Brice NL, Carlton MBL, Saikatendu KS, Sun H, Murphy ST, Monenschein H, Schiffer HH, Popov P, Lutomski CA, Robinson CV, Liu ZJ, Hua T, Katritch V, Cherezov V 10.1126/SCISIGNAL.ADO8741 2024-12-04 Yes"
+P43220,CHEMBL410972,1,GLP1R,9IVG,"PD2R2 DP2 Prostanoid A Human Cryo-EM 8XXU - 2.5 A Active 100 80 Gi/o αi1 - 64 - scFv16 [(2~{R})-1-hexadecanoyloxy-3-[oxidanyl-[(2~{S},3~{R},5~{R},6~{S})-2,3,4,5,6-pentakis(oxidanyl)cyclohexyl]oxy-phosphoryl]oxy-propan-2-yl] (~{Z})-octadec-9-enoate
+lipid PAM PGF2α, PGI2, PGJ2, PGD2, thromboxane A, PGE, PGD small-molecule No No - - 2024-12-04 Yes"
+Q14416,LY379268,1,GRM2,8WGC,"GLP1R GLP-1 Glucagon B1 Human Cryo-EM 9IVG 9IVG_refined 3.0 R Active 100 83 Gs αs Gs-Gi chimera 62 - Nanobody-35 CHEMBL410972
+protein Agonist glucagon-like peptide 1-(7-37), glucagon, glucagon-like peptide 1-(7-36) amide peptide No No Li J, Li G, Mai Y, Liu X, Yang D, Zhou Q, Wang MW 10.1016/J.APSB.2024.09.002 2024-11-27 Yes"
+Q9NYV8,flufenamic acid,1,T2R14,8RQL,"OPRD δ Opioid A Human Cryo-EM 8Y45 8Y45_refined 3.5 A Active 100 77 Gi/o αi2 - 63 - scFv16 ADL5859
+small-molecule Agonist endomorphin-1, α-neoendorphin, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), dynorphin B, [Met]enkephalin peptide No No - - 2024-11-27 Yes"
+P21554,taranabant,1,CNR1,9B9Y,"CNR1 CB1 Cannabinoid A Human Cryo-EM 9BA0 - 3.1 R Inactive 7 60 - - - - Glycogen synthase Nanobody-36 Monlunabant
+small-molecule Inverse agonist 2-arachidonoylglycerol, anandamide small-molecule No No - - 2024-11-20 Yes"
+P34972,CHEMBL5422946,1,CNR2,8X3L,"CNR1 CB1 Cannabinoid A Human Cryo-EM 9B9Z - 3.3 R Inactive 7 60 - - - - Glycogen synthase Nanobody-36 Zevaquenabant
+small-molecule Inverse agonist 2-arachidonoylglycerol, anandamide small-molecule No No - - 2024-11-20 Yes"
+P49019,4-(n-propyl)amino-3-nitrobenzoic acid,1,HCAR3,8JEI,"CNR2 CB2 Cannabinoid A Human Cryo-EM 8X3L 8X3L_refined 3.1 R Active 100 80 Gi/o αi1 - 62 - scFv16 CHEMBL5422946
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Yang X, Zhou P, Shen S, Hu Q, Tian C, Xia A, Wang Y, Yang Z, Nan J, Zhou Y, Chen S, Tian X, Wu C, Lin G, Zhang L, Wang K, Zheng T, Zou J, Yan W, Shao Z, Yang S 10.1073/PNAS.2401091121 2024-11-20 Yes"
+P07550,Noradrenaline,1,ADRB2,9CHU,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 9CHV - 4.0 A Intermediate 47 63 - - - - - - Apo (no ligand)
+none Apo (no ligand) L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Xu J, Chen G, Wang H, Cao S, Heng J, Deupi X, Du Y, Kobilka BK 10.1073/PNAS.2414544121 2024-11-13 Yes"
+P07550,Carazolol,1,ADRB2,9CHX,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 9CHU - 3.5 A Intermediate 47 66 - - - - - - Noradrenaline
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Xu J, Chen G, Wang H, Cao S, Heng J, Deupi X, Du Y, Kobilka BK 10.1073/PNAS.2414544121 2024-11-13 Yes"
+P25105,PAF,1,PTAFR,8XYD,"MCHR1 MCH1 Melanin-concentrating hormone A Human Cryo-EM 8WWH 8WWH_refined 2.8 R Active 100 68 Gi/o αi1 - 63 - scFv16 Apo (no ligand)
+none Apo (no ligand) melanin-concentrating hormone peptide No No - - 2024-11-13 Yes"
+P41594,"quisqualate
+VU0424465",1,GRM5,8X0C,"PTAFR PAF Platelet-activating factor A Human Cryo-EM 8XYD 8XYD_refined 2.9 A Active 100 89 Gi/o αi1 - 61 - scFv16 PAF
+small-molecule Agonist PAF small-molecule No No Fan W, Xu Y, He X, Luo P, Zhu J, Li J, Wang R, Yuan Q, Wu K, Hu W, Zhao Y, Xu S, Cheng X, Wang Y, Xu HE, Zhuang Y 10.1016/J.CELREP.2024.114422 2024-11-13 Yes"
+P41594,"quisqualate
+VU0424465",1,GRM5,8X0B,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0C - 3.2 A Active - 63 - - - - - - quisqualate
+VU0424465
+small-molecule
+small-molecule Agonist
+PAM L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+P41594,"quisqualate
+VU0424465",1,GRM5,8X0D,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0B - 3.1 A Active - 64 - - - - - - quisqualate
+VU0424465
+small-molecule
+small-molecule Agonist
+PAM L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+P41594,quisqualate,1,GRM5,8X0H,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0D - 3.5 A Active - 63 - - - - - - quisqualate
+VU0424465
+small-molecule
+small-molecule Agonist
+PAM L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+P41594,quisqualate,1,GRM5,8X0G,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0H - 4.1 A Active - 64 - - - - - - quisqualate
+small-molecule Agonist L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+P41594,"quisqualate
+VU-29",1,GRM5,8X0F,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0G - 3.0 A Active - 63 - - - - - - quisqualate
+small-molecule Agonist L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+P41594,quisqualate,1,GRM5,8X0E,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0F - 3.3 A Active - 63 - - - - - - quisqualate
+VU-29
+small-molecule
+small-molecule Agonist
+PAM L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+Q96LA9,DCA-3P,1,MRGX4,8KEX,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8X0E - 3.4 A Active - 63 - - - - - - quisqualate
+small-molecule Agonist L-glutamic acid small-molecule No No Cannone G, Berto L, Malhaire F, Ferguson G, Fouillen A, Balor S, Font-Ingles J, Llebaria A, Goudet C, Kotecha A, K R V, Lebon G 10.1038/S41467-024-55439-9 2024-11-06 Yes"
+Q96LA9,DCA-3P,1,MRGX4,8K4S,"MRGX4 MRGPRX4 A orphans A Human Cryo-EM 8KEX - 3.2 E Active 98 79 - - - - BRIL - DCA-3P
+small-molecule Agonist - - No No Yang J, Zhao T, Fan J, Zou H, Lan G, Guo F, Shi Y, Ke H, Yu H, Yue Z, Wang X, Bai Y, Li S, Liu Y, Wang X, Chen Y, Li Y, Lei X 10.1016/J.CELL.2024.10.001 2024-11-06 Yes"
+Q14416,VU0155041,1,GRM2,8WGB,"GP119 GPR119 GPR18, GPR55 and GPR119 A Human Cryo-EM 8VHF 8VHF_refined 3.5 R Active 100 88 Gs αs - 60 BRIL Nanobody-35 MBX-2982
+small-molecule Agonist N-palmitoylethanolamine, anandamide, N-oleoylethanolamide, SEA small-molecule No No - - 2024-10-30 Yes"
+Q96RJ0,METHAMPHETAMINE,1,TAAR1,9JKQ,"PTH1R PTH1 Parathyroid hormone B1 Human Cryo-EM 9JR2 - 2.8 R Active 100 59 Gq/11 αq Mini-Gq 57 - scFv16 Parathyroid hormone
+peptide Agonist PTHrP-(1-36), PTHrP, PTH, TIP39 peptide No No - - 2024-10-16 Yes"
+P35367,histamine,1,HRH1,8YN2,"GPBAR GPBA Bile acid A Human Cryo-EM 9GYO - 2.5 R Active 100 83 Gs αs Mini-Gs 59 BRIL Nanobody-35 CHEMBL2331646
+small-molecule Agonist cholic acid, deoxycholic acid, chenodeoxycholic acid, lithocholic acid small-molecule No No - - 2024-10-09 Yes"
+P25021,histamine,1,HRH2,8YN4,"HRH1 H1 Histamine A Human Cryo-EM 8YN2 - 2.7 R Active 100 56 Gq/11 αq Mini-Gq 64 - scFv16 histamine
+small-molecule Agonist histamine small-molecule No No Zhang X, Liu G, Zhong YN, Zhang R, Yang CC, Niu C, Pu X, Sun J, Zhang T, Yang L, Zhang C, Li X, Shen X, Xiao P, Sun JP, Gong W 10.1038/S41467-024-52585-Y 2024-10-09 Yes"
+P25021,histamine,1,HRH2,8YN3,"HRH2 H2 Histamine A Human Cryo-EM 8YN4 - 3.0 R Active 100 75 Gq/11 αq Mini-Gq 64 - scFv16 histamine
+small-molecule Agonist histamine small-molecule No No Zhang X, Liu G, Zhong YN, Zhang R, Yang CC, Niu C, Pu X, Sun J, Zhang T, Yang L, Zhang C, Li X, Shen X, Xiao P, Sun JP, Gong W 10.1038/S41467-024-52585-Y 2024-10-09 Yes"
+Q9Y5N1,imetit,1,HRH3,8YN6,"HRH2 H2 Histamine A Human Cryo-EM 8YN3 - 2.6 R Active 100 78 Gs αs Mini-Gq 60 - Nanobody-35 histamine
+small-molecule Agonist histamine small-molecule No No Zhang X, Liu G, Zhong YN, Zhang R, Yang CC, Niu C, Pu X, Sun J, Zhang T, Yang L, Zhang C, Li X, Shen X, Xiao P, Sun JP, Gong W 10.1038/S41467-024-52585-Y 2024-10-09 Yes"
+Q9Y5N1,histamine,1,HRH3,8YN5,"HRH3 H3 Histamine A Human Cryo-EM 8YN6 - 2.8 R Active 100 65 Gi/o αi1 - 63 - scFv16 imetit
+small-molecule Agonist histamine small-molecule No No Zhang X, Liu G, Zhong YN, Zhang R, Yang CC, Niu C, Pu X, Sun J, Zhang T, Yang L, Zhang C, Li X, Shen X, Xiao P, Sun JP, Gong W 10.1038/S41467-024-52585-Y 2024-10-09 Yes"
+Q9H3N8,histamine,1,HRH4,8YN9,"HRH3 H3 Histamine A Human Cryo-EM 8YN5 - 2.7 R Active 100 65 Gi/o αi1 - 63 - scFv16 histamine
+small-molecule Agonist histamine small-molecule No No Zhang X, Liu G, Zhong YN, Zhang R, Yang CC, Niu C, Pu X, Sun J, Zhang T, Yang L, Zhang C, Li X, Shen X, Xiao P, Sun JP, Gong W 10.1038/S41467-024-52585-Y 2024-10-09 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8ZRT,"CASR CaS Calcium-sensing C Human Cryo-EM 9C2F - 2.8 A Inactive - 71 - - - - - - (1R)-1-(2H-1,3-benzodioxol-4-yl)-N-[2-(1,2-benzothiazol-3-yl)ethyl]ethan-1-amine
+small-molecule PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No - - 2024-10-02 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8XWP,"EDNRB ETB Endothelin A Human Cryo-EM 8ZRT - 3.6 R Active 83 64 - - - - - - ENDOTHELIN
+protein Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No Tani K, Maki-Yonekura S, Kanno R, Negami T, Hamaguchi T, Hall M, Mizoguchi A, Humbel BM, Terada T, Yonekura K, Doi T 10.1038/S42003-024-06905-Z 2024-10-02 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8XWQ,"EDNRB ETB Endothelin A Human Cryo-EM 8XWP 8XWP_refined 3.2 R Active 100 68 Gi/o αi1 - 62 - scFv16 ENDOTHELIN
+protein Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No Tani K, Maki-Yonekura S, Kanno R, Negami T, Hamaguchi T, Hall M, Mizoguchi A, Humbel BM, Terada T, Yonekura K, Doi T 10.1038/S42003-024-06905-Z 2024-10-02 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,9IQT,"FZD7 FZD7 Frizzled F Human Cryo-EM 9EPO - 1.9 D Inactive 19 60 - - - - - - Apo (no ligand)
+none Apo (no ligand) - - No No - - 2024-10-02 Yes"
+P08913,dexmedetomidine,1,ADA2A,9CBM,"PAR1 PAR1 Proteinase-activated A Human Cryo-EM 8XOS - 3.2 R Active 100 68 Gi/o αi1 - 61 - scFv16 Tethered agonist
+peptide Agonist thrombin peptide No No - - 2024-09-18 Yes"
+P08913,(-)-adrenaline,1,ADA2A,9CBL,"ADA2A α2A Adrenoceptors A Human Cryo-EM 9CBM - 3.2 R Active 100 55 Gi/o αi1 - 60 T4-Lysozyme - dexmedetomidine
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Lou JS, Su M, Wang J, Do HN, Miao Y, Huang XY 10.1038/S12276-024-01296-X 2024-09-11 Yes"
+Q9BXA5,cis-epoxysuccinic acid,1,SUCR1,8WP1,"GPC5D GPRC5D C Orphans C Human Cryo-EM 9IMA - 2.7 A Inactive - 72 - - - - - - Talquetamab Fab light chain
+Talquetamab Fab heavy chain
+protein
+protein Antagonist - - No No Jeong J, Park J, Young Mo G, Shin J, Cho Y 10.1016/J.JMB.2024.168748 2024-09-11 Yes"
+Q9BXA5,succinic acid,1,SUCR1,8WOG,"SUCR1 succinate Succinate A Human Cryo-EM 8WP1 - 3.2 A Active 100 91 Gi/o αi1 - 64 - - cis-epoxysuccinic acid
+small-molecule Agonist succinic acid small-molecule No No Liu A, Liu Y, Zhang W, Ye RD 10.1016/J.CELREP.2024.114381 2024-09-11 Yes"
+P21728,Lysergide,1,DRD1,8JXR,"SUCR1 succinate Succinate A Human Cryo-EM 8WOG - 3.0 A Active 100 93 Gi/o αi1 - 64 - - succinic acid
+small-molecule Agonist succinic acid small-molecule No No Liu A, Liu Y, Zhang W, Ye RD 10.1016/J.CELREP.2024.114381 2024-09-11 Yes"
+P21728,CHEMBL4277264,1,DRD1,8JXS,"DRD1 D1 Dopamine A Human Cryo-EM 8JXR - 3.6 A Active 99 61 - - - - - Nanobody-3
+Fab 8D3 heavy chain
+Fab 8D3 light chain Lysergide
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Fan L, Zhuang Y, Wu H, Li H, Xu Y, Wang Y, He L, Wang S, Chen Z, Cheng J, Xu HE, Wang S 10.1016/J.NEURON.2024.07.003 2024-09-04 Yes"
+P25101,ENDOTHELIN,1,EDNRA,8XVI,"EDNRA ETA Endothelin A Human Cryo-EM 8XVJ - 3.3 R Inactive 9 68 - - - - BRIL Fab heavy chain
+Fab light chain
+anti-Fab Nanobody macitentan
+small-molecule Antagonist endothelin-2, endothelin-3, endothelin-1 peptide No No - - 2024-08-28 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8XVH,"EDNRB ETB Endothelin A Human Cryo-EM 8XVE 8XVE_refined 3.0 R Active 100 70 Gs αs - 59 - Nanobody-35 BQ3020
+peptide Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No Hou J, Liu S, Zhang X, Tu G, Wu L, Zhang Y, Yang H, Li X, Liu J, Jiang L, Tan Q, Bai F, Liu Z, Miao C, Hua T, Luo Z 10.1038/S41421-024-00705-9 2024-08-28 Yes"
+P13945,Carazolol,1,ADRB3,9IJD,"EDNRB ETB Endothelin A Human Cryo-EM 8XVH 8XVH_refined 3.3 R Active 100 69 Gs αs - 59 - Nanobody-35 ENDOTHELIN
+protein Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No Hou J, Liu S, Zhang X, Tu G, Wu L, Zhang Y, Yang H, Li X, Liu J, Jiang L, Tan Q, Bai F, Liu Z, Miao C, Hua T, Luo Z 10.1038/S41421-024-00705-9 2024-08-28 Yes"
+P13945,(-)-adrenaline,1,ADRB3,9IJE,"ADRB3 β3 Adrenoceptors A Human Cryo-EM 9IJD - 2.8 R Active 100 62 Gs αs - 57 - Camelid antibody VHH fragment Carazolol
+small-molecule Inverse agonist (-)-noradrenaline, (-)-adrenaline, (±)-adrenaline, (+)-adrenaline small-molecule No No Zheng S, Zhang S, Dai S, Chen K, Gao K, Sun X, Lin B, Liu X 10.1002/CPLU.202400288 2024-08-21 Yes"
+P14416,dopamine,1,DRD2,8U02,"CML2 chemerin 2 Chemerin receptor A Human Cryo-EM 8XGM - 3.3 A Active 100 86 Gi/o αi1 - 66 - scFv16 Retinoic acid receptor responder protein 2
+protein Agonist chemerin peptide No No - - 2024-08-21 Yes"
+P14416,dopamine,1,DRD2,8TZQ,"DRD2 D2 Dopamine A Human Cryo-EM 8U02 8U02_refined 3.3 R Active 100 61 Gi/o αo - 97 - - dopamine
+small-molecule Agonist dopamine small-molecule No No Knight KM, Krumm BE, Kapolka NJ, Ludlam WG, Cui M, Mani S, Prytkova I, Obarow EG, Lefevre TJ, Wei W, Ma N, Huang XP, Fay JF, Vaidehi N, Smrcka AV, Slesinger PA, Logothetis DE, Martemyanov KA, Roth BL, Dohlman HG 10.1038/S41467-024-50964-Z 2024-08-21 Yes"
+Q14832,LY379268,1,GRM3,8TQB,"ACKR1 ACKR1 Chemokine A Human Cryo-EM 8JPS - 3.7 A Intermediate 46 76 - - - - - - C-C motif chemokine 7
+peptide Agonist CCL11, CCL14, CCL2, CXCL8, CXCL11, CCL5, CXCL6, CCL7, CXCL5, CCL17 peptide No No Saha S, Khanppnavar B, Maharana J, Kim H, Carino CMC, Daly C, Houston S, Sharma S, Zaidi N, Dalal A, Mishra S, Ganguly M, Tiwari D, Kumari P, Jhingan GD, Yadav PN, Plouffe B, Inoue A, Chung KY, Banerjee R, Korkhov VM, Shukla AK 10.1016/J.CELL.2024.07.005 2024-07-31 Yes"
+Q14832,"(1S,4R,5R,6S)-4-amino-2-oxabicyclo[3.1.0]hexane-4,6-dicarboxylic acid",1,GRM3,8TR2,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 8TQB - 3.3 A Active - 85 - - - - - - LY379268
+small-molecule Agonist L-glutamic acid, NAAG small-molecule No No Strauss A, Gonzalez-Hernandez AJ, Lee J, Abreu N, Selvakumar P, Salas-Estrada L, Kristt M, Marx DC, Gilliland K, Melancon BJ, Filizola M, Meyerson J, Levitz J 10.1101/2023.08.13.552748 2024-07-31 Yes"
+Q14832,LY341495,1,GRM3,8TRD,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 8TR2 - 3.5 A Active - 85 - - - - - - (1S,4R,5R,6S)-4-amino-2-oxabicyclo[3.1.0]hexane-4,6-dicarboxylic acid
+small-molecule Agonist L-glutamic acid, NAAG small-molecule No No Strauss A, Gonzalez-Hernandez AJ, Lee J, Abreu N, Selvakumar P, Salas-Estrada L, Kristt M, Marx DC, Gilliland K, Melancon BJ, Filizola M, Meyerson J, Levitz J 10.1101/2023.08.13.552748 2024-07-31 Yes"
+Q14832,LY341495,1,GRM3,8TRC,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 8TRD - 3.4 A Inactive - 84 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid, NAAG small-molecule No No Strauss A, Gonzalez-Hernandez AJ, Lee J, Abreu N, Selvakumar P, Salas-Estrada L, Kristt M, Arefin A, Huynh K, Marx DC, Gilliland K, Melancon BJ, Filizola M, Meyerson J, Levitz J 10.1038/S41467-024-50548-X 2024-07-31 Yes"
+Q14832,LY341495,1,GRM3,8TR0,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 8TRC - 3.3 A Inactive - 84 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid, NAAG small-molecule No No Strauss A, Gonzalez-Hernandez AJ, Lee J, Abreu N, Selvakumar P, Salas-Estrada L, Kristt M, Marx DC, Gilliland K, Melancon BJ, Filizola M, Meyerson J, Levitz J 10.1101/2023.08.13.552748 2024-07-31 Yes"
+Q96RJ0,Lysergide,1,TAAR1,8ZSP,"TAAR1 TA1 Trace amine A Human Cryo-EM 8ZSJ - 2.8 R Active 100 83 Gs αs - 58 BRIL Nanobody-35 Apo (no ligand)
+none Apo (no ligand) octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Jiang K, Zheng Y, Zeng L, Wang L, Li F, Pu J, Lu Y, Zhao S, Xu F 10.1016/J.CELREP.2024.114505 2024-07-24 Yes"
+Q9NYV8,aristolochic acid,1,T2R14,8XQP,"SSR5 SST5 Somatostatin A Human Cryo-EM 8ZCJ 8ZCJ_refined 3.1 G Active 100 76 Gi/o αi1 - 63 - scFv16 004-DTR-LYS-TYR-PHA-HYP
+peptide Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Li YG, Meng XY, Yang X, Ling SL, Shi P, Tian CL, Yang F 10.1038/S41401-024-01314-8 2024-07-10 Yes"
+Q9NYV8,aristolochic acid,1,T2R14,8XQN,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8XQP - 3.3 R Active 100 90 Gi/o αgust - 63 - scFv16 aristolochic acid
+small-molecule Agonist - - No No Hu X, Ao W, Gao M, Wu L, Pei Y, Liu S, Wu Y, Zhao F, Sun Q, Liu J, Jiang L, Wang X, Li Y, Tan Q, Cheng J, Yang F, Yang C, Sun J, Hua T, Liu ZJ 10.1038/S41586-024-07569-9 2024-07-10 Yes"
+Q9NYV8,flufenamic acid,1,T2R14,8XQS,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8YKY - 3.0 R Active 100 85 Gi/o αgust - 61 - scFv16 compound 28.1 [PMID: 36847646]
+small-molecule Agonist - - No No - - 2024-07-10 Yes"
+Q9NYV8,aristolochic acid,1,T2R14,8XQL,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8XQS - 3.3 R Active 100 85 Gi/o αi1 - 64 - scFv16 flufenamic acid
+small-molecule Agonist - - No No Hu X, Ao W, Gao M, Wu L, Pei Y, Liu S, Wu Y, Zhao F, Sun Q, Liu J, Jiang L, Wang X, Li Y, Tan Q, Cheng J, Yang F, Yang C, Sun J, Hua T, Liu ZJ 10.1038/S41586-024-07569-9 2024-07-10 Yes"
+Q9NYV8,Cholesterol,1,T2R14,8XQT,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8XQL - 3.0 R Active 100 90 Gi/o αgust - 63 - Nanobody-35 aristolochic acid
+small-molecule Agonist - - No No Hu X, Ao W, Gao M, Wu L, Pei Y, Liu S, Wu Y, Zhao F, Sun Q, Liu J, Jiang L, Wang X, Li Y, Tan Q, Cheng J, Yang F, Yang C, Sun J, Hua T, Liu ZJ 10.1038/S41586-024-07569-9 2024-07-10 Yes"
+Q9NYV8,flufenamic acid,1,T2R14,8XQR,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8XQT - 2.9 R Active 100 86 Gi/o αi1 - 64 - scFv16 Cholesterol
+small-molecule Agonist - - No No Hu X, Ao W, Gao M, Wu L, Pei Y, Liu S, Wu Y, Zhao F, Sun Q, Liu J, Jiang L, Wang X, Li Y, Tan Q, Cheng J, Yang F, Yang C, Sun J, Hua T, Liu ZJ 10.1038/S41586-024-07569-9 2024-07-10 Yes"
+Q9NYV8,aristolochic acid,1,T2R14,8XQO,"T2R14 TAS2R14 Taste 2 T2 Human Cryo-EM 8XQR - 3.2 R Active 100 88 Gi/o αgust - 63 - Nanobody-35 flufenamic acid
+small-molecule Agonist - - No No Hu X, Ao W, Gao M, Wu L, Pei Y, Liu S, Wu Y, Zhao F, Sun Q, Liu J, Jiang L, Wang X, Li Y, Tan Q, Cheng J, Yang F, Yang C, Sun J, Hua T, Liu ZJ 10.1038/S41586-024-07569-9 2024-07-10 Yes"
+P21554,3-[(1R)-1-(2-methoxyphenyl)-2-nitro-ethyl]-2-phenyl-1H-indole,1,CNR1,8IKH,"SSR5 SST5 Somatostatin A Human Cryo-EM 8X8N 8X8N_refined 2.9 R Active 100 74 Gi/o αi1 - 62 - scFv16 Octreotide
+peptide Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No - - 2024-06-12 Yes"
+P21554,3-[(1S)-1-(furan-2-yl)-2-nitro-ethyl]-2-phenyl-1H-indole,1,CNR1,8IKG,"CNR1 CB1 Cannabinoid A Human Cryo-EM 8IKH 8IKH_refined 3.3 R Active 100 56 Gi/o αi1 - 61 - scFv16 3-[(1R)-1-(2-methoxyphenyl)-2-nitro-ethyl]-2-phenyl-1H-indole
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Shen S, Wu C, Lin G, Yang X, Zhou Y, Zhao C, Miao Z, Tian X, Wang K, Yang Z, Liu Z, Guo N, Li Y, Xia A, Zhou P, Liu J, Yan W, Ke B, Yang S, Shao Z 10.1073/PNAS.2321532121 2024-06-05 Yes"
+Q9Y5N1,histamine,1,HRH3,8YUU,"HRH3 H3 Histamine A Human Cryo-EM 8YUV - 3.0 R Active 100 65 Gi/o αi1 - 64 - - immepip
+small-molecule Agonist histamine small-molecule No No - - 2024-06-05 Yes"
+P28223,4-{(3R)-1-[(1R)-1-(pyrimidin-2-yl)ethyl]piperidin-3-yl}phenol,1,5HT2A,8V6U,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8PJK - 2.4 R Active 100 68 Gi/o αi1 - 63 - - 6-[3-[2-(2-methoxyphenoxy)ethylamino]propoxy]-4~{H}-1,4-benzoxazin-3-one
+(2r)-1-(Heptadecanoyloxy)-3-{[(R)-Hydroxy{[(1r,2r,3r,4r,5s,6r)-2,3,5,6-Tetrahydroxy-4-(Phosphonooxy)cyclohexyl]oxy}phosphoryl]oxy}propan-2-Yl (5z,8z,11z,14z)-Icosa-5,8,11,14-Tetraenoate
+small-molecule
+small-molecule Agonist
+PAM 5-hydroxytryptamine small-molecule No No - - 2024-05-29 Yes"
+P28223,lisuride,1,5HT2A,8UWL,"5HT2A 5-HT2A 5-Hydroxytryptamine A Human Cryo-EM 8V6U - 3.0 A Active 100 55 Gq/11 αq Gi2-mini-Gq chimera 57 - scFv16 4-{(3R)-1-[(1R)-1-(pyrimidin-2-yl)ethyl]piperidin-3-yl}phenol
+small-molecule Agonist 5-hydroxytryptamine, tryptamine small-molecule No No Lyu J, Kapolka N, Gumpper R, Alon A, Wang L, Jain MK, Barros-Alvarez X, Sakamoto K, Kim Y, DiBerto J, Kim K, Glenn IS, Tummino TA, Huang S, Irwin JJ, Tarkhanova OO, Moroz Y, Skiniotis G, Kruse AC, Shoichet BK, Roth BL 10.1126/SCIENCE.ADN6354 2024-05-29 Yes"
+Q9BXA5,succinic acid,1,SUCR1,8YKW,"SUCR1 succinate Succinate A Human Cryo-EM 8YKV - 2.5 R Active 100 81 Gi/o αi1 - 60 - scFv16 CHEMBL5430997
+small-molecule Agonist succinic acid small-molecule No No - - 2024-05-29 Yes"
+Q9BXA5,maleic acid,1,SUCR1,8YKX,"SUCR1 succinate Succinate A Human Cryo-EM 8YKW 8YKW_refined 2.8 R Active 100 85 Gi/o αi1 - 60 - scFv16 succinic acid
+small-molecule Agonist succinic acid small-molecule No No Li C, Liu H, Li J, He X, Zhu H, Fu W, Xu HE 10.1038/S41422-024-00984-7 2024-05-29 Yes"
+P32238,CHEMBL216166,1,CCKAR,9BKJ,"AGTR1 AT1 Angiotensin A Human Cryo-EM 8TH4 - 3.3 A Inactive 8 78 - - - - BRIL BAG2 Anti-BRIL Fab Heavy chain
+BAG2 Anti-BRIL Fab Light chain AT118-L Nanobody
+protein Antagonist angiotensin IV, angiotensin A, angiotensin III, angiotensin II peptide No No Skiba MA, Sterling SM, Rawson S, Zhang S, Xu H, Jiang H, Nemeth GR, Gilman MSA, Hurley JD, Shen P, Staus DP, Kim J, McMahon C, Lehtinen MK, Rockman HA, Barth P, Wingler LM, Kruse AC 10.1038/S41589-024-01620-6 2024-05-22 Yes"
+P32238,CHEMBL216166,1,CCKAR,9BKK,"CCKAR CCK1 Cholecystokinin A Human Cryo-EM 9BKJ - 2.6 R Active 100 66 Gs αs Gs-Gi chimera 52 - - CHEMBL216166
+protein Agonist CCK-8, desulfated cholecystokinin-8, CCK-39, CCK-58, CCK-33, CCK-4, gastrin-17 peptide No No Harikumar KG, Zhao P, Cary BP, Xu X, Desai AJ, Dong M, Mobbs JI, Toufaily C, Furness SGB, Christopoulos A, Belousoff MJ, Wootten D, Sexton PM, Miller LJ 10.1371/JOURNAL.PBIO.3002673 2024-05-22 Yes"
+Q9BXA5,succinic acid,1,SUCR1,8JPP,"MRGX4 MRGPRX4 A orphans A Human Cryo-EM 8YRG 8YRG_refined 3.1 R Active 100 74 Gq/11 αq Gs-min-Gq chimera 57 BRIL scFv16 Fospropofol
+small-molecule Agonist - - No No - - 2024-05-22 Yes"
+P08908,5-MeO-DMT,1,5HT1A,8FY8,"SUCR1 succinate Succinate A Human Cryo-EM 8JPN - 2.9 R Active 100 89 Gi/o αi1 - 64 BRIL scFv16 cis-epoxysuccinic acid
+small-molecule Agonist succinic acid small-molecule No No - - 2024-05-22 Yes"
+P08908,Lysergide,1,5HT1A,8FYT,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8FY8 - 2.8 R Active 100 68 Gi/o αi1 - 66 BRIL - 5-MeO-DMT
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Warren AL, Lankri D, Cunningham MJ, Serrano IC, Parise LF, Kruegel AC, Duggan P, Zilberg G, Capper MJ, Havel V, Russo SJ, Sames D, Wacker D 10.1038/S41586-024-07403-2 2024-05-15 Yes"
+P08908,vilazodone,1,5HT1A,8FYL,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8FYT - 2.6 R Active 100 68 Gi/o αi1 - 66 BRIL - Lysergide
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Warren AL, Lankri D, Cunningham MJ, Serrano IC, Parise LF, Kruegel AC, Duggan P, Zilberg G, Capper MJ, Havel V, Russo SJ, Sames D, Wacker D 10.1038/S41586-024-07403-2 2024-05-15 Yes"
+P08908,CHEMBL352186,1,5HT1A,8FYE,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8FYL - 2.9 R Active 100 68 Gi/o αi1 - 66 BRIL - vilazodone
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Warren AL, Lankri D, Cunningham MJ, Serrano IC, Parise LF, Kruegel AC, Duggan P, Zilberg G, Capper MJ, Havel V, Russo SJ, Sames D, Wacker D 10.1038/S41586-024-07403-2 2024-05-15 Yes"
+P08908,buspirone,1,5HT1A,8FYX,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8FYE - 2.9 R Active 100 68 Gi/o αi1 - 66 BRIL - CHEMBL352186
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Warren AL, Lankri D, Cunningham MJ, Serrano IC, Parise LF, Kruegel AC, Duggan P, Zilberg G, Capper MJ, Havel V, Russo SJ, Sames D, Wacker D 10.1038/S41586-024-07403-2 2024-05-15 Yes"
+Q9UPC5,CHEMBL4782438,1,GPR34,8XBE,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8FYX - 2.6 R Active 100 68 Gi/o αi1 - 66 BRIL - buspirone
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Warren AL, Lankri D, Cunningham MJ, Serrano IC, Parise LF, Kruegel AC, Duggan P, Zilberg G, Capper MJ, Havel V, Russo SJ, Sames D, Wacker D 10.1038/S41586-024-07403-2 2024-05-15 Yes"
+Q9UPC5,CHEMBL4782438,1,GPR34,8XBG,"GPR34 GPR34 A orphans A Human Cryo-EM 8XBE 8XBE_refined 3.4 A Active 100 78 Gi/o αi1 - 62 - scFv16 CHEMBL4782438
+small-molecule Agonist lysophosphatidylserine small-molecule No No Izume T, Kawahara R, Uwamizu A, Chen L, Yaginuma S, Omi J, Kawana H, Hou F, Sano FK, Tanaka T, Kobayashi K, Okamoto HH, Kise Y, Ohwada T, Aoki J, Shihoya W, Nureki O 10.1038/S41467-024-45046-Z 2024-05-15 Yes"
+P28566,SETIPTILINE,1,5HT1E,8UH3,"GPR34 GPR34 A orphans A Human Cryo-EM 8XBG - 3.4 A Active 60 78 - - - - - - CHEMBL4782438
+small-molecule Agonist lysophosphatidylserine small-molecule No No Izume T, Kawahara R, Uwamizu A, Chen L, Yaginuma S, Omi J, Kawana H, Hou F, Sano FK, Tanaka T, Kobayashi K, Okamoto HH, Kise Y, Ohwada T, Aoki J, Shihoya W, Nureki O 10.1038/S41467-024-45046-Z 2024-05-15 Yes"
+P28566,CHEMBL252719,1,5HT1E,8UGY,"5HT1E 5-HT1E 5-Hydroxytryptamine A Human Cryo-EM 8UH3 - 3.3 D Active 100 74 Gi/o αi1 - 61 - scFv16 SETIPTILINE
+small-molecule Agonist 5-hydroxytryptamine, tryptamine small-molecule No No Zilberg G, Parpounas AK, Warren AL, Fiorillo B, Provasi D, Filizola M, Wacker D 10.1126/SCIADV.ADK4855 2024-05-01 Yes"
+P0DMS8,Cl-IB-MECA,1,AA3R,8X17,"5HT1E 5-HT1E 5-Hydroxytryptamine A Human Cryo-EM 8UGY - 3.3 R Active 100 72 Gi/o αi1 - 61 - - CHEMBL252719
+small-molecule Agonist 5-hydroxytryptamine, tryptamine small-molecule No No Zilberg G, Parpounas AK, Warren AL, Fiorillo B, Provasi D, Filizola M, Wacker D 10.1126/SCIADV.ADK4855 2024-05-01 Yes"
+P0DMS8,piclidenoson,1,AA3R,8X16,"AA3R A3 Adenosine A Human Cryo-EM 8X17 8X17_refined 3.2 R Active 100 89 Gi/o αi1 - 61 - scFv16 Cl-IB-MECA
+small-molecule Agonist adenosine small-molecule No No Cai H, Guo S, Xu Y, Sun J, Li J, Xia Z, Jiang Y, Xie X, Xu HE 10.1038/S41467-024-47207-6 2024-04-24 Yes"
+P41180,"Cyclomethyltryptophan
+tecalcet",1,CASR,9AYF,"FZD7 FZD7 Frizzled F Human Cryo-EM 8YY8 - 3.2 R Active 100 59 Gs αs - 59 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Xu L, Chen B, Schihada H, Wright SC, Turku A, Wu Y, Han GW, Kowalski-Jahn M, Kozielewicz P, Bowin CF, Zhang X, Li C, Bouvier M, Schulte G, Xu F 10.1038/S41422-021-00525-6 2024-04-24 Yes"
+P41180,"Cyclomethyltryptophan
+tecalcet",1,CASR,9AXF,"CASR CaS Calcium-sensing C Human Cryo-EM 9AVG - 3.6 R Active - 74 Gs αs - 57 - - Cyclomethyltryptophan
+tecalcet
+small-molecule
+small-molecule Agonist
+PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No - - 2024-04-17 Yes"
+Q99527,fulvestrant,1,GPER1,8XOI,"GPER1 GPER Estrogen (G protein-coupled) A Human Cryo-EM 8XOG - 2.9 R Active 100 70 Gq/11 αq - 59 - scFv16 Apo (no ligand)
+none Apo (no ligand) 17β-estradiol small-molecule No No Liu H, Guo S, Dai A, Xu P, Li X, Huang S, He X, Wu K, Zhang X, Yang D, Xie X, Xu HE 10.1038/S41422-024-00963-Y 2024-04-10 Yes"
+Q99527,PGE2,1,GPER1,8XOH,"GPER1 GPER Estrogen (G protein-coupled) A Human Cryo-EM 8XOI 8XOI_refined 3.2 R Active 100 70 Gq/11 αq - 59 - scFv16 fulvestrant
+small-molecule Agonist 17β-estradiol small-molecule No No Liu H, Guo S, Dai A, Xu P, Li X, Huang S, He X, Wu K, Zhang X, Yang D, Xie X, Xu HE 10.1038/S41422-024-00963-Y 2024-04-10 Yes"
+P46089,N-oleoylethanolamide,1,GPR3,8X2K,"EDNRB ETB Endothelin A Human Cryo-EM 8XGR - 3.2 R Active 100 69 Gi/o αt1 - 59 - Camelid antibody VHH fragment ENDOTHELIN
+protein Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No - - 2024-04-03 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8J6L,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8J6I 8J6I_refined 2.9 R Active 100 79 Gi/o αi1 - 61 - scFv16 MK 6892
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No - - 2024-04-03 Yes"
+P21554,MDMB-Fubinaca,1,CNR1,8WU1,"APJ apelin Apelin A Human Cryo-EM 8XZF 8XZF_refined 3.0 R Active 100 80 Gi/o αi1 - 61 - scFv16 WN561
+peptide Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No Wang WW, Ji SY, Zhang W, Zhang J, Cai C, Hu R, Zang SK, Miao L, Xu H, Chen LN, Yang Z, Guo J, Qin J, Shen DD, Liang P, Zhang Y, Zhang Y 10.1016/J.CELL.2024.02.004 2024-03-20 Yes"
+Q9UPC5,YL-365,1,GPR34,8IYX,"CNR1 CB1 Cannabinoid A Human Cryo-EM 8WU1 - 3.2 R Active 100 57 Beta Beta-arrestin-1 - 86 - Fab heavy chain
+Fab light chain MDMB-Fubinaca
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Liao YY, Zhang H, Shen Q, Cai C, Ding Y, Shen DD, Guo J, Qin J, Dong Y, Zhang Y, Li XM 10.1016/J.CELL.2023.11.017 2024-03-20 Yes"
+Q9H3N8,clozapine,1,HRH4,8JXV,"GPR34 GPR34 A orphans A Human Cryo-EM 8IYX - 3.3 C Active 56 70 - - - - - - YL-365
+small-molecule Antagonist lysophosphatidylserine small-molecule No No Xia A, Yong X, Zhang C, Lin G, Jia G, Zhao C, Wang X, Hao Y, Wang Y, Zhou P, Yang X, Deng Y, Wu C, Chen Y, Zhu J, Tang X, Liu J, Zhang S, Zhang J, Xu Z, Hu Q, Zhao J, Yue Y, Yan W, Su Z, Wei Y, Zhou R, Dong H, Shao Z, Yang S 10.1073/PNAS.2308435120 2024-03-20 Yes"
+Q9H3N8,CHEMBL213912,1,HRH4,8JXW,"HRH4 H4 Histamine A Human Cryo-EM 8JXV - 3.2 R Active 100 68 Gi/o αi1 - 58 - scFv16 clozapine
+small-molecule Agonist CCL16, histamine small-molecule No No Xia R, Shi S, Xu Z, Vischer HF, Windhorst AD, Qian Y, Duan Y, Liang J, Chen K, Zhang A, Guo C, Leurs R, He Y 10.1038/S41467-024-46840-5 2024-03-20 Yes"
+Q9H3N8,histamine,1,HRH4,8JXT,"HRH4 H4 Histamine A Human Cryo-EM 8JXW 8JXW_refined 3.0 R Active 100 69 Gi/o αi1 - 62 - scFv16 CHEMBL213912
+small-molecule Agonist CCL16, histamine small-molecule No No Xia R, Shi S, Xu Z, Vischer HF, Windhorst AD, Qian Y, Duan Y, Liang J, Chen K, Zhang A, Guo C, Leurs R, He Y 10.1038/S41467-024-46840-5 2024-03-20 Yes"
+Q9H3N8,clobenpropit,1,HRH4,8JXX,"HRH4 H4 Histamine A Human Cryo-EM 8JXT 8JXT_refined 3.1 R Active 100 69 Gi/o αi1 - 62 - scFv16 histamine
+small-molecule Agonist CCL16, histamine small-molecule No No Xia R, Shi S, Xu Z, Vischer HF, Windhorst AD, Qian Y, Duan Y, Liang J, Chen K, Zhang A, Guo C, Leurs R, He Y 10.1038/S41467-024-46840-5 2024-03-20 Yes"
+P61073,plerixafor,1,CXCR4,8U4P,"CXCR4 CXCR4 Chemokine A Human Cryo-EM 8U4T - 3.4 R Inactive 8 79 - - - - - REGN7663 Fab light chain REGN7663 Fab heavy chain
+protein Agonist CXCL12α, CXCL12, CXCL12γ, CXCL12φ, CXCL12β, CXCL12δ, CXCL12ε peptide No No - - 2024-03-13 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GFX,"CXCR4 CXCR4 Chemokine A Human Cryo-EM 8U4N 8U4N_refined 2.7 R Active 100 80 Gi/o αi1 - 62 - - Apo (no ligand)
+none Apo (no ligand) CXCL12α, CXCL12, CXCL12γ, CXCL12φ, CXCL12β, CXCL12δ, CXCL12ε peptide No No Saotome K, McGoldrick LL, Ho JH, Ramlall TF, Shah S, Moore MJ, Kim JH, Leidich R, Olson WC, Franklin MC 10.1038/S41594-024-01397-1 2024-03-13 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGT,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GFX - 3.0 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEF,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGT - 3.5 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGN,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEF 8GEF_refined 3.8 R Active 100 68 Gs αs - 71 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEB,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGN - 3.3 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGA,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEB 8GEB_refined 3.6 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UO0,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGA 8GGA_refined 3.5 R Active 100 65 Gs αs - 83 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE7,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UO0 - 3.5 R Active 100 69 Gs αs GTP bound, Class P 58 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG9,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE7 8GE7_refined 3.4 R Active 100 68 Gs αs - 58 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GFV,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG9 8GG9_refined 3.4 R Active 100 68 Gs αs - 76 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGS,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GFV - 3.1 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNZ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGS - 3.5 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEG,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNZ 8UNZ_refined 3.8 R Active 100 69 Gs αs GTP bound, Class O 57 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGO,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEG 8GEG_refined 3.8 R Active 100 68 Gs αs - 78 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNY,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGO - 3.2 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE6,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNY - 3.6 R Active 100 69 Gs αs GTP bound, Class N 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG7,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE6 8GE6_refined 3.4 R Active 100 67 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE4,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG7 - 3.3 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG8,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE4 - 3.3 R Active 100 69 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNL,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG8 - 3.3 R Active 100 69 Gs αs - 61 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGF,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNL - 3.3 R Active 100 68 Gs αs GTP bound, Class A 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GH1,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGF 8GGF_refined 3.6 R Active 100 49 Gs αs - 91 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEE,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GH1 - 4.1 R Active 95 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGK,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEE 8GEE_refined 3.7 R Active 100 68 Gs αs - 69 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNO,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGK - 3.3 R Active 96 70 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEH,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNO - 3.3 R Active 100 69 Gs αs GTP bound, Class D 57 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGM,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEH 8GEH_refined 4.0 R Active 100 67 Gs αs - 76 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UO3,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGM - 3.2 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG1,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UO3 8UO3_refined 3.5 R Active 100 54 Gs αs GTP bound, Class S 91 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGY,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG1 - 3.0 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UO2,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGY - 3.9 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGL,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UO2 8UO2_refined 3.6 R Active 100 68 Gs αs GTP bound, Class R 72 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNX,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGL - 3.2 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE1,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNX - 3.6 R Active 100 69 Gs αs GTP bound, Class M 62 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG2,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE1 - 3.4 R Active 100 70 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGZ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG2 - 3.0 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNP,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGZ - 3.9 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GFZ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNP - 3.3 R Active 100 69 Gs αs GTP bound, Class E 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGU,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GFZ - 3.0 R Active 100 67 Gs αs - 58 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNT,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGU - 3.4 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE3,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNT - 3.4 R Active 100 69 Gs αs GTP bound, Class I 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG5,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE3 - 3.3 R Active 100 69 Gs αs - 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNN,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG5 - 3.2 R Active 100 68 Gs αs - 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GFY,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNN - 3.4 R Active 100 69 Gs αs GTP bound, Class C 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGV,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GFY - 3.0 R Active 100 67 Gs αs - 58 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNQ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGV - 3.5 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UO4,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNQ - 3.3 R Active 100 69 Gs αs GTP bound, Class F 61 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEJ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UO4 8UO4_refined 4.0 R Active 100 56 Gs αs GTP bound, Class T 74 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGQ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEJ 8GEJ_refined 4.2 R Active 100 65 Gs αs - 79 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNW,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGQ - 3.4 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GDZ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNW - 3.4 R Active 100 68 Gs αs GTP bound, Class L 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG0,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GDZ - 3.5 R Active 100 69 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGW,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG0 - 2.9 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE2,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGW - 3.6 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG4,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE2 - 3.3 R Active 100 70 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGX,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG4 - 3.2 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEI,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGX - 3.6 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGP,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEI - 4.1 R Active 100 68 Gs αs - 70 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNU,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGP - 3.2 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GED,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNU - 3.5 R Active 100 68 Gs αs GTP bound, Class J 57 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGJ,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GED 8GED_refined 3.5 R Active 100 68 Gs αs - 71 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GFW,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGJ - 3.5 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGR,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GFW - 3.0 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNS,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGR - 3.4 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE9,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNS - 3.4 R Active 100 69 Gs αs GTP bound, Class H 61 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGC,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE9 8GE9_refined 3.5 R Active 100 68 Gs αs - 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEC,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGC - 3.4 R Active 100 60 Gs αs - 75 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGI,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEC 8GEC_refined 3.5 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE8,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGI - 3.5 R Active 96 69 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGB,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE8 8GE8_refined 3.4 R Active 100 68 Gs αs - 60 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNM,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGB 8GGB_refined 3.5 R Active 100 64 Gs αs - 79 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GEA,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNM - 3.4 R Active 100 69 Gs αs GTP bound, Class B 57 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GGE,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GEA 8GEA_refined 3.5 R Active 100 68 Gs αs - 61 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UO1,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GGE 8GGE_refined 3.5 R Active 100 56 Gs αs - 92 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG3,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UO1 8UO1_refined 3.6 R Active 100 68 Gs αs GTP bound, Class Q 85 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GH0,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GG3 - 3.1 R Active 100 68 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNR,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GH0 - 4.0 R Active 96 68 - - - - - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8UNV,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNR - 3.4 R Active 100 69 Gs αs GTP bound, Class G 61 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GE5,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8UNV - 3.3 R Active 100 69 Gs αs GTP bound, Class K 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P07550,"(5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol",1,ADRB2,8GG6,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8GE5 - 3.2 R Active 100 69 Gs αs - 59 - - (5R,6R)-6-(methylamino)-5,6,7,8-tetrahydronaphthalene-1,2,5-triol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Papasergi-Scott MM, Perez-Hernandez G, Batebi H, Gao Y, Eskici G, Seven AB, Panova O, Hilger D, Casiraghi M, He F, Maul L, Gmeiner P, Kobilka BK, Hildebrand PW, Skiniotis G 10.1038/S41586-024-07153-1 2024-03-06 Yes"
+P46089,palmitic acid,1,GPR3,8U8F,"GLR glucagon Glucagon B1 Human Cryo-EM 8WG8 8WG8_refined 2.7 R Active 100 55 Gs αs - 59 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) glucagon peptide No No Cong Z, Zhao F, Li Y, Luo G, Mai Y, Chen X, Chen Y, Lin S, Cai X, Zhou Q, Yang D, Wang MW 10.1038/S41421-024-00649-0 2024-03-06 Yes"
+Q8TDS4,GSK256073,1,HCAR2,8IYW,"GPR3 GPR3 A orphans A Human Cryo-EM 8U8F 8U8F_refined 3.5 R Active 100 80 Gs αs - 59 - - palmitic acid
+small-molecule Agonist sphingosine 1-phosphate small-molecule No No Russell IC, Zhang X, Bumbak F, McNeill SM, Josephs TM, Leeming MG, Christopoulos G, Venugopal H, Flocco MM, Sexton PM, Wootten D, Belousoff MJ 10.1021/ACS.BIOCHEM.3C00647 2024-03-06 Yes"
+Q8TDS4,monomethyl fumarate,1,HCAR2,8JHN,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IYW 8IYW_refined 3.5 R Active 100 80 Gi/o αo - 57 - scFv16 GSK256073
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Yadav MK, Sarma P, Maharana J, Ganguly M, Mishra S, Zaidi N, Dalal A, Singh V, Saha S, Mahajan G, Sharma S, Chami M, Banerjee R, Shukla AK 10.1038/S41467-024-46239-2 2024-03-06 Yes"
+Q8TDS4,5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid,1,HCAR2,8JER,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JHN 8JHN_refined 3.8 D Active 100 80 Gi/o αo - 58 - scFv16 monomethyl fumarate
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Yadav MK, Sarma P, Maharana J, Ganguly M, Mishra S, Zaidi N, Dalal A, Singh V, Saha S, Mahajan G, Sharma S, Chami M, Banerjee R, Shukla AK 10.1038/S41467-024-46239-2 2024-03-06 Yes"
+Q8TDS4,MK 6892,1,HCAR2,8IYH,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JER 8JER_refined 3.5 R Active 100 80 Gi/o αo - 58 - scFv16 5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Yadav MK, Sarma P, Maharana J, Ganguly M, Mishra S, Zaidi N, Dalal A, Singh V, Saha S, Mahajan G, Sharma S, Chami M, Banerjee R, Shukla AK 10.1038/S41467-024-46239-2 2024-03-06 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8IY9,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IYH 8IYH_refined 3.3 D Active 100 79 Gi/o αo - 58 - scFv16 MK 6892
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Yadav MK, Sarma P, Maharana J, Ganguly M, Mishra S, Zaidi N, Dalal A, Singh V, Saha S, Mahajan G, Sharma S, Chami M, Banerjee R, Shukla AK 10.1038/S41467-024-46239-2 2024-03-06 Yes"
+P25021,histamine,1,HRH2,8POK,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IY9 8IY9_refined 3.4 R Active 100 82 Gi/o αo - 59 - scFv16 nicotinic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Yadav MK, Sarma P, Maharana J, Ganguly M, Mishra S, Zaidi N, Dalal A, Singh V, Saha S, Mahajan G, Sharma S, Chami M, Banerjee R, Shukla AK 10.1038/S41467-024-46239-2 2024-03-06 Yes"
+P43119,treprostinil,1,PI2R,8X7A,"HRH2 H2 Histamine A Human Cryo-EM 8POK 8POK_refined 3.4 A Active 100 77 Gs αs - 56 - Nanobody-35 histamine
+small-molecule Agonist histamine small-molecule No No Kock Z, Schnelle K, Persechino M, Umbach S, Schihada H, Januliene D, Parey K, Pockes S, Kolb P, Dotsch V, Moller A, Hilger D, Bernhard F 10.1038/S41467-024-46096-Z 2024-03-06 Yes"
+P43119,MRE-269,1,PI2R,8X79,"PI2R IP Prostanoid A Human Cryo-EM 8X7A 8X7A_refined 2.6 R Active 100 74 Gs αs - 60 - Nanobody-35 treprostinil
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Wang JJ, Jin S, Zhang H, Xu Y, Hu W, Jiang Y, Chen C, Wang DW, Xu HE, Wu C 10.1126/SCIADV.ADK5184 2024-03-06 Yes"
+P08908,"1-(4-fluorophenyl)-4-[(7R)-2,5,11-triazatetracyclo[7.6.1.0^2,7.0^12,16]hexadeca-1(15),9,12(16),13-tetraen-5-yl]butan-1-one",1,5HT1A,8JT6,"PI2R IP Prostanoid A Human Cryo-EM 8X79 8X79_refined 2.4 R Active 100 78 Gs αs - 59 - Nanobody-35 MRE-269
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Wang JJ, Jin S, Zhang H, Xu Y, Hu W, Jiang Y, Chen C, Wang DW, Xu HE, Wu C 10.1126/SCIADV.ADK5184 2024-03-06 Yes"
+P28223,"1-(4-fluorophenyl)-4-[(7R)-2,5,11-triazatetracyclo[7.6.1.0^2,7.0^12,16]hexadeca-1(15),9,12(16),13-tetraen-5-yl]butan-1-one",1,5HT2A,8JT8,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8JT6 - 3.0 R Active 100 66 Gi/o αi1 - 62 BRIL scFv16 1-(4-fluorophenyl)-4-[(7R)-2,5,11-triazatetracyclo[7.6.1.0^2,7.0^12,16]hexadeca-1(15),9,12(16),13-tetraen-5-yl]butan-1-one
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Chen Z, Yu J, Wang H, Xu P, Fan L, Sun F, Huang S, Zhang P, Huang H, Gu S, Zhang B, Zhou Y, Wan X, Pei G, Xu HE, Cheng J, Wang S 10.1016/J.CELL.2024.02.034 2024-02-28 Yes"
+P21554,AM841,1,CNR1,8WRZ,"CNR1 CB1 Cannabinoid A Human Cryo-EM 8GAG 8GAG_refined 3.3 R Active 100 56 Gi/o αi1 - 62 - scFv16 methyl (2R)-2-({(1M)-5-methyl-1-[3-(trifluoromethyl)phenyl]-1H-pyrazole-3-carbonyl}amino)-2-(thiophen-2-yl)propanoate
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No - - 2024-02-28 Yes"
+P43088,latanoprost (free acid form),1,PF2R,8XJM,"NK3R NK3 Tachykinin A Human Cryo-EM 8JBF - 3.0 B Active 100 61 Gq/11 αq - 59 - scFv16 senktide
+peptide Agonist neurokinin A, substance P, neurokinin B peptide No No Sun W, Yang F, Zhang H, Yuan Q, Ling S, Wang Y, Lv P, Li Z, Luo Y, Liu D, Yin W, Shi P, Xu HE, Tian C 10.1038/S41421-023-00564-W 2024-02-28 Yes"
+P43088,PGF2α,1,PF2R,8XJL,"PF2R FP Prostanoid A Human Cryo-EM 8XJM 8XJM_refined 2.9 R Active 100 80 Gq/11 αq - 58 - scFv16 latanoprost (free acid form)
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No Li X, Zhang X, Wen X, Zhang D, Qu C, Miao X, Zhang W, Zhang R, Liu G, Xiao P, Sun JP, Gong W 10.1016/J.CELREP.2024.113893 2024-02-28 Yes"
+P21731,U46619,1,TA2R,8XJO,"PF2R FP Prostanoid A Human Cryo-EM 8XJK 8XJK_refined 2.6 R Active 100 80 Gq/11 αq - 58 - scFv16 cloprostenol
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No - - 2024-02-28 Yes"
+P21554,FENOFIBRATE,1,CNR1,8K8J,"AGRE5 ADGRE5 ADGRE B2 Human Cryo-EM 8IKJ - 3.2 R Inactive 0 64 - - - - BRIL - Apo (no ligand)
+none Apo (no ligand) - - No No Mao C, Zhao RJ, Dong YJ, Gao M, Chen LN, Zhang C, Xiao P, Guo J, Qin J, Shen DD, Ji SY, Zang SK, Zhang H, Wang WW, Shen Q, Sun JP, Zhang Y 10.1016/J.MOLCEL.2023.12.020 2024-02-14 Yes"
+P46089,oleic acid,1,GPR3,8WW2,"GP156 GPR156 C Orphans C Human Cryo-EM 8IEI - 2.6 A Inactive - 34 - - - - - - [(2R)-3-[(E)-hexadec-9-enoyl]oxy-2-octadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate
+lipid Agonist - - No No - - 2024-02-14 Yes"
+P41180,"L-tryptophan
+cinacalcet",1,CASR,8SZG,"GPR3 GPR3 A orphans A Human Cryo-EM 8WW2 - 2.8 R Active 100 81 Gs αs - 58 - Nanobody-35 oleic acid
+small-molecule Agonist sphingosine 1-phosphate small-molecule No No Xiong Y, Xu Z, Li X, Wang Y, Zhao J, Wang N, Duan Y, Xia R, Han Z, Qian Y, Liang J, Zhang A, Guo C, Inoue A, Xia Y, Chen Z, He Y 10.1038/S41422-024-00932-5 2024-02-14 Yes"
+P41180,"L-tryptophan
+cinacalcet",1,CASR,8SZF,"CASR CaS Calcium-sensing C Human Cryo-EM 8SZG - 3.6 A Active - 48 Gq/11 αq - 61 - - L-tryptophan
+cinacalcet
+small-molecule
+small-molecule Agonist
+PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No He F, Wu CG, Gao Y, Rahman SN, Zaoralova M, Papasergi-Scott MM, Gu TJ, Robertson MJ, Seven AB, Li L, Mathiesen JM, Skiniotis G 10.1038/S41586-024-07055-2 2024-02-07 Yes"
+P41180,"L-tryptophan
+cinacalcet",1,CASR,8SZH,"CASR CaS Calcium-sensing C Human Cryo-EM 8SZF - 2.8 A Active - 74 - - - - - - L-tryptophan
+cinacalcet
+small-molecule
+small-molecule Agonist
+PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No He F, Wu CG, Gao Y, Rahman SN, Zaoralova M, Papasergi-Scott MM, Gu TJ, Robertson MJ, Seven AB, Li L, Mathiesen JM, Skiniotis G 10.1038/S41586-024-07055-2 2024-02-07 Yes"
+P41180,"L-tryptophan
+L-tryptophan",1,CASR,8SZI,"CASR CaS Calcium-sensing C Human Cryo-EM 8SZH - 3.1 A Active - 77 Gi/o αi3 - 63 - - L-tryptophan
+cinacalcet
+small-molecule
+small-molecule Agonist
+PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No He F, Wu CG, Gao Y, Rahman SN, Zaoralova M, Papasergi-Scott MM, Gu TJ, Robertson MJ, Seven AB, Li L, Mathiesen JM, Skiniotis G 10.1038/S41586-024-07055-2 2024-02-07 Yes"
+P51685,CHEMBL5268017,1,CCR8,8KFX,"CASR CaS Calcium-sensing C Human Cryo-EM 8SZI - 3.5 A Active - 57 Gi/o αi3 - 63 - - L-tryptophan
+L-tryptophan
+small-molecule
+small-molecule Agonist
+PAM Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No He F, Wu CG, Gao Y, Rahman SN, Zaoralova M, Papasergi-Scott MM, Gu TJ, Robertson MJ, Seven AB, Li L, Mathiesen JM, Skiniotis G 10.1038/S41586-024-07055-2 2024-02-07 Yes"
+P51685,ZK 756326,1,CCR8,8KFY,"CCR8 CCR8 Chemokine A Human Cryo-EM 8KFX 8KFX_refined 3.0 R Active 100 81 Gi/o αi1 - 64 - scFv16 CHEMBL5268017
+small-molecule Agonist CCL8, CCL1 peptide No No Jiang S, Lin X, Wu L, Wang L, Wu Y, Xu Z, Xu F 10.1126/SCIADV.ADJ7500 2024-02-07 Yes"
+Q8TDS4,GSK256073,1,HCAR2,8I7W,"CCR8 CCR8 Chemokine A Human Cryo-EM 8KFZ 8KFZ_refined 3.3 R Active 100 81 Gi/o αi1 - 64 - scFv16 Apo (no ligand)
+none Apo (no ligand) CCL8, CCL1 peptide No No Jiang S, Lin X, Wu L, Wang L, Wu Y, Xu Z, Xu F 10.1126/SCIADV.ADJ7500 2024-02-07 Yes"
+Q8TDS4,5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid,1,HCAR2,8I7V,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8I7W 8I7W_refined 3.4 A Active 100 80 Gi/o αi1 - 45 - scFv16 GSK256073
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Park JH, Kawakami K, Ishimoto N, Ikuta T, Ohki M, Ekimoto T, Ikeguchi M, Lee DS, Lee YH, Tame JRH, Inoue A, Park SY 10.1038/S41467-023-42764-8 2024-02-07 Yes"
+P43088,latanoprost (free acid form),1,PF2R,8IQ6,"NK3R NK3 Tachykinin A Human Cryo-EM 8JBG 8JBG_refined 2.8 B Active 100 60 Gq/11 αq - 59 - scFv16 neurokinin B
+peptide Agonist neurokinin A, substance P, neurokinin B peptide No No - - 2024-02-07 Yes"
+P43088,Carboprost,1,PF2R,8IQ4,"PF2R FP Prostanoid A Human Cryo-EM 8IQ6 8IQ6_refined 3.4 R Active 100 76 Gs αs - 51 - Nanobody-35 latanoprost (free acid form)
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No Lv X, Gao K, Nie J, Zhang X, Zhang S, Ren Y, Sun X, Li Q, Huang J, Liu L, Zhang X, Zhang W, Liu X 10.1038/S41467-023-43922-8 2024-01-31 Yes"
+O14842,docosahexaenoic acid,1,FFAR1,8T3V,"AGRE5 ADGRE5 ADGRE B2 Human Cryo-EM 8IKL - 2.3 R Active 100 32 G12/13 α13 - 56 - - Apo (no ligand)
+none Apo (no ligand) - - No No Mao C, Zhao RJ, Dong YJ, Gao M, Chen LN, Zhang C, Xiao P, Guo J, Qin J, Shen DD, Ji SY, Zang SK, Zhang H, Wang WW, Shen Q, Sun JP, Zhang Y 10.1016/J.MOLCEL.2023.12.020 2024-01-24 Yes"
+O15552,Acetic acid,1,FFAR2,8J24,"FFAR1 FFA1 Free fatty acid A Human Cryo-EM 8T3V - 3.4 R Active 100 92 Gq/11 αq - 59 - scFv16 docosahexaenoic acid
+small-molecule Agonist oleic acid, α-linolenic acid, myristic acid, docosahexaenoic acid small-molecule No No Zhang X, Guseinov AA, Jenkins L, Li K, Tikhonova IG, Milligan G, Zhang C 10.1126/SCIADV.ADJ2384 2024-01-24 Yes"
+O15552,CHEMBL4176503,1,FFAR2,8J22,"FFAR2 FFA2 Free fatty acid A Human Cryo-EM 8J24 8J24_refined 2.6 D Active 100 78 Gi/o αi1 - 61 - scFv16 Acetic acid
+small-molecule Agonist propanoic acid, acetic acid, -2-methylcrotonic acid, butyric acid small-molecule No No Li F, Tai L, Sun X, Lv Z, Tang W, Wang T, Zhao Z, Gong D, Ma S, Tang S, Gu Q, Zhu X, Yu M, Liu X, Wang J 10.1038/S41422-023-00914-Z 2024-01-24 Yes"
+O15552,butyric acid,1,FFAR2,8T3S,"FFAR2 FFA2 Free fatty acid A Human Cryo-EM 8J22 8J22_refined 3.2 C Active 100 86 Gi/o αi1 - 61 - scFv16 CHEMBL4176503
+small-molecule Agonist propanoic acid, acetic acid, -2-methylcrotonic acid, butyric acid small-molecule No No Li F, Tai L, Sun X, Lv Z, Tang W, Wang T, Zhao Z, Gong D, Ma S, Tang S, Gu Q, Zhu X, Yu M, Liu X, Wang J 10.1038/S41422-023-00914-Z 2024-01-24 Yes"
+O14843,"pentanoic acid
+(4R)-N-[2,5-bis(chloranyl)phenyl]-4-(furan-2-yl)-2-methyl-5-oxidanylidene-4,6,7,8-tetrahydro-1H-quinoline-3-carboxamide",1,FFAR3,8J20,"FFAR2 FFA2 Free fatty acid A Human Cryo-EM 8T3S - 3.1 R Active 100 78 Gq/11 αq - 59 - scFv16 butyric acid
+small-molecule Agonist propanoic acid, acetic acid, -2-methylcrotonic acid, butyric acid small-molecule No No Zhang X, Guseinov AA, Jenkins L, Li K, Tikhonova IG, Milligan G, Zhang C 10.1126/SCIADV.ADJ2384 2024-01-24 Yes"
+O14843,butyric acid,1,FFAR3,8J21,"FFAR3 FFA3 Free fatty acid A Human Cryo-EM 8J20 - 3.2 D Active 100 79 Gi/o αi1 - 63 - scFv16 pentanoic acid
+(4R)-N-[2,5-bis(chloranyl)phenyl]-4-(furan-2-yl)-2-methyl-5-oxidanylidene-4,6,7,8-tetrahydro-1H-quinoline-3-carboxamide
+small-molecule
+small-molecule Agonist
+PAM propanoic acid, butyric acid small-molecule No No Li F, Tai L, Sun X, Lv Z, Tang W, Wang T, Zhao Z, Gong D, Ma S, Tang S, Gu Q, Zhu X, Yu M, Liu X, Wang J 10.1038/S41422-023-00914-Z 2024-01-24 Yes"
+Q5NUL3,docosahexaenoic acid,1,FFAR4,8T3Q,"FFAR3 FFA3 Free fatty acid A Human Cryo-EM 8J21 8J21_refined 3.3 D Active 100 79 Gi/o αi1 - 63 - scFv16 butyric acid
+small-molecule Agonist propanoic acid, butyric acid small-molecule No No Li F, Tai L, Sun X, Lv Z, Tang W, Wang T, Zhao Z, Gong D, Ma S, Tang S, Gu Q, Zhu X, Yu M, Liu X, Wang J 10.1038/S41422-023-00914-Z 2024-01-24 Yes"
+P29274,"(2S,3S,4R,5R)-5-(6-amino-2-((E)-phenyldiazenyl)-9H-purin-9-yl)-N-ethyl-3,4-dihydroxytetrahydrofuran-2-carboxamide",1,AA2AR,8WDT,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8T3Q 8T3Q_refined 3.1 R Active 100 83 Gq/11 αq - 59 - scFv16 docosahexaenoic acid
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Zhang X, Guseinov AA, Jenkins L, Li K, Tikhonova IG, Milligan G, Zhang C 10.1126/SCIADV.ADJ2384 2024-01-24 Yes"
+Q5NUL3,TUG-891,1,FFAR4,8T3O,"AA2AR A2A Adenosine A Human X-ray 8WDT - 3.3 A Active 69 72 - - - - - Fab heavy chain
+Fab light chain (2S,3S,4R,5R)-5-(6-amino-2-((E)-phenyldiazenyl)-9H-purin-9-yl)-N-ethyl-3,4-dihydroxytetrahydrofuran-2-carboxamide
+small-molecule Agonist adenosine small-molecule No No Araya T, Matsuba Y, Suzuki H, Doura T, Nuemket N, Nango E, Yamamoto M, Im D, Asada H, Kiyonaka S, Iwata S 10.1016/J.BBRC.2023.149393 2024-01-17 Yes"
+P35367,desloratadine,1,HRH1,8X64,"FZD6 FZD6 Frizzled F Human Cryo-EM 8JHB - 3.3 R Active 100 47 Gs αs - 61 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) Wnt-5a, Wnt-4, Wnt-3a peptide No No Zhang Z, Lin X, Wei L, Wu Y, Xu L, Wu L, Wei X, Zhao S, Zhu X, Xu F 10.1038/S41421-023-00627-Y 2024-01-17 Yes"
+P35367,mepyramine,1,HRH1,8X63,"HRH1 H1 Histamine A Human Cryo-EM 8X64 - 3.4 B Inactive 3 53 - - - - BRIL - desloratadine
+small-molecule Antagonist histamine small-molecule No No Wang D, Guo Q, Wu Z, Li M, He B, Du Y, Zhang K, Tao Y 10.1038/S41467-023-44477-4 2024-01-17 Yes"
+P35367,astemizole,1,HRH1,8X5Y,"HRH1 H1 Histamine A Human Cryo-EM 8X5X - 3.5 B Inactive 3 52 - - - - BRIL - Apo (no ligand)
+none Apo (no ligand) histamine small-molecule No No Wang D, Guo Q, Wu Z, Li M, He B, Du Y, Zhang K, Tao Y 10.1038/S41467-023-44477-4 2024-01-17 Yes"
+Q8TDS4,GSK256073,1,HCAR2,8J6J,"HRH1 H1 Histamine A Human Cryo-EM 8X5Y - 3.0 B Inactive 3 55 - - - - BRIL - astemizole
+small-molecule Antagonist histamine small-molecule No No Wang D, Guo Q, Wu Z, Li M, He B, Du Y, Zhang K, Tao Y 10.1038/S41467-023-44477-4 2024-01-17 Yes"
+P43115,PGE2,1,PE2R3,8GDC,"MRGX1 MRGPRX1 A orphans A Human Cryo-EM 8JGB 8JGB_refined 2.8 R Active 100 67 Gi/o αi1 - 61 - scFv16 Conorfamide-Tx2
+protein Agonist bovine adrenal medulla peptide 8-22 peptide No No Guo L, Zhang Y, Fang G, Tie L, Zhuang Y, Xue C, Liu Q, Zhang M, Zhu K, You C, Xu P, Yuan Q, Zhang C, Liu L, Rong N, Peng S, Liu Y, Wang C, Luo X, Lv Z, Kang D, Yu X, Zhang C, Jiang Y, Dong X, Zhou J, Liu Z, Yang F, Eric Xu H, Sun JP 10.1038/S41467-023-40705-Z 2024-01-10 Yes"
+P35408,"(2S,5R)-5-[(1E,3S)-4,4-difluoro-3-hydroxy-4-phenylbut-1-en-1-yl]-1-[6-(1H-tetrazol-5-yl)hexyl]pyrrolidin-2-ol",1,PE2R4,8GDA,"PE2R3 EP3 Prostanoid A Human Cryo-EM 8GDC 8GDC_refined 3.5 R Active 100 66 Gi/o αi1 - 58 - - PGE2
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Huang SM, Xiong MY, Liu L, Mu J, Wang MW, Jia YL, Cai K, Tie L, Zhang C, Cao S, Wen X, Wang JL, Guo SC, Li Y, Qu CX, He QT, Cai BY, Xue C, Gan S, Xie Y, Cong X, Yang Z, Kong W, Li S, Li Z, Xiao P, Yang F, Yu X, Guan YF, Zhang X, Liu Z, Yang BX, Du Y, Sun JP 10.1073/PNAS.2216329120 2024-01-10 Yes"
+P35408,"4-({2-[(1R,2R,3R,5S)-3,5-dihydroxy-2-{(3S)-3-hydroxy-4-[3-(methoxymethyl)phenyl]butyl}cyclopentyl]ethyl}sulfanyl)butanoic acid",1,PE2R4,8GD9,"PE2R4 EP4 Prostanoid A Human Cryo-EM 8GDA 8GDA_refined 3.3 R Active 100 58 Gs αs - 58 - - (2S,5R)-5-[(1E,3S)-4,4-difluoro-3-hydroxy-4-phenylbut-1-en-1-yl]-1-[6-(1H-tetrazol-5-yl)hexyl]pyrrolidin-2-ol
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Huang SM, Xiong MY, Liu L, Mu J, Wang MW, Jia YL, Cai K, Tie L, Zhang C, Cao S, Wen X, Wang JL, Guo SC, Li Y, Qu CX, He QT, Cai BY, Xue C, Gan S, Xie Y, Cong X, Yang Z, Kong W, Li S, Li Z, Xiao P, Yang F, Yu X, Guan YF, Zhang X, Liu Z, Yang BX, Du Y, Sun JP 10.1073/PNAS.2216329120 2024-01-10 Yes"
+P35408,PGE2,1,PE2R4,8GDB,"PE2R4 EP4 Prostanoid A Human Cryo-EM 8GD9 - 3.2 R Active 100 57 Gs αs - 54 - - 4-({2-[(1R,2R,3R,5S)-3,5-dihydroxy-2-{(3S)-3-hydroxy-4-[3-(methoxymethyl)phenyl]butyl}cyclopentyl]ethyl}sulfanyl)butanoic acid
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Huang SM, Xiong MY, Liu L, Mu J, Wang MW, Jia YL, Cai K, Tie L, Zhang C, Cao S, Wen X, Wang JL, Guo SC, Li Y, Qu CX, He QT, Cai BY, Xue C, Gan S, Xie Y, Cong X, Yang Z, Kong W, Li S, Li Z, Xiao P, Yang F, Yu X, Guan YF, Zhang X, Liu Z, Yang BX, Du Y, Sun JP 10.1073/PNAS.2216329120 2024-01-10 Yes"
+Q96RJ0,CHEMBL3684869,1,TAAR1,8UHB,"PE2R4 EP4 Prostanoid A Human Cryo-EM 8GDB 8GDB_refined 3.1 R Active 100 58 Gs αs - 59 - - PGE2
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Huang SM, Xiong MY, Liu L, Mu J, Wang MW, Jia YL, Cai K, Tie L, Zhang C, Cao S, Wen X, Wang JL, Guo SC, Li Y, Qu CX, He QT, Cai BY, Xue C, Gan S, Xie Y, Cong X, Yang Z, Kong W, Li S, Li Z, Xiao P, Yang F, Yu X, Guan YF, Zhang X, Liu Z, Yang BX, Du Y, Sun JP 10.1073/PNAS.2216329120 2024-01-10 Yes"
+Q8TDS4,MK 6892,1,HCAR2,8IJD,"GP101 GPR101 A orphans A Human Cryo-EM 8W8R - 3.3 R Active 100 55 Gs αs - 60 - scFv16 1-(4-Methylpyridin-2-yl)-3-[3-(trifluoromethyl)phenyl]thiourea
+small-molecule Agonist - - No No Yang Z, Wang JY, Yang F, Zhu KK, Wang GP, Guan Y, Ning SL, Lu Y, Li Y, Zhang C, Zheng Y, Zhou SH, Wang XW, Wang MW, Xiao P, Yi F, Zhang C, Zhang PJ, Xu F, Liu BH, Zhang H, Yu X, Gao N, Sun JP 10.1038/S41589-023-01456-6 2024-01-03 Yes"
+Q8TDS4,5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid,1,HCAR2,8IJB,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IJD - 3.3 A Active 100 81 Gi/o αi1 - 61 - scFv16 MK 6892
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Pan X, Ye F, Ning P, Zhang Z, Li X, Zhang B, Wang Q, Chen G, Gao W, Qiu C, Wu Z, Li J, Zhu L, Xia J, Gong K, Du Y 10.1038/S41421-023-00610-7 2024-01-03 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8IJA,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IJB 8IJB_refined 3.2 A Active 100 81 Gi/o αi1 - 61 - scFv16 5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Pan X, Ye F, Ning P, Zhang Z, Li X, Zhang B, Wang Q, Chen G, Gao W, Qiu C, Wu Z, Li J, Zhu L, Xia J, Gong K, Du Y 10.1038/S41421-023-00610-7 2024-01-03 Yes"
+P35408,"(5S)-5-[(3R)-4,4-difluoro-3-hydroxy-4-phenylbutyl]-1-[6-(1H-tetrazol-5-yl)hexyl]pyrrolidin-2-one",1,PE2R4,8GCM,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IJ3 8IJ3_refined 3.3 A Active 100 80 Gi/o αi1 - 61 - scFv16 Apo (no ligand)
+none Apo (no ligand) β-D-hydroxybutyric acid, butyric acid small-molecule No No Pan X, Ye F, Ning P, Zhang Z, Li X, Zhang B, Wang Q, Chen G, Gao W, Qiu C, Wu Z, Li J, Zhu L, Xia J, Gong K, Du Y 10.1038/S41421-023-00610-7 2024-01-03 Yes"
+P35408,PGE2,1,PE2R4,8GCP,"PE2R4 EP4 Prostanoid A Human Cryo-EM 8GCM - 3.5 R Active 100 52 Gi/o αi1 - 56 - scFv16 (5S)-5-[(3R)-4,4-difluoro-3-hydroxy-4-phenylbutyl]-1-[6-(1H-tetrazol-5-yl)hexyl]pyrrolidin-2-one
+lipid Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE, PGE small-molecule No No Huang SM, Xiong MY, Liu L, Mu J, Wang MW, Jia YL, Cai K, Tie L, Zhang C, Cao S, Wen X, Wang JL, Guo SC, Li Y, Qu CX, He QT, Cai BY, Xue C, Gan S, Xie Y, Cong X, Yang Z, Kong W, Li S, Li Z, Xiao P, Yang F, Yu X, Guan YF, Zhang X, Liu Z, Yang BX, Du Y, Sun JP 10.1073/PNAS.2216329120 2024-01-03 Yes"
+Q96RJ0,2-Phenylethanaminium,1,TAAR1,8WCA,"GPR34 GPR34 A orphans A Human Cryo-EM 8XBI - 3.1 R Active 60 78 - - - - - - CHEMBL4758243
+small-molecule Agonist lysophosphatidylserine small-molecule No No - - 2023-12-27 Yes"
+Q96RJ0,CHEMBL476516,1,TAAR1,8WC8,"TAAR1 TA1 Trace amine A Human Cryo-EM 8WCA - 3.5 R Active 100 81 Gs αs - 59 - scFv16 2-Phenylethanaminium
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Shang P, Rong N, Jiang JJ, Cheng J, Zhang MH, Kang D, Qi L, Guo L, Yang GM, Liu Q, Zhou Z, Li XB, Zhu KK, Meng QB, Han X, Yan W, Kong Y, Yang L, Wang X, Lei D, Feng X, Liu X, Yu X, Wang Y, Li Q, Shao ZH, Yang F, Sun JP 10.1016/J.CELL.2023.10.014 2023-12-27 Yes"
+P32239,CHEMBL216166,1,GASR,8IA7,"O52E4 OR52E4 Odorant family 52 O1 Human Cryo-EM 8J46 - 3.7 A Active - 83 - - - - BRIL - Apo (no ligand)
+none Apo (no ligand) - - No No Choi C, Bae J, Kim S, Lee S, Kang H, Kim J, Bang I, Kim K, Huh WK, Seok C, Park H, Im W, Choi HJ 10.1038/S41467-023-43983-9 2023-12-20 Yes"
+Q8TDS4,MK 6892,1,HCAR2,8J6R,"GASR CCK2 Cholecystokinin A Human Cryo-EM 8IA7 8IA7_refined 3.1 R Active 100 62 Gq/11 αq - 61 - - CHEMBL216166
+protein Agonist CCK-8, desulfated cholecystokinin-8, gastrin-14, CCK-58, desulfated gastrin-17, CCK-39, CCK-33, desulfated gastrin-34, gastrin-34, gastrin-71, desulfated gastrin-71, CCK-4, desulfated gastrin-14, gastrin-17 peptide No No Ding Y, Zhang H, Liao YY, Chen LN, Ji SY, Qin J, Mao C, Shen DD, Lin L, Wang H, Zhang Y, Li XM 10.1038/S41421-022-00420-3 2023-12-06 Yes"
+Q8TDS4,β-D-hydroxybutyric acid,1,HCAR2,8J6Q,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8J6R - 2.8 R Active 100 81 Gi/o αi1 - 64 - scFv16 MK 6892
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Mao C, Gao M, Zang SK, Zhu Y, Shen DD, Chen LN, Yang L, Wang Z, Zhang H, Wang WW, Shen Q, Lu Y, Ma X, Zhang Y 10.1038/S41467-023-43537-Z 2023-12-06 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8J6P,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8J6Q - 2.6 R Active 100 81 Gi/o αi1 - 64 - scFv16 β-D-hydroxybutyric acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Mao C, Gao M, Zang SK, Zhu Y, Shen DD, Chen LN, Yang L, Wang Z, Zhang H, Wang WW, Shen Q, Lu Y, Ma X, Zhang Y 10.1038/S41467-023-43537-Z 2023-12-06 Yes"
+P49682,CHEMBL1921858,1,CXCR3,8HNN,"OPRK κ Opioid A Human Cryo-EM 8FEG - 2.5 B Active 100 73 Gi/o αi1 - 55 - scFv16 ACE-TYR-ALA-DTY-THR-THR-CYS-THR-DPN-XT9
+peptide Agonist α-neoendorphin, big dynorphin, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), β-neoendorphin, dynorphin B, [Met]enkephalin peptide No No Muratspahic E, Deibler K, Han J, Tomasevic N, Jadhav KB, Olive-Marti AL, Hochrainer N, Hellinger R, Koehbach J, Fay JF, Rahman MH, Hegazy L, Craven TW, Varga BR, Bhardwaj G, Appourchaux K, Majumdar S, Muttenthaler M, Hosseinzadeh P, Craik DJ, Spetea M, Che T, Baker D, Gruber CW 10.1038/s41467-023-43718-w 2023-12-06 Yes"
+P49682,CHEMBL397983,1,CXCR3,8K2W,"CXCR3 CXCR3 Chemokine A Human Cryo-EM 8HNN - 3.6 R Inactive 8 70 - - - - - Nanobody-6 CHEMBL1921858
+small-molecule Antagonist CCL11, CXCL10, CXCL12α, CXCL11, CCL5, CCL19, CCL20, CCL13, CXCL9, CCL7 peptide No No Jiao H, Pang B, Liu A, Chen Q, Pan Q, Wang X, Xu Y, Chiang YC, Ren R, Hu H 10.1038/S41594-023-01175-5 2023-11-29 Yes"
+P49682,CHEMBL2220409,1,CXCR3,8HNM,"CXCR3 CXCR3 Chemokine A Human Cryo-EM 8K2W - 3.0 R Inactive 8 71 - - - - BRIL Nanobody-6 CHEMBL397983
+small-molecule Agonist CCL11, CXCL10, CXCL12α, CXCL11, CCL5, CCL19, CCL20, CCL13, CXCL9, CCL7 peptide No No Jiao H, Pang B, Chiang YC, Chen Q, Pan Q, Ren R, Hu H 10.1038/S41421-023-00617-0 2023-11-29 Yes"
+P49682,"(3S)-N-[(2S)-5-carbamimidamido-1-(cyclohexylmethylamino)-1-oxidanylidene-pentan-2-yl]-2-(4-oxidanylidene-4-phenyl-butanoyl)-3,4-dihydro-1H-isoquinoline-3-carboxamide",1,CXCR3,8HNL,"CXCR3 CXCR3 Chemokine A Human Cryo-EM 8HNM - 2.9 R Active 100 75 Gi/o αi1 - 62 - scFv16 CHEMBL2220409
+small-molecule Agonist CCL11, CXCL10, CXCL12α, CXCL11, CCL5, CCL19, CCL20, CCL13, CXCL9, CCL7 peptide No No Jiao H, Pang B, Liu A, Chen Q, Pan Q, Wang X, Xu Y, Chiang YC, Ren R, Hu H 10.1038/S41594-023-01175-5 2023-11-29 Yes"
+P08908,ulotaront,1,5HT1A,8W8B,"CXCR3 CXCR3 Chemokine A Human Cryo-EM 8HNK - 3.0 R Active 100 81 Gi/o αi1 - 62 - scFv16 CXCL11
+peptide Agonist CCL11, CXCL10, CXCL12α, CXCL11, CCL5, CCL19, CCL20, CCL13, CXCL9, CCL7 peptide No No Jiao H, Pang B, Liu A, Chen Q, Pan Q, Wang X, Xu Y, Chiang YC, Ren R, Hu H 10.1038/S41594-023-01175-5 2023-11-29 Yes"
+P41180,"cinacalcet
+Calcium",1,CASR,8WPG,"5HT1A 5-HT1A 5-Hydroxytryptamine A Human Cryo-EM 8W8B - 3.0 R Active 100 66 Gi/o αi1 - 61 BRIL scFv16 ulotaront
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Liu H, Zheng Y, Wang Y, Wang Y, He X, Xu P, Huang S, Yuan Q, Zhang X, Wang L, Jiang K, Chen H, Li Z, Liu W, Wang S, Xu HE, Xu F 10.1038/S41586-023-06775-1 2023-11-22 Yes"
+P41180,"cinacalcet
+Calcium",1,CASR,8WPU,"CASR CaS Calcium-sensing C Human Cryo-EM 8WPG - 2.7 A Inactive - 74 - - - - - - cinacalcet
+Calcium
+small-molecule
+small-molecule Agonist Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No Ling S, Meng X, Zhang Y, Xia Z, Zhou Y, Yang F, Shi P, Shi C, Tian C 10.1038/S41422-023-00892-2 2023-11-22 Yes"
+Q8TDS4,5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid,1,HCAR2,8K5C,"CASR CaS Calcium-sensing C Human Cryo-EM 8WPU - 3.1 A Active - 74 Gq/11 αq Gi2-mini-Gq chimera 58 - scFv16 cinacalcet
+Calcium
+small-molecule
+small-molecule Agonist Ca2+, spermine, Mg2+, L-tryptophan small-molecule No No Ling S, Meng X, Zhang Y, Xia Z, Zhou Y, Yang F, Shi P, Shi C, Tian C 10.1038/S41422-023-00892-2 2023-11-22 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8K5B,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8K5C - 3.1 A Active 99 80 - - - - - - 5-Methyl-4-oxidanyl-pyrazin-4-ium-2-carboxylic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Park JH, Kawakami K, Ishimoto N, Ikuta T, Ohki M, Ekimoto T, Ikeguchi M, Lee DS, Lee YH, Tame JRH, Inoue A, Park SY 10.1038/S41467-023-42764-8 2023-11-22 Yes"
+Q8TDS4,GSK256073,1,HCAR2,8K5D,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8K5B - 3.4 A Active 99 80 - - - - - - nicotinic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Park JH, Kawakami K, Ishimoto N, Ikuta T, Ohki M, Ekimoto T, Ikeguchi M, Lee DS, Lee YH, Tame JRH, Inoue A, Park SY 10.1038/S41467-023-42764-8 2023-11-22 Yes"
+Q96RJ0,METHAMPHETAMINE,1,TAAR1,8W87,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8K5D - 3.7 A Active 99 80 - - - - - - GSK256073
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Park JH, Kawakami K, Ishimoto N, Ikuta T, Ohki M, Ekimoto T, Ikeguchi M, Lee DS, Lee YH, Tame JRH, Inoue A, Park SY 10.1038/S41467-023-42764-8 2023-11-22 Yes"
+Q96RJ0,CHEMBL3684869,1,TAAR1,8W8A,"TAAR1 TA1 Trace amine A Human Cryo-EM 8W87 - 2.8 R Active 100 85 Gs αs - 59 - Nanobody-35 METHAMPHETAMINE
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Liu H, Zheng Y, Wang Y, Wang Y, He X, Xu P, Huang S, Yuan Q, Zhang X, Wang L, Jiang K, Chen H, Li Z, Liu W, Wang S, Xu HE, Xu F 10.1038/S41586-023-06775-1 2023-11-22 Yes"
+Q96RJ0,2-Phenylethanaminium,1,TAAR1,8W89,"TAAR1 TA1 Trace amine A Human Cryo-EM 8W8A - 2.8 R Active 100 85 Gs αs - 60 - Nanobody-35 CHEMBL3684869
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Liu H, Zheng Y, Wang Y, Wang Y, He X, Xu P, Huang S, Yuan Q, Zhang X, Wang L, Jiang K, Chen H, Li Z, Liu W, Wang S, Xu HE, Xu F 10.1038/S41586-023-06775-1 2023-11-22 Yes"
+Q96RJ0,ulotaront,1,TAAR1,8W88,"TAAR1 TA1 Trace amine A Human Cryo-EM 8W89 - 3.0 R Active 100 84 Gs αs - 60 - Nanobody-35 2-Phenylethanaminium
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Liu H, Zheng Y, Wang Y, Wang Y, He X, Xu P, Huang S, Yuan Q, Zhang X, Wang L, Jiang K, Chen H, Li Z, Liu W, Wang S, Xu HE, Xu F 10.1038/S41586-023-06775-1 2023-11-22 Yes"
+P08908,ulotaront,1,5HT1A,8JSP,"TAAR1 TA1 Trace amine A Human Cryo-EM 8W88 - 2.6 R Active 100 83 Gs αs - 60 - Nanobody-35 ulotaront
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Liu H, Zheng Y, Wang Y, Wang Y, He X, Xu P, Huang S, Yuan Q, Zhang X, Wang L, Jiang K, Chen H, Li Z, Liu W, Wang S, Xu HE, Xu F 10.1038/S41586-023-06775-1 2023-11-22 Yes"
+Q96RJ0,fenoldopam,1,TAAR1,8JLQ,"NK1R NK1 Tachykinin A Human Cryo-EM 8U26 8U26_refined 2.5 R Active 100 70 Gs αs - 55 - Nanobody-35 substance P
+peptide Agonist neuropeptide-γ, hemokinin 1, neurokinin A, neuropeptide K, neurokinin B, substance P peptide No No Chen M, Schmid MF, Chiu W 10.1038/S41592-023-02082-9 2023-11-15 Yes"
+Q96RJ0,dexamfetamine,1,TAAR1,8JSO,"TAAR1 TA1 Trace amine A Human Cryo-EM 8JLQ - 2.8 R Active 100 83 Gs αs - 58 BRIL scFv16 fenoldopam
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Xu Z, Guo L, Yu J, Shen S, Wu C, Zhang W, Zhao C, Deng Y, Tian X, Feng Y, Hou H, Su L, Wang H, Guo S, Wang H, Wang K, Chen P, Zhao J, Zhang X, Yong X, Cheng L, Liu L, Yang S, Yang F, Wang X, Yu X, Xu Y, Sun JP, Yan W, Shao Z 10.1038/S41586-023-06804-Z 2023-11-15 Yes"
+Q96RJ0,ralmitaront,1,TAAR1,8JLP,"TAAR1 TA1 Trace amine A Human Cryo-EM 8JSO 8JSO_refined 3.4 R Active 100 83 Gs αs - 59 BRIL scFv16 dexamfetamine
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Xu Z, Guo L, Yu J, Shen S, Wu C, Zhang W, Zhao C, Deng Y, Tian X, Feng Y, Hou H, Su L, Wang H, Guo S, Wang H, Wang K, Chen P, Zhao J, Zhang X, Yong X, Cheng L, Liu L, Yang S, Yang F, Wang X, Yu X, Xu Y, Sun JP, Yan W, Shao Z 10.1038/S41586-023-06804-Z 2023-11-15 Yes"
+Q96RJ0,CHEMBL1182312,1,TAAR1,8JLN,"TAAR1 TA1 Trace amine A Human Cryo-EM 8JLP - 3.2 R Active 100 84 Gs αs - 61 - - ralmitaront
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Xu Z, Guo L, Yu J, Shen S, Wu C, Zhang W, Zhao C, Deng Y, Tian X, Feng Y, Hou H, Su L, Wang H, Guo S, Wang H, Wang K, Chen P, Zhao J, Zhang X, Yong X, Cheng L, Liu L, Yang S, Yang F, Wang X, Yu X, Xu Y, Sun JP, Yan W, Shao Z 10.1038/S41586-023-06804-Z 2023-11-15 Yes"
+Q96RJ0,ulotaront,1,TAAR1,8JLO,"TAAR1 TA1 Trace amine A Human Cryo-EM 8JLN - 3.2 R Active 100 84 Gs αs - 61 BRIL scFv16 CHEMBL1182312
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Xu Z, Guo L, Yu J, Shen S, Wu C, Zhang W, Zhao C, Deng Y, Tian X, Feng Y, Hou H, Su L, Wang H, Guo S, Wang H, Wang K, Chen P, Zhao J, Zhang X, Yong X, Cheng L, Liu L, Yang S, Yang F, Wang X, Yu X, Xu Y, Sun JP, Yan W, Shao Z 10.1038/S41586-023-06804-Z 2023-11-15 Yes"
+Q96RJ0,"(1~{S},3~{R})-3-(1-adamantyl)-1-(aminomethyl)-3,4-dihydro-1~{H}-isochromene-5,6-diol",1,TAAR1,8JLR,"TAAR1 TA1 Trace amine A Human Cryo-EM 8JLO - 3.5 R Active 100 84 Gs αs - 61 - - ulotaront
+small-molecule Agonist octopamine, β-phenylethylamine, CHEMBL1160703, tyramine, (+)-Octopamine, 3-iodothyronamine, dopamine small-molecule No No Xu Z, Guo L, Yu J, Shen S, Wu C, Zhang W, Zhao C, Deng Y, Tian X, Feng Y, Hou H, Su L, Wang H, Guo S, Wang H, Wang K, Chen P, Zhao J, Zhang X, Yong X, Cheng L, Liu L, Yang S, Yang F, Wang X, Yu X, Xu Y, Sun JP, Yan W, Shao Z 10.1038/S41586-023-06804-Z 2023-11-15 Yes"
+Q9UPC5,LYSOPHOSPHATIDIC ACID,1,GPR34,8WRB,"GLP1R GLP-1 Glucagon B1 Human Cryo-EM 8JIS 8JIS_refined 2.5 R Active 100 83 Gs αs - 60 - Nanobody-35 Dual-agonist peptide P15
+peptide Agonist glucagon-like peptide 1-(7-37), glucagon, glucagon-like peptide 1-(7-36) amide peptide No No Li Y, Zhou Q, Dai A, Zhao F, Chang R, Ying T, Wu B, Yang D, Wang MW, Cong Z 10.1073/PNAS.2303696120 2023-11-08 Yes"
+Q9BXC1,"LYSOPHOSPHATIDIC ACID
+L-serine",1,GP174,8IZB,"CML1 chemerin Chemerin receptor A Human Cryo-EM 8SG1 - 2.9 R Active 100 75 Gi/o αi1 - 61 - scFv16 chemerin C-terminal peptide
+peptide Agonist EPA, resolvin E1, chemerin, chemerin C-terminal peptide, 18R-HEPE peptide No No Zhang X, Weiss T, Cheng MH, Chen S, Ambrosius CK, Czerniak AS, Li K, Feng M, Bahar I, Beck-Sickinger AG, Zhang C 10.1371/JOURNAL.PBIO.3002188 2023-11-01 Yes"
+Q9NQS5,"6-Octylimino-1,3-diazinane-2,4-dione",1,GPR84,8G05,"GP174 GPR174 A orphans A Human Cryo-EM 8IZB - 3.1 R Active 100 85 Gs αs - 60 - Nanobody-35 LYSOPHOSPHATIDIC ACID
+L-serine
+small-molecule
+small-molecule Agonist lysophosphatidylserine small-molecule No No Liu G, Li X, Wang Y, Zhang X, Gong W 10.1371/JOURNAL.PBIO.3002387 2023-11-01 Yes"
+P29274,theophylline,1,AA2AR,8PWN,"GPR84 GPR84 A orphans A Human Cryo-EM 8G05 - 3.0 R Active 100 72 Gi/o αi1 - 63 - scFv16 6-Octylimino-1,3-diazinane-2,4-dione
+lipid Agonist - - No No Zhang X, Wang Y, Supekar S, Cao X, Zhou J, Dang J, Chen S, Jenkins L, Marsango S, Li X, Liu G, Milligan G, Feng M, Fan H, Gong W, Zhang C 10.1038/S41467-023-41201-0 2023-11-01 Yes"
+Q9H3N8,histamine,1,HRH4,7YFC,"GPR34 GPR34 A orphans A Human Cryo-EM 8K4N 8K4N_refined 2.8 D Active 100 73 Gi/o αi1 - 61 - scFv16 (2R)-2-azanyl-3-[oxidanyl-[(2R)-2-oxidanyl-3-tetradec-9-enoyloxy-propoxy]phosphoryl]oxy-propanoic acid
+small-molecule Agonist lysophosphatidylserine small-molecule No No - - 2023-10-25 Yes"
+Q9H3N8,imetit,1,HRH4,7YFD,"HRH4 H4 Histamine A Human Cryo-EM 7YFC - 3.0 R Active 100 67 Gq/11 αq - 62 - scFv16
+Nanobody-35 histamine
+small-molecule Agonist CCL16, histamine small-molecule No No Im D, Kishikawa JI, Shiimura Y, Hisano H, Ito A, Fujita-Fujiharu Y, Sugita Y, Noda T, Kato T, Asada H, Iwata S 10.1038/S41467-023-42260-Z 2023-10-25 Yes"
+Q9BXC1,Lysophosphotidylserine,1,GP174,8KH5,"GIPR GIP Glucagon B1 Human Cryo-EM 8ITM - 3.1 R Active 100 60 Gs αs - 59 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) gastric inhibitory polypeptide peptide No No Zhao F, Hang K, Zhou Q, Shao L, Li H, Li W, Lin S, Dai A, Cai X, Liu Y, Xu Y, Feng W, Yang D, Wang MW 10.1073/PNAS.2306145120 2023-10-18 Yes"
+Q9UNW8,9-hydroxyoctadecadienoic acid,1,GP132,8HQN,"GP174 GPR174 A orphans A Human Cryo-EM 8KH5 - 2.8 A Active 100 84 Gs αs - 58 - Nanobody-35 Lysophosphotidylserine
+small-molecule Agonist lysophosphatidylserine small-molecule No No Nie Y, Qiu Z, Chen S, Chen Z, Song X, Ma Y, Huang N, Cyster JG, Zheng S 10.1038/S41467-023-41654-3 2023-10-18 Yes"
+Q9UNW8,CHEMBL3354065,1,GP132,8HQM,"GP132 GPR132 A orphans A Human Cryo-EM 8HQE 8HQE_refined 3.0 R Active 100 81 Gi/o αi1 - 60 BRIL scFv16 Apo (no ligand)
+none Apo (no ligand) 9-hydroxyoctadecadienoic acid small-molecule No No Wang JL, Dou XD, Cheng J, Gao MX, Xu GF, Ding W, Ding JH, Li Y, Wang SH, Ji ZW, Zhao XY, Huo TY, Zhang CF, Liu YM, Sha XY, Gao JR, Zhang WH, Hao Y, Zhang C, Sun JP, Jiao N, Yu X 10.1038/S42255-023-00899-4 2023-10-11 Yes"
+Q9UNW8,NOX-6-7,1,GP132,8HVI,"GP132 GPR132 A orphans A Human Cryo-EM 8HQM 8HQM_refined 3.0 R Active 100 81 Gi/o αi1 - 60 BRIL scFv16 CHEMBL3354065
+small-molecule Agonist 9-hydroxyoctadecadienoic acid small-molecule No No Wang JL, Dou XD, Cheng J, Gao MX, Xu GF, Ding W, Ding JH, Li Y, Wang SH, Ji ZW, Zhao XY, Huo TY, Zhang CF, Liu YM, Sha XY, Gao JR, Zhang WH, Hao Y, Zhang C, Sun JP, Jiao N, Yu X 10.1038/S42255-023-00899-4 2023-10-11 Yes"
+P41594,quisqualate,1,GRM5,8T8M,"GPR61 GPR61 A orphans A Human Cryo-EM 8KGK 8KGK_refined 3.2 A Active 100 57 Gs αs - 58 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Nie Y, Qiu Z, Chen S, Chen Z, Song X, Ma Y, Huang N, Cyster JG, Zheng S 10.1038/S41467-023-41654-3 2023-10-11 Yes"
+P41594,CDPPB,1,GRM5,8T6J,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8T8M - 3.0 A Intermediate - 62 - - - - - Nanobody-43 quisqualate
+small-molecule Agonist L-glutamic acid small-molecule No No Kumar KK, Wang H, Habrian C, Latorraca NR, Xu J, O'Brien ES, Zhang C, Montabana E, Koehl A, Marqusee S, Isacoff EY, Kobilka BK 10.1101/2023.08.29.555158 2023-10-11 Yes"
+P41594,"quisqualate
+CDPPB",1,GRM5,8TAO,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8T6J - 3.5 A Inactive - 63 - - - - - - CDPPB
+small-molecule Agonist L-glutamic acid small-molecule No No Kumar KK, Wang H, Habrian C, Latorraca NR, Xu J, O'Brien ES, Zhang C, Montabana E, Koehl A, Marqusee S, Isacoff EY, Kobilka BK 10.1101/2023.08.29.555158 2023-10-11 Yes"
+P41594,quisqualate,1,GRM5,8T7H,"GRM5 mGlu5 Metabotropic glutamate C Human Cryo-EM 8TAO - 2.9 A Active - 64 - - - - - Nanobody-43 quisqualate
+CDPPB
+small-molecule
+small-molecule Agonist L-glutamic acid small-molecule No No Kumar KK, Wang H, Habrian C, Latorraca NR, Xu J, O'Brien ES, Zhang C, Montabana E, Koehl A, Marqusee S, Isacoff EY, Kobilka BK 10.1101/2023.08.29.555158 2023-10-11 Yes"
+Q9UPC5,O-[(S)-Hydroxy{[(2s)-2-Hydroxy-3-(Octadec-9-Enoyloxy)propyl]oxy}phosphoryl]-L-Serine,1,GPR34,8SAI,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8H2G 8H2G_refined 3.0 A Active 100 80 Gi/o αi1 - 63 - scFv16 nicotinic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No - - 2023-10-11 Yes"
+Q9BZJ8,compound 1 [PMID: 37741852],1,GPR61,8TB7,"GPR34 GPR34 A orphans A Human Cryo-EM 8SAI 8SAI_refined 3.3 A Active 100 76 Gi/o αi1 - 64 - scFv16 O-[(S)-Hydroxy{[(2s)-2-Hydroxy-3-(Octadec-9-Enoyloxy)propyl]oxy}phosphoryl]-L-Serine
+small-molecule Agonist lysophosphatidylserine small-molecule No No Xia A, Yong X, Zhang C, Lin G, Jia G, Zhao C, Wang X, Hao Y, Wang Y, Zhou P, Yang X, Deng Y, Wu C, Chen Y, Zhu J, Tang X, Liu J, Zhang S, Zhang J, Xu Z, Hu Q, Zhao J, Yue Y, Yan W, Su Z, Wei Y, Zhou R, Dong H, Shao Z, Yang S 10.1073/PNAS.2308435120 2023-10-04 Yes"
+Q8TDS4,MK 6892,1,HCAR2,8JZ7,"GPR61 GPR61 A orphans A Human Cryo-EM 8TB0 8TB0_refined 3.5 R Active 100 56 Gs αs - 56 - scFv16 Apo (no ligand)
+none Apo (no ligand) - - No No - - 2023-10-04 Yes"
+P33032,INTERMEDINE,1,MC5R,8INR,"MC5R MC5 Melanocortin A Human Cryo-EM 8IOD - 2.6 R Active 100 83 Gs αs Gi1-Gs chimera 59 - Nanobody-35 PG-901
+peptide Agonist γ-MSH, agouti-related protein, β-MSH, α-MSH, ACTH peptide No No Chen VB, Arendall WB 3rd, Headd JJ, Keedy DA, Immormino RM, Kapral GJ, Murray LW, Richardson JS, Richardson DC 10.1107/S0907444909042073 2023-09-20 Yes"
+P08173,xanomeline,1,ACM4,8FX5,"MC5R MC5 Melanocortin A Human Cryo-EM 8INR - 2.7 R Active 100 83 Gs αs Gi1-Gs chimera 60 - - INTERMEDINE
+protein Agonist γ-MSH, agouti-related protein, β-MSH, α-MSH, ACTH peptide No No Chen VB, Arendall WB 3rd, Headd JJ, Keedy DA, Immormino RM, Kapral GJ, Murray LW, Richardson JS, Richardson DC 10.1107/S0907444909042073 2023-09-20 Yes"
+P34998,"8-(4-bromo-2,6-dimethoxyphenyl)-N-butyl-N-(cyclopropylmethyl)-2,7-dimethylpyrazolo[1,5-a][1,3,5]triazin-4-amine",1,CRFR1,8GTI,"ACM4 M4 Acetylcholine (muscarinic) A Human Cryo-EM 8FX5 - 2.5 R Active 100 57 Gi/o αi1 - 64 - scFv16 xanomeline
+small-molecule Agonist acetylcholine small-molecule No No Burger WAC, Pham V, Vuckovic Z, Powers AS, Mobbs JI, Laloudakis Y, Glukhova A, Wootten D, Tobin AB, Sexton PM, Paul SM, Felder CC, Danev R, Dror RO, Christopoulos A, Valant C, Thal DM 10.1038/S41467-023-41199-5 2023-09-13 Yes"
+P34998,"8-(4-bromo-2,6-dimethoxyphenyl)-N,N-bis(2-methoxyethyl)-2,7-dimethylpyrazolo[1,5-a][1,3,5]triazin-4-amine",1,CRFR1,8GTG,"CRFR1 CRF1 Corticotropin-releasing factor B1 Human X-ray 8GTI - 2.2 A Inactive 16 63 - - - - Endolysin - 8-(4-bromo-2,6-dimethoxyphenyl)-N-butyl-N-(cyclopropylmethyl)-2,7-dimethylpyrazolo[1,5-a][1,3,5]triazin-4-amine
+small-molecule Antagonist corticotrophin-releasing hormone, urocortin 1, urocortin 2 peptide No No Kim H, Lim T, Ha GE, Lee JY, Kim JW, Chang N, Kim SH, Kim KH, Lee J, Cho Y, Kim BW, Abrahamsson A, Kim SH, Kim HJ, Park S, Lee SJ, Park J, Cheong E, Kim BM, Cho HS 10.1038/S12276-023-01082-1 2023-09-13 Yes"
+P34998,"7-(4-bromanyl-2,6-dimethoxy-phenyl)-4,8-dimethyl-~{N},~{N}-bis[4,4,4-tris(fluoranyl)butyl]-1$l^{4},3,5,9-tetrazabicyclo[4.3.0]nona-1(6),2,4,8-tetraen-2-amine",1,CRFR1,8GTM,"CRFR1 CRF1 Corticotropin-releasing factor B1 Human X-ray 8GTG - 2.8 A Inactive 16 63 - - - - Endolysin - 8-(4-bromo-2,6-dimethoxyphenyl)-N,N-bis(2-methoxyethyl)-2,7-dimethylpyrazolo[1,5-a][1,3,5]triazin-4-amine
+small-molecule Antagonist corticotrophin-releasing hormone, urocortin 1, urocortin 2 peptide No No Kim H, Lim T, Ha GE, Lee JY, Kim JW, Chang N, Kim SH, Kim KH, Lee J, Cho Y, Kim BW, Abrahamsson A, Kim SH, Kim HJ, Park S, Lee SJ, Park J, Cheong E, Kim BM, Cho HS 10.1038/S12276-023-01082-1 2023-09-13 Yes"
+Q8TDS4,GSK256073,1,HCAR2,8IHB,"GLR glucagon Glucagon B1 Human Cryo-EM 8JIU 8JIU_refined 2.8 R Active 100 83 Gs αs - 59 - Nanobody-35 SAR425899
+peptide Agonist glucagon peptide No No Li Y, Zhou Q, Dai A, Zhao F, Chang R, Ying T, Wu B, Yang D, Wang MW, Cong Z 10.1073/PNAS.2303696120 2023-09-13 Yes"
+P07550,ARFORMOTEROL,1,ADRB2,8JJ8,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IHB - 2.9 R Active 100 80 Gi/o αi1 - 62 BRIL - GSK256073
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Suzuki S, Tanaka K, Nishikawa K, Suzuki H, Oshima A, Fujiyoshi Y 10.1038/S41467-023-41650-7 2023-09-13 Yes"
+P07550,olodaterol,1,ADRB2,8JJL,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8JJ8 - 3.2 F Active 99 68 - - - - BRIL - ARFORMOTEROL
+small-molecule Agonist (partial) L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Guo Q, He B, Zhong Y, Jiao H, Ren Y, Wang Q, Ge Q, Gao Y, Liu X, Du Y, Hu H, Tao Y 10.1038/S41589-023-01389-0 2023-09-06 Yes"
+P07550,CHEMBL1160734,1,ADRB2,8JJO,"ADRB2 β2 Adrenoceptors A Human Cryo-EM 8JJL - 3.2 A Inactive 0 68 - - - - BRIL - olodaterol
+small-molecule Agonist L-NOREPINEPHRINE, (-)-adrenaline, noradrenaline, Zn, (-)-noradrenaline small-molecule No No Guo Q, He B, Zhong Y, Jiao H, Ren Y, Wang Q, Ge Q, Gao Y, Liu X, Du Y, Hu H, Tao Y 10.1038/S41589-023-01389-0 2023-09-06 Yes"
+Q8TDS4,CHEMBL3354065,1,HCAR2,8JIM,"GLR glucagon Glucagon B1 Human Cryo-EM 8JIT - 2.9 R Active 100 83 Gs αs - 58 - Nanobody-35 MEDI0382
+peptide Agonist glucagon peptide No No Li Y, Zhou Q, Dai A, Zhao F, Chang R, Ying T, Wu B, Yang D, Wang MW, Cong Z 10.1073/PNAS.2303696120 2023-09-06 Yes"
+Q8TDS4,"nicotinic acid
+compound 9n [PMID: 18752940]",1,HCAR2,8JII,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JIM - 3.0 E Active 100 80 Gi/o αi1 - 64 - scFv16 CHEMBL3354065
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Zhao C, Wang H, Liu Y, Cheng L, Wang B, Tian X, Fu H, Wu C, Li Z, Shen C, Yu J, Yang S, Hu H, Fu P, Ma L, Wang C, Yan W, Shao Z 10.1016/J.MOLCEL.2023.07.030 2023-09-06 Yes"
+Q8TDS4,compound 9n [PMID: 18752940],1,HCAR2,8JHY,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JII - 3.2 A Active 100 80 Gi/o αi1 - 64 - scFv16 nicotinic acid
+compound 9n [PMID: 18752940]
+small-molecule
+small-molecule Agonist
+PAM β-D-hydroxybutyric acid, butyric acid small-molecule No No Zhao C, Wang H, Liu Y, Cheng L, Wang B, Tian X, Fu H, Wu C, Li Z, Shen C, Yu J, Yang S, Hu H, Fu P, Ma L, Wang C, Yan W, Shao Z 10.1016/J.MOLCEL.2023.07.030 2023-09-06 Yes"
+Q8TDS4,nicotinic acid,1,HCAR2,8JIL,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JHY - 2.9 A Active 100 80 Gi/o αi1 - 64 - scFv16 compound 9n [PMID: 18752940]
+small-molecule PAM β-D-hydroxybutyric acid, butyric acid small-molecule No No Zhao C, Wang H, Liu Y, Cheng L, Wang B, Tian X, Fu H, Wu C, Li Z, Shen C, Yu J, Yang S, Hu H, Fu P, Ma L, Wang C, Yan W, Shao Z 10.1016/J.MOLCEL.2023.07.030 2023-09-06 Yes"
+P29274,CHEMBL1671936,1,AA2AR,8A2P,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8JIL - 3.5 A Active 100 79 Gi/o αi1 - 63 - scFv16 nicotinic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Zhao C, Wang H, Liu Y, Cheng L, Wang B, Tian X, Fu H, Wu C, Li Z, Shen C, Yu J, Yang S, Hu H, Fu P, Ma L, Wang C, Yan W, Shao Z 10.1016/J.MOLCEL.2023.07.030 2023-09-06 Yes"
+P29274,theophylline,1,AA2AR,8A2O,"AA2AR A2A Adenosine A Human X-ray 8A2P - 3.5 A Inactive 1 71 - - - - BRIL - CHEMBL1671936
+small-molecule Antagonist adenosine small-molecule No No Birch J, Kwan TOC, Judge PJ, Axford D, Aller P, Butryn A, Reis RI, Bada Juarez JF, Vinals J, Owen RL, Nango E, Tanaka R, Tono K, Joti Y, Tanaka T, Owada S, Sugahara M, Iwata S, Orville AM, Watts A, Moraes I 10.1107/S1600576723006428 2023-08-30 Yes"
+Q8TDS4,(5S)-5-methyl-4-oxo-5-phenylfuran-2-carboxylic acid,1,HCAR2,8IHI,"AA2AR A2A Adenosine A Human X-ray 8A2O - 3.5 A Inactive 1 71 - - - - BRIL - theophylline
+small-molecule Antagonist adenosine small-molecule No No Birch J, Kwan TOC, Judge PJ, Axford D, Aller P, Butryn A, Reis RI, Bada Juarez JF, Vinals J, Owen RL, Nango E, Tanaka R, Tono K, Joti Y, Tanaka T, Owada S, Sugahara M, Iwata S, Orville AM, Watts A, Moraes I 10.1107/S1600576723006428 2023-08-30 Yes"
+Q8TDS4,MK 6892,1,HCAR2,8IHF,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IHI - 3.1 R Active 100 80 Gi/o αi1 - 62 BRIL scFv16 (5S)-5-methyl-4-oxo-5-phenylfuran-2-carboxylic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Suzuki S, Tanaka K, Nishikawa K, Suzuki H, Oshima A, Fujiyoshi Y 10.1038/S41467-023-41650-7 2023-08-30 Yes"
+Q8TDS4,5-butyl-1H-pyrazole-3-carboxylic acid,1,HCAR2,8IHH,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IHF - 3.0 R Active 100 80 Gi/o αi1 - 62 BRIL scFv16 MK 6892
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Suzuki S, Tanaka K, Nishikawa K, Suzuki H, Oshima A, Fujiyoshi Y 10.1038/S41467-023-41650-7 2023-08-30 Yes"
+P49019,(5S)-5-methyl-4-oxo-5-phenylfuran-2-carboxylic acid,1,HCAR3,8IHK,"HCAR2 HCA2 Hydroxycarboxylic acid A Human Cryo-EM 8IHH - 3.1 R Active 100 80 Gi/o αi1 - 62 BRIL scFv16 5-butyl-1H-pyrazole-3-carboxylic acid
+small-molecule Agonist β-D-hydroxybutyric acid, butyric acid small-molecule No No Suzuki S, Tanaka K, Nishikawa K, Suzuki H, Oshima A, Fujiyoshi Y 10.1038/S41467-023-41650-7 2023-08-30 Yes"
+P49019,(5S)-5-methyl-4-oxo-5-phenylfuran-2-carboxylic acid,1,HCAR3,8IHJ,"HCAR3 HCA3 Hydroxycarboxylic acid A Human Cryo-EM 8IHK - 3.2 R Active 99 73 - - - - BRIL - (5S)-5-methyl-4-oxo-5-phenylfuran-2-carboxylic acid
+small-molecule Agonist 3-hydroxyoctanoic acid small-molecule No No Suzuki S, Tanaka K, Nishikawa K, Suzuki H, Oshima A, Fujiyoshi Y 10.1038/S41467-023-41650-7 2023-08-30 Yes"
+P35348,(-)-adrenaline,1,ADA1A,8THL,"AA2AR A2A Adenosine A Human X-ray 8JWY - 2.3 A Inactive 1 70 - - - - T4-Lysozyme - CHEMBL5440290
+small-molecule Antagonist adenosine small-molecule No No - - 2023-08-16 Yes"
+P35348,CHEMBL133451,1,ADA1A,8THK,"ADA1A α1A Adrenoceptors A Human Cryo-EM 8THL - 3.1 R Active 100 52 Gq/11 αq - 57 T4-Lysozyme scFv16 (-)-adrenaline
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Su M, Wang J, Xiang G, Do HN, Levitz J, Miao Y, Huang XY 10.1038/S41467-023-40524-2 2023-08-16 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8IY5,"ADA1A α1A Adrenoceptors A Human Cryo-EM 8THK - 2.6 R Active 100 52 Gq/11 αq - 57 T4-Lysozyme scFv16 CHEMBL133451
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Su M, Wang J, Xiang G, Do HN, Levitz J, Miao Y, Huang XY 10.1038/S41467-023-40524-2 2023-08-16 Yes"
+P24530,ENDOTHELIN,1,EDNRB,8IY6,"EDNRB ETB Endothelin A Human Cryo-EM 8IY5 - 2.8 R Active 100 71 Gi/o αi1 - 62 - scFv16 ENDOTHELIN
+protein Agonist endothelin-2, endothelin-3, endothelin-1 peptide No No Sano FK, Akasaka H, Shihoya W, Nureki O 10.7554/ELIFE.85821 2023-08-16 Yes"
+Q03431,PCO371,1,PTH1R,8JR9,"CALCR CT Calcitonin B1 Human Cryo-EM 8F2A - 2.2 R Active 100 78 Gs αs - 59 - Nanobody-35 Pramlintide analogue San385
+peptide Agonist calcitonin, adrenomedullin, amylin, α-CGRP, adrenomedullin 2/intermedin, β-CGRP peptide No No Cao J, Belousoff MJ, Gerrard E, Danev R, Fletcher MM, Dal Maso E, Schreuder H, Lorenz K, Evers A, Tiwari G, Besenius M, Li Z, Johnson RM, Wootten D, Sexton PM 10.1038/S41589-023-01393-4 2023-08-02 Yes"
+P29274,AB928,1,AA2AR,8C9W,"CXCR1 CXCR1 Chemokine A Human Cryo-EM 8IC0 - 3.4 A Active 100 86 Gi/o αi1 - 65 - scFv16 Interleukin-8
+protein Agonist CXCL8, cytokine domain of tyrosyl tRNA synthetase, CXCL6 peptide No No Ishimoto N, Park JH, Kawakami K, Tajiri M, Mizutani K, Akashi S, Tame JRH, Inoue A, Park SY 10.1038/S41467-023-39799-2 2023-07-19 Yes"
+P43088,tafluprost acid,1,PF2R,8IUM,"AGRE5 ADGRE5 ADGRE B2 Human Cryo-EM 7YDH - 3.1 R Active 100 33 G12/13 α13 Gi2-mini-G13 chimera 57 - scFv16 Apo (no ligand)
+none Apo (no ligand) - - No No Wang N, Qian Y, Xia R, Zhu X, Xiong Y, Zhang A, Guo C, He Y 10.1016/J.CHEMBIOL.2023.08.003 2023-07-12 Yes"
+P43088,latanoprost (free acid form),1,PF2R,8IUL,"PF2R FP Prostanoid A Human Cryo-EM 8IUM - 3.1 R Active 100 82 Gq/11 αq - 60 - scFv16
+Nanobody-35 tafluprost acid
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No Wu C, Xu Y, He Q, Li D, Duan J, Li C, You C, Chen H, Fan W, Jiang Y, Eric Xu H 10.1038/S41467-023-38411-X 2023-07-12 Yes"
+P43088,PGF2α,1,PF2R,8IUK,"PF2R FP Prostanoid A Human Cryo-EM 8IUL - 2.8 R Active 100 82 Gq/11 αq - 60 - scFv16 latanoprost (free acid form)
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No Wu C, Xu Y, He Q, Li D, Duan J, Li C, You C, Chen H, Fan W, Jiang Y, Eric Xu H 10.1038/S41467-023-38411-X 2023-07-12 Yes"
+P35348,tamsulosin,1,ADA1A,7YMJ,"PF2R FP Prostanoid A Human Cryo-EM 8IUK - 2.7 R Active 100 82 Gq/11 αq - 60 - scFv16
+Nanobody-35 PGF2α
+small-molecule Agonist PGF2α, PGI2, PGD2, thromboxane A, PGE small-molecule No No Wu C, Xu Y, He Q, Li D, Duan J, Li C, You C, Chen H, Fan W, Jiang Y, Eric Xu H 10.1038/S41467-023-38411-X 2023-07-12 Yes"
+P35348,Noradrenaline,1,ADA1A,7YMH,"ADA1A α1A Adrenoceptors A Human Cryo-EM 7YMJ - 3.4 A Inactive 8 60 - - - - - Nanobody-6 tamsulosin
+small-molecule Antagonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Toyoda Y, Zhu A, Kong F, Shan S, Zhao J, Wang N, Sun X, Zhang L, Yan C, Kobilka BK, Liu X 10.1038/S41467-023-39310-X 2023-07-05 Yes"
+P35348,oxymetazoline,1,ADA1A,7YM8,"ADA1A α1A Adrenoceptors A Human Cryo-EM 7YMH 7YMH_refined 3.5 A Active 100 58 Gq/11 αq Mini-Gq 51 - Nanobody-29 Noradrenaline
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Toyoda Y, Zhu A, Kong F, Shan S, Zhao J, Wang N, Sun X, Zhang L, Yan C, Kobilka BK, Liu X 10.1038/S41467-023-39310-X 2023-07-05 Yes"
+P50406,CHEMBL365751,1,5HT6R,8JLZ,"PTH1R PTH1 Parathyroid hormone B1 Human Cryo-EM 7Y35 - 2.9 R Active 100 63 Gs αs - 57 - Nanobody-35 abaloparatide
+small-molecule Agonist PTHrP-(1-36), PTHrP, PTH, TIP39 peptide No No - - 2023-07-05 Yes"
+P21728,rotigotine,1,DRD1,8IRR,"5HT6R 5-HT6 5-Hydroxytryptamine A Human Cryo-EM 8JLZ - 3.1 R Active 100 61 Gs αs - 58 - Nanobody-35 CHEMBL365751
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Pei Y, Wen X, Guo SC, Yang ZS, Zhang R, Xiao P, Sun JP 10.1016/J.BBRC.2023.05.126 2023-06-28 Yes"
+P21917,rotigotine,1,DRD4,8IRU,"DRD1 D1 Dopamine A Human Cryo-EM 8IRR - 3.2 R Active 100 63 Gs αs Mini-Gs 57 - Nanobody-35 rotigotine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Xu P, Huang S, Krumm BE, Zhuang Y, Mao C, Zhang Y, Wang Y, Huang XP, Liu YF, He X, Li H, Yin W, Jiang Y, Zhang Y, Roth BL, Xu HE 10.1038/S41422-023-00808-0 2023-06-21 Yes"
+Q5NUL3,docosahexaenoic acid,1,FFAR4,8H4I,"DRD4 D4 Dopamine A Human Cryo-EM 8IRU - 3.2 R Active 100 64 Gi/o αi1 - 60 - scFv16 rotigotine
+small-molecule Agonist dopamine small-molecule No No Xu P, Huang S, Krumm BE, Zhuang Y, Mao C, Zhang Y, Wang Y, Huang XP, Liu YF, He X, Li H, Yin W, Jiang Y, Zhang Y, Roth BL, Xu HE 10.1038/S41422-023-00808-0 2023-06-21 Yes"
+Q5NUL3,TUG-891,1,FFAR4,8IYS,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8H4I - 3.1 R Active 100 78 Gs αs - 59 - Nanobody-35 docosahexaenoic acid
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Yin H, Inoue A, Ma Z, Zhu X, Xia R, Xu Z, Wang N, Duan Y, Zhang A, Guo C, He Y 10.1038/S41422-023-00835-X 2023-06-21 Yes"
+Q5NUL3,docosahexaenoic acid,1,FFAR4,8H4L,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8IYS - 3.0 R Active 100 82 Gq/11 αq - 99 - scFv16 TUG-891
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Yin H, Inoue A, Ma Z, Zhu X, Xia R, Xu Z, Wang N, Duan Y, Zhang A, Guo C, He Y 10.1038/S41422-023-00835-X 2023-06-21 Yes"
+Q5NUL3,GW9508,1,FFAR4,8H4K,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8H4L - 3.1 R Active 100 84 Gq/11 αq - 60 - Nanobody-35 docosahexaenoic acid
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Yin H, Inoue A, Ma Z, Zhu X, Xia R, Xu Z, Wang N, Duan Y, Zhang A, Guo C, He Y 10.1038/S41422-023-00835-X 2023-06-21 Yes"
+Q9Y2T5,"derivative 17 [Nakahata et al., 2018]",1,GPR52,8HMP,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8H4K - 3.1 R Active 100 83 Gq/11 αq Mini-Gq 60 - Nanobody-35 GW9508
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Yin H, Inoue A, Ma Z, Zhu X, Xia R, Xu Z, Wang N, Duan Y, Zhang A, Guo C, He Y 10.1038/S41422-023-00835-X 2023-06-21 Yes"
+Q9NQS5,(3R)-3-HYDROXYDODECANOIC ACID,1,GPR84,8J18,"GPR84 GPR84 A orphans A Human Cryo-EM 8J1A - 3.2 R Active 100 73 Gi/o αi1 - 62 - scFv16 Apo (no ligand)
+none Apo (no ligand) - - No No Liu H, Zhang Q, He X, Jiang M, Wang S, Yan X, Cheng X, Liu Y, Nan FJ, Xu HE, Xie X, Yin W 10.1038/S41467-023-38985-6 2023-06-21 Yes"
+Q9NQS5,"6-nonylpyridine-2,4-diol",1,GPR84,8J19,"GPR84 GPR84 A orphans A Human Cryo-EM 8J18 - 2.9 R Active 100 73 Gi/o αi1 - 62 - scFv16 (3R)-3-HYDROXYDODECANOIC ACID
+small-molecule Agonist - - No No Liu H, Zhang Q, He X, Jiang M, Wang S, Yan X, Cheng X, Liu Y, Nan FJ, Xu HE, Xie X, Yin W 10.1038/S41467-023-38985-6 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCV,"GPR84 GPR84 A orphans A Human Cryo-EM 8J19 - 3.2 R Active 100 71 Gi/o αi1 - 62 - scFv16 6-nonylpyridine-2,4-diol
+small-molecule Agonist - - No No Liu H, Zhang Q, He X, Jiang M, Wang S, Yan X, Cheng X, Liu Y, Nan FJ, Xu HE, Xie X, Yin W 10.1038/S41467-023-38985-6 2023-06-21 Yes"
+Q14416,L-glutamic acid,1,GRM2,8JD4,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCV - 3.4 2 Inactive - 88 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCW,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD4 - 2.9 2 Active - 84 - - - - - - L-glutamic acid
+small-molecule Agonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,"L-glutamic acid
+JNJ-40411813",1,GRM2,8JD3,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCW - 3.0 2 Inactive - 87 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCU,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD3 - 3.3 2 Active - 89 Gi/o αi1 - 62 - - L-glutamic acid
+JNJ-40411813
+small-molecule
+small-molecule Agonist
+PAM L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,L-glutamic acid,1,GRM2,8JD2,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCU - 2.8 2 Inactive - 87 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,L-glutamic acid,1,GRM2,8JD1,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD2 - 2.8 2 Active - 86 - - - - - - L-glutamic acid
+small-molecule Agonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,"L-glutamic acid
+ADX88178
+JNJ-40411813",1,GRM2,8JD5,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD1 - 3.7 2 Inactive - 86 - - - - - - L-glutamic acid
+small-molecule Agonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,"L-glutamic acid
+CHEMBL3894759",1,GRM2,8JD0,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD5 - 3.6 2 Active - 90 Gi/o αi1 - 63 - scFv16 L-glutamic acid
+ADX88178
+JNJ-40411813
+small-molecule
+small-molecule
+small-molecule Agonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCX,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JD0 - 3.3 2 Inactive - 88 - - - - - - L-glutamic acid
+CHEMBL3894759
+small-molecule
+small-molecule Agonist
+NAM L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCY,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCX - 3.0 2 Inactive - 87 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14416,LY341495,1,GRM2,8JCZ,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCY - 2.9 2 Inactive - 87 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q14833,VU0364770,1,GRM4,8JD6,"GRM2 mGlu2 Metabotropic glutamate C Human Cryo-EM 8JCZ - 3.0 2 Inactive - 87 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+Q03431,PCO371,1,PTH1R,8GW8,"GRM4 mGlu4 Metabotropic glutamate C Human Cryo-EM 8JD6 - 3.4 S Active - 83 Gi/o αi3 - 63 - scFv16 VU0364770
+small-molecule Agonist L-glutamic acid, L-serine-O-phosphate small-molecule No No Wang X, Wang M, Xu T, Feng Y, Shao Q, Han S, Chu X, Xu Y, Lin S, Zhao Q, Wu B 10.1038/S41422-023-00830-2 2023-06-21 Yes"
+P14416,rotigotine,1,DRD2,8IRS,"PTH1R PTH1 Parathyroid hormone B1 Human Cryo-EM 8GW8 - 2.9 R Active 100 37 Gs αs - 58 - Nanobody-35 PCO371
+small-molecule Agonist PTHrP-(1-36), PTHrP, PTH, TIP39 peptide No No Kobayashi K, Kawakami K, Kusakizako T, Tomita A, Nishimura M, Sawada K, Okamoto HH, Hiratsuka S, Nakamura G, Kuwabara R, Noda H, Muramatsu H, Shimizu M, Taguchi T, Inoue A, Murata T, Nureki O 10.1038/S41586-023-06169-3 2023-06-14 Yes"
+P35462,rotigotine,1,DRD3,8IRT,"DRD2 D2 Dopamine A Human Cryo-EM 8IRS - 3.0 R Active 100 60 Gi/o αi1 - 63 BRIL scFv16 rotigotine
+small-molecule Agonist dopamine small-molecule No No Xu P, Huang S, Krumm BE, Zhuang Y, Mao C, Zhang Y, Wang Y, Huang XP, Liu YF, He X, Li H, Yin W, Jiang Y, Zhang Y, Roth BL, Xu HE 10.1038/S41422-023-00808-0 2023-06-07 Yes"
+P21918,rotigotine,1,DRD5,8IRV,"DRD3 D3 Dopamine A Human Cryo-EM 8IRT - 2.7 R Active 100 68 Gi/o αi1 - 63 BRIL scFv16 rotigotine
+small-molecule Agonist dopamine small-molecule No No Xu P, Huang S, Krumm BE, Zhuang Y, Mao C, Zhang Y, Wang Y, Huang XP, Liu YF, He X, Li H, Yin W, Jiang Y, Zhang Y, Roth BL, Xu HE 10.1038/S41422-023-00808-0 2023-06-07 Yes"
+P29274,AB928,1,AA2AR,8CIC,"P2Y12 P2Y12 P2Y A Human Cryo-EM 7XXI 7XXI_refined 3.0 A Active 100 86 Gi/o αi2 - 61 - - 2MeSADP
+small-molecule Agonist ATP, ADP small-molecule No No - - 2023-06-07 Yes"
+P21554,CHEMBL4208628,1,CNR1,8GHV,"C3AR C3a Complement peptide A Human Cryo-EM 8IA8 - 2.9 A Active 100 59 Gi/o αi1 - 61 - scFv16 ALA-SER-LYS-LEU-GLY-LEU-ALA-ARG
+peptide Agonist C5a, C3a peptide No No - - 2023-05-24 Yes"
+O14842,fasiglifam,1,FFAR1,8EJC,"CNR1 CB1 Cannabinoid A Human Cryo-EM 8GHV 8GHV_refined 2.8 D Active 100 59 Gi/o αi1 - 62 - scFv16 CHEMBL4208628
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Krishna Kumar K, Robertson MJ, Thadhani E, Wang H, Suomivuori CM, Powers AS, Ji L, Nikas SP, Dror RO, Inoue A, Makriyannis A, Skiniotis G, Kobilka B 10.1038/S41467-023-37864-4 2023-05-24 Yes"
+O14842,fasiglifam,1,FFAR1,8EJK,"FFAR1 FFA1 Free fatty acid A Human Cryo-EM 8EJC - 3.0 R Active 100 90 Gq/11 αq - 60 - scFv16 fasiglifam
+small-molecule Agonist oleic acid, α-linolenic acid, myristic acid, docosahexaenoic acid small-molecule No No Kumari P, Inoue A, Chapman K, Lian P, Rosenbaum DM 10.1073/PNAS.2219569120 2023-05-24 Yes"
+O14842,docosahexaenoic acid,1,FFAR1,8EIT,"FFAR1 FFA1 Free fatty acid A Human Cryo-EM 8EJK - 3.4 R Active 100 89 Gq/11 αq - 60 - scFv16 fasiglifam
+small-molecule Agonist oleic acid, α-linolenic acid, myristic acid, docosahexaenoic acid small-molecule No No Kumari P, Inoue A, Chapman K, Lian P, Rosenbaum DM 10.1073/PNAS.2219569120 2023-05-24 Yes"
+P34972,CHEMBL2179724,1,CNR2,8GUS,"C5AR1 C5a1 Complement peptide A Human Cryo-EM 8HK5 8HK5_refined 3.0 A Active 100 84 Gi/o αi1 - 63 - - C5a
+peptide Agonist ribosomal protein S19, C3a, C5a, C5a des-Arg peptide No No Wang Y, Liu W, Xu Y, He X, Yuan Q, Luo P, Fan W, Zhu J, Zhang X, Cheng X, Jiang Y, Xu HE, Zhuang Y 10.1038/S41589-023-01339-W 2023-05-10 Yes"
+P34972,CP55940,1,CNR2,8GUR,"CNR2 CB2 Cannabinoid A Human Cryo-EM 8GUS - 3.0 R Active 100 81 Gi/o αi1 - 62 - scFv16 CHEMBL2179724
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Li X, Chang H, Bouma J, de Paus LV, Mukhopadhyay P, Paloczi J, Mustafa M, van der Horst C, Kumar SS, Wu L, Yu Y, van den Berg RJBHN, Janssen APA, Lichtman A, Liu ZJ, Pacher P, van der Stelt M, Heitman LH, Hua T 10.1038/S41467-023-37112-9 2023-05-10 Yes"
+P34972,olorinab,1,CNR2,8GUQ,"CNR2 CB2 Cannabinoid A Human Cryo-EM 8GUR 8GUR_refined 2.8 R Active 100 78 Gi/o αi1 - 64 - scFv16 CP55940
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Li X, Chang H, Bouma J, de Paus LV, Mukhopadhyay P, Paloczi J, Mustafa M, van der Horst C, Kumar SS, Wu L, Yu Y, van den Berg RJBHN, Janssen APA, Lichtman A, Liu ZJ, Pacher P, van der Stelt M, Heitman LH, Hua T 10.1038/S41467-023-37112-9 2023-05-10 Yes"
+P34972,"1-[[4-[5-Fluoro-6-[(oxan-4-ylamino)methyl]pyridin-2-yl]phenyl]methyl]-3-(2-methylpropyl)imidazolidine-2,4-dione",1,CNR2,8GUT,"CNR2 CB2 Cannabinoid A Human Cryo-EM 8GUQ 8GUQ_refined 3.1 R Active 100 81 Gi/o αi1 - 62 - scFv16 olorinab
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Li X, Chang H, Bouma J, de Paus LV, Mukhopadhyay P, Paloczi J, Mustafa M, van der Horst C, Kumar SS, Wu L, Yu Y, van den Berg RJBHN, Janssen APA, Lichtman A, Liu ZJ, Pacher P, van der Stelt M, Heitman LH, Hua T 10.1038/S41467-023-37112-9 2023-05-10 Yes"
+P29275,NECA,1,AA2BR,7XY7,"CNR2 CB2 Cannabinoid A Human Cryo-EM 8GUT 8GUT_refined 3.0 R Active 100 81 Gi/o αi1 - 62 - scFv16 1-[[4-[5-Fluoro-6-[(oxan-4-ylamino)methyl]pyridin-2-yl]phenyl]methyl]-3-(2-methylpropyl)imidazolidine-2,4-dione
+small-molecule Agonist 2-arachidonoylglycerol, anandamide small-molecule No No Li X, Chang H, Bouma J, de Paus LV, Mukhopadhyay P, Paloczi J, Mustafa M, van der Horst C, Kumar SS, Wu L, Yu Y, van den Berg RJBHN, Janssen APA, Lichtman A, Liu ZJ, Pacher P, van der Stelt M, Heitman LH, Hua T 10.1038/S41467-023-37112-9 2023-05-10 Yes"
+P29275,BAY 60-6583,1,AA2BR,7XY6,"AA2BR A2B Adenosine A Human Cryo-EM 7XY7 - 3.3 R Active 100 85 Gs αs Mini-Gs 57 BRIL - NECA
+small-molecule Agonist adenosine small-molecule No No Chen Y, Zhang J, Weng Y, Xu Y, Lu W, Liu W, Liu M, Hua T, Song G 10.1126/SCIADV.ADD3709 2023-05-03 Yes"
+P41145,CHEMBL277863,1,OPRK,8DZR,"GALR1 GAL1 Galanin A Human Cryo-EM 7XJJ 7XJJ_refined 3.3 E Active 100 77 Gi/o αo - 61 - scFv16 galanin
+peptide Agonist galanin-like peptide, galanin peptide No No - - 2023-05-03 Yes"
+P41145,SALVINORIN B METHOXYMETHYL ETHER,1,OPRK,8DZQ,"OPRK κ Opioid A Human Cryo-EM 8DZR - 2.6 A Active 100 68 Gi/o αgust - 58 - scFv16 CHEMBL277863
+small-molecule Agonist α-neoendorphin, big dynorphin, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), β-neoendorphin, dynorphin B, [Met]enkephalin peptide No No Han J, Zhang J, Nazarova AL, Bernhard SM, Krumm BE, Zhao L, Lam JH, Rangari VA, Majumdar S, Nichols DE, Katritch V, Yuan P, Fay JF, Che T 10.1038/S41586-023-06030-7 2023-05-03 Yes"
+P41145,SALVINORIN B METHOXYMETHYL ETHER,1,OPRK,8DZP,"OPRK κ Opioid A Human Cryo-EM 8DZQ 8DZQ_refined 2.8 A Active 100 72 Gi/o αo - 61 - scFv16 SALVINORIN B METHOXYMETHYL ETHER
+small-molecule Agonist α-neoendorphin, big dynorphin, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), β-neoendorphin, dynorphin B, [Met]enkephalin peptide No No Han J, Zhang J, Nazarova AL, Bernhard SM, Krumm BE, Zhao L, Lam JH, Rangari VA, Majumdar S, Nichols DE, Katritch V, Yuan P, Fay JF, Che T 10.1038/S41586-023-06030-7 2023-05-03 Yes"
+P41145,CHEMBL277863,1,OPRK,8DZS,"OPRK κ Opioid A Human Cryo-EM 8DZP - 2.7 A Active 100 74 Gi/o αi1 - 60 - scFv16 SALVINORIN B METHOXYMETHYL ETHER
+small-molecule Agonist α-neoendorphin, big dynorphin, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), β-neoendorphin, dynorphin B, [Met]enkephalin peptide No No Han J, Zhang J, Nazarova AL, Bernhard SM, Krumm BE, Zhao L, Lam JH, Rangari VA, Majumdar S, Nichols DE, Katritch V, Yuan P, Fay JF, Che T 10.1038/S41586-023-06030-7 2023-05-03 Yes"
+Q03431,abaloparatide,1,PTH1R,8FLS,"PTH1R PTH1 Parathyroid hormone B1 Human Cryo-EM 8FLR - 2.9 R Active 100 61 Gs αs - 59 - Nanobody-35 PTHrP[1-36]
+peptide Agonist PTHrP-(1-36), PTHrP, PTH, TIP39 peptide No No Cary BP, Gerrard EJ, Belousoff MJ, Fletcher MM, Jiang Y, Russell IC, Piper SJ, Wootten D, Sexton PM 10.1016/J.STR.2023.04.002 2023-04-26 Yes"
+P30874,PALTUSOTINE,1,SSR2,7YAC,"SSR2 SST2 Somatostatin A Human Cryo-EM 7YAE 7YAE_refined 3.4 E Active 100 76 Gi/o αi1 - 64 - scFv16 Octreotide
+peptide Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Zhao J, Fu H, Yu J, Hong W, Tian X, Qi J, Sun S, Zhao C, Wu C, Xu Z, Cheng L, Chai R, Yan W, Wei X, Shao Z 10.1038/S41467-023-36673-Z 2023-04-19 Yes"
+O43193,erythromycin,1,MTLR,8IBU,"HCAR2 HCA2 Hydroxycarboxylic acid A Human X-ray 7ZL9 - 2.7 A Active 56 83 - - - - BRIL - Apo (no ligand)
+none Apo (no ligand) β-D-hydroxybutyric acid, butyric acid small-molecule No No Yang Y, Kang HJ, Gao R, Wang J, Han GW, DiBerto JF, Wu L, Tong J, Qu L, Wu Y, Pileski R, Li X, Zhang XC, Zhao S, Kenakin T, Wang Q, Stevens RC, Peng W, Roth BL, Rao Z, Liu ZJ 10.1038/S41467-023-37177-6 2023-04-12 Yes"
+P41145,nalfurafine,1,OPRK,7YIT,"MTLR motilin Motilin A Human Cryo-EM 8IBV 8IBV_refined 3.2 R Active 100 68 Gq/11 αq - 60 BRIL scFv16 motilin
+peptide Agonist motilin peptide No No You C, Zhang Y, Xu Y, Xu P, Li Z, Li H, Huang S, Chen Z, Li J, Xu HE, Jiang Y 10.1126/SCIADV.ADE9020 2023-04-12 Yes"
+P29274,istradefylline,1,AA2AR,8GNG,"FSHR FSH Glycoprotein hormone A Human Cryo-EM 8I2G - 2.8 R Active 100 86 Gs αs fused Gs 58 - Nanobody-35 Follitropin subunit beta
+Glycoprotein alpha
+FSHR agonist 1
+peptide
+peptide
+small-molecule Agonist FSH peptide No No Duan J, Xu P, Zhang H, Luan X, Yang J, He X, Mao C, Shen DD, Ji Y, Cheng X, Jiang H, Jiang Y, Zhang S, Zhang Y, Xu HE 10.1038/S41467-023-36170-3 2023-03-29 Yes"
+P29274,Sipagladenant,1,AA2AR,8GNE,"AA2AR A2A Adenosine A Human X-ray 8GNG 8GNG_refined 3.2 X Inactive 1 69 - - - - - Antibody fab fragment light chain
+Antibody fab fragment heavy chain istradefylline
+small-molecule Antagonist adenosine small-molecule No No Ohno Y, Suzuki M, Asada H, Kanda T, Saki M, Miyagi H, Yasunaga M, Suno C, Iwata S, Saito JI, Uchida S 10.1124/MOLPHARM.122.000633 2023-03-22 Yes"
+Q9H255,propanoic acid,1,O51E2,8F76,"NPY2R Y2 Neuropeptide Y A Human Cryo-EM 7YOO 7YOO_refined 3.1 R Active 96 79 - - - - - - neuropeptide Y
+peptide Agonist peptide YY, PYY-(3-36), neuropeptide Y-(3-36), pancreatic polypeptide, neuropeptide Y peptide No No Kang H, Park C, Choi YK, Bae J, Kwon S, Kim J, Choi C, Seok C, Im W, Choi HJ 10.1016/J.STR.2022.11.010 2023-03-22 Yes"
+Q5NUL3,TUG-891,1,FFAR4,8ID8,"O51E2 OR51E2 Odorant family 51 O1 Human Cryo-EM 8F76 8F76_refined 3.1 A Active - 94 Gs αs Mini-Gs 55 - Nanobody-35 propanoic acid
+small-molecule Agonist - - No No Billesbolle CB, de March CA, van der Velden WJC, Ma N, Tewari J, Del Torrent CL, Li L, Faust B, Vaidehi N, Matsunami H, Manglik A 10.1038/S41586-023-05798-Y 2023-03-22 Yes"
+Q5NUL3,EPA,1,FFAR4,8ID9,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8ID8 - 3.0 R Active 100 81 Gi/o αi1 - 64 - scFv16 TUG-891
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Mao C, Xiao P, Tao XN, Qin J, He QT, Zhang C, Guo SC, Du YQ, Chen LN, Shen DD, Yang ZS, Zhang HQ, Huang SM, He YH, Cheng J, Zhong YN, Shang P, Chen J, Zhang DL, Wang QL, Liu MX, Li GY, Guo Y, Xu HE, Wang C, Zhang C, Feng S, Yu X, Zhang Y, Sun JP 10.1126/SCIENCE.ADD6220 2023-03-15 Yes"
+Q5NUL3,9-Hydroxyoctadecanoic acid,1,FFAR4,8ID3,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8ID9 8ID9_refined 3.0 R Active 100 78 Gi/o αi1 - 56 - scFv16 EPA
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Mao C, Xiao P, Tao XN, Qin J, He QT, Zhang C, Guo SC, Du YQ, Chen LN, Shen DD, Yang ZS, Zhang HQ, Huang SM, He YH, Cheng J, Zhong YN, Shang P, Chen J, Zhang DL, Wang QL, Liu MX, Li GY, Guo Y, Xu HE, Wang C, Zhang C, Feng S, Yu X, Zhang Y, Sun JP 10.1126/SCIENCE.ADD6220 2023-03-15 Yes"
+Q5NUL3,linoleic acid,1,FFAR4,8ID4,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8ID3 8ID3_refined 3.1 R Active 100 81 Gi/o αi1 - 64 - scFv16 9-Hydroxyoctadecanoic acid
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Mao C, Xiao P, Tao XN, Qin J, He QT, Zhang C, Guo SC, Du YQ, Chen LN, Shen DD, Yang ZS, Zhang HQ, Huang SM, He YH, Cheng J, Zhong YN, Shang P, Chen J, Zhang DL, Wang QL, Liu MX, Li GY, Guo Y, Xu HE, Wang C, Zhang C, Feng S, Yu X, Zhang Y, Sun JP 10.1126/SCIENCE.ADD6220 2023-03-15 Yes"
+Q5NUL3,oleic acid,1,FFAR4,8ID6,"FFAR4 FFA4 Free fatty acid A Human Cryo-EM 8ID4 - 3.1 R Active 100 79 Gi/o αi1 - 64 - scFv16 linoleic acid
+small-molecule Agonist oleic acid, myristic acid, α-linolenic acid, linoleic acid small-molecule No No Mao C, Xiao P, Tao XN, Qin J, He QT, Zhang C, Guo SC, Du YQ, Chen LN, Shen DD, Yang ZS, Zhang HQ, Huang SM, He YH, Cheng J, Zhong YN, Shang P, Chen J, Zhang DL, Wang QL, Liu MX, Li GY, Guo Y, Xu HE, Wang C, Zhang C, Feng S, Yu X, Zhang Y, Sun JP 10.1126/SCIENCE.ADD6220 2023-03-15 Yes"
+P29274,ZM-241385,1,AA2AR,8FYN,"GPR21 GPR21 A orphans A Human Cryo-EM 8HJ0 - 3.1 R Active 100 81 Gs αs Mini-Gs 61 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Lin X, Chen B, Wu Y, Han Y, Qi A, Wang J, Yang Z, Wei X, Zhao T, Wu L, Xie X, Sun J, Zheng J, Zhao S, Xu F 10.1038/S41467-023-35882-W 2023-03-15 Yes"
+Q5NUL3,TUG-891,1,FFAR4,8G59,"AA2AR A2A Adenosine A Human MicroED 8FYN 8FYN_refined 2.0 A Inactive 1 72 - - - - BRIL - ZM-241385
+small-molecule Antagonist adenosine small-molecule No No Martynowycz MW, Shiriaeva A, Clabbers MTB, Nicolas WJ, Weaver SJ, Hattne J, Gonen T 10.1038/S41467-023-36733-4 2023-03-08 Yes"
+Q8TDU9,DC591053,1,RL3R2,7YK7,"GPR21 GPR21 A orphans A Human Cryo-EM 8HMV 8HMV_refined 2.9 A Active 100 79 Gs αs - 58 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Wong TS, Gao W, Chen G, Qiu C, He G, Ye F, Wu Z, Zeng Z, Du Y 10.1002/MCO2.205 2023-03-01 Yes"
+Q8TDU9,CHEMBL4522365,1,RL3R2,7YK6,"RL3R2 RXFP4 Relaxin family peptide A Human Cryo-EM 7YK7 7YK7_refined 2.8 R Active 100 75 Gi/o αi2 - 61 - scFv16 DC591053
+small-molecule Agonist relaxin-3, relaxin-3 (B chain), INSL5 peptide No No Chen Y, Zhou Q, Wang J, Xu Y, Wang Y, Yan J, Wang Y, Zhu Q, Zhao F, Li C, Chen CW, Cai X, Bathgate RAD, Shen C, Eric Xu H, Yang D, Liu H, Wang MW 10.1038/S41467-023-36182-Z 2023-03-01 Yes"
+P30550,PD 176252,1,GRPR,7W41,"GRPR BB2 Bombesin A Human Cryo-EM 7W3Z - 3.0 A Active 100 78 Gq/11 αq - 98 - scFv16 Gastrin-releasing peptide
+peptide Agonist neuromedin B, gastrin releasing peptide(14-27) (human), GRP-(18-27), neuromedin C, gastrin-releasing peptide peptide No No - - 2023-02-22 Yes"
+Q8TDS4,MK 6892,1,HCAR2,7XK2,"GRPR BB2 Bombesin A Human Cryo-EM 7W40 7W40_refined 3.0 A Active 100 78 Gq/11 αq - 79 - scFv16 Bombesin
+peptide Agonist neuromedin B, gastrin releasing peptide(14-27) (human), GRP-(18-27), neuromedin C, gastrin-releasing peptide peptide No No Peng S, Zhan Y, Zhang D, Ren L, Chen A, Chen ZF, Zhang H 10.1073/PNAS.2216230120 2023-02-22 Yes"
+Q9BXC1,(2~{S})-2-$l^{4}-azanyl-3-[[(2~{R})-3-octadecanoyloxy-2-oxidanyl-propoxy]-oxidanyl-oxidanylidene-$l^{6}-phosphanyl]oxy-propanoic acid,1,GP174,7XV3,"NMUR2 NMU2 Neuromedin U A Human Cryo-EM 7XK8 7XK8_refined 3.3 R Active 100 68 Gi/o αi1 - 64 - - Neuromedin U-25 (human)
+peptide Agonist neuromedin U-25, neuromedin S-36, neuromedin S-33, neuromedin U-23 peptide No No Zhao W, Zhang W, Wang M, Lu M, Chen S, Tang T, Schnapp G, Wagner H, Brennauer A, Yi C, Chu X, Han S, Wu B, Zhao Q 10.1038/S41467-022-34814-4 2023-02-22 Yes"
+Q9HC97,lodoxamide,1,GPR35,8H8J,"RXFP1 RXFP1 Relaxin family peptide A Human Cryo-EM 7TMW - 3.2 R Active 100 36 Gs αs Gs fused to receptor 57 - Nanobody-35 H2 relaxin
+small-molecule Agonist relaxin, relaxin-3, relaxin-1 peptide No No - - 2023-02-15 Yes"
+P29275,BAY 60-6583,1,AA2BR,8HDO,"ACM2 M2 Acetylcholine (muscarinic) A Human Cryo-EM 7T8X 7T8X_refined 3.2 A Active 100 59 Gi/o αo - 62 - Antibody fragment acetylcholine
+small-molecule Agonist acetylcholine small-molecule No No - - 2023-01-25 Yes"
+P29275,adenosine,1,AA2BR,8HDP,"AA2BR A2B Adenosine A Human Cryo-EM 8HDO - 2.9 R Active 100 83 Gs αs Mini-Gs 59 - Nanobody-35 BAY 60-6583
+small-molecule Agonist adenosine small-molecule No No Cai H, Xu Y, Guo S, He X, Sun J, Li X, Li C, Yin W, Cheng X, Jiang H, Xu HE, Xie X, Jiang Y 10.1038/S41421-022-00503-1 2023-01-18 Yes"
+Q8TDV5,AR231453,1,GP119,7WCN,"TRFR TRH1 Thyrotropin-releasing hormone A Human Cryo-EM 7XW9 - 2.7 R Active 100 72 Gq/11 αq - 58 - scFv16 TRH
+peptide Agonist TRH peptide No No - - 2022-12-28 Yes"
+Q8TDV5,MBX-2982,1,GP119,7WCM,"GP119 GPR119 GPR18, GPR55 and GPR119 A Human Cryo-EM 7WCN 7WCN_refined 2.9 R Active 100 86 Gs αs - 60 - Nanobody-35 AR231453
+small-molecule Agonist N-palmitoylethanolamine, anandamide, N-oleoylethanolamide, SEA small-molecule No No Qian Y, Wang J, Yang L, Liu Y, Wang L, Liu W, Lin Y, Yang H, Ma L, Ye S, Wu S, Qiao A 10.1038/S41467-022-34696-6 2022-12-21 Yes"
+P41143,DELTORPHIN II,1,OPRD,8F7S,"PTH1R PTH1 Parathyroid hormone B1 Human Cryo-EM 8HAF - 3.3 R Active 100 62 Gs αs - 60 - Nanobody-35 PTHrP-(1-36)
+peptide Agonist PTHrP-(1-36), PTHrP, PTH, TIP39 peptide No No Zhao LH, Yuan QN, Dai AT, He XH, Chen CW, Zhang C, Xu YW, Zhou Y, Wang MW, Yang DH, Xu HE 10.1038/S41401-022-01032-Z 2022-12-21 Yes"
+P20309,iperoxo,1,ACM3,8EA0,"OPRX NOP Opioid A Human Cryo-EM 8F7X 8F7X_refined 3.3 R Active 100 77 Gi/o αi1 - 62 - scFv16 nociceptin/orphanin FQ
+peptide Agonist nociceptin/orphanin FQ peptide No No Wang Y, Zhuang Y, DiBerto JF, Zhou XE, Schmitz GP, Yuan Q, Jain MK, Liu W, Melcher K, Jiang Y, Roth BL, Xu HE 10.1016/J.CELL.2022.12.026 2022-12-14 Yes"
+P20309,Clozapine N-oxide,1,ACM3,8E9Y,"ACM3 M3 Acetylcholine (muscarinic) A Human Cryo-EM 8EA0 8EA0_refined 2.6 A Active 99 48 - - - - - - iperoxo
+small-molecule Agonist acetylcholine small-molecule No No Zhang S, Gumpper RH, Huang XP, Liu Y, Krumm BE, Cao C, Fay JF, Roth BL 10.1038/S41586-022-05489-0 2022-11-30 Yes"
+P20309,CHEMBL73538,1,ACM3,8E9W,"ACM3 M3 Acetylcholine (muscarinic) A Human Cryo-EM 8E9Y - 2.8 A Active 100 47 Gq/11 αq Mini-Gq 56 - scFv16 Clozapine N-oxide
+small-molecule Agonist acetylcholine small-molecule No No Zhang S, Gumpper RH, Huang XP, Liu Y, Krumm BE, Cao C, Fay JF, Roth BL 10.1038/S41586-022-05489-0 2022-11-30 Yes"
+P20309,iperoxo,1,ACM3,8E9Z,"ACM3 M3 Acetylcholine (muscarinic) A Human Cryo-EM 8E9W - 2.7 A Active 100 47 Gq/11 αq Mini-Gq 57 - scFv16 CHEMBL73538
+small-molecule Agonist acetylcholine small-molecule No No Zhang S, Gumpper RH, Huang XP, Liu Y, Krumm BE, Cao C, Fay JF, Roth BL 10.1038/S41586-022-05489-0 2022-11-30 Yes"
+P08173,CHEMBL73538,1,ACM4,8E9X,"ACM3 M3 Acetylcholine (muscarinic) A Human Cryo-EM 8E9Z - 2.7 A Active 100 47 Gq/11 αq Mini-Gq 57 - scFv16 iperoxo
+small-molecule Agonist acetylcholine small-molecule No No Zhang S, Gumpper RH, Huang XP, Liu Y, Krumm BE, Cao C, Fay JF, Roth BL 10.1038/S41586-022-05489-0 2022-11-30 Yes"
+O43614,lemborexant,1,OX2R,7XRR,"ACM4 M4 Acetylcholine (muscarinic) A Human Cryo-EM 8E9X - 2.7 A Active 100 57 Gi/o αo Mini-Go 61 - scFv16 CHEMBL73538
+small-molecule Agonist acetylcholine small-molecule No No Zhang S, Gumpper RH, Huang XP, Liu Y, Krumm BE, Cao C, Fay JF, Roth BL 10.1038/S41586-022-05489-0 2022-11-30 Yes"
+P32241,Vasoactive intestinal polypeptide,1,VIPR1,8E3Z,"PACR PAC1 VIP and PACAP B1 Human Cryo-EM 8E3X 8E3X_refined 2.3 R Active 100 77 Gs αs - 59 - Nanobody-35 [Ac-His1]PACAP-27
+peptide Agonist PHM, PHV, VIP, PACAP-27, PHI, PACAP-38 peptide No No Piper SJ, Deganutti G, Lu J, Zhao P, Liang YL, Lu Y, Fletcher MM, Hossain MA, Christopoulos A, Reynolds CA, Danev R, Sexton PM, Wootten D 10.1038/S41467-022-34629-3 2022-11-23 Yes"
+P35372,CHEMBL4452384,1,OPRM,8EFL,"CRFR2 CRF2 Corticotropin-releasing factor B1 Human Cryo-EM 7TS0 7TS0_refined 2.8 P Active 100 72 Gi/o αo - 63 - scFv16 Urocortin
+peptide Agonist corticotrophin-releasing hormone, urocortin 1, urocortin 3, urocortin 2 peptide No No Zhao LH, Lin J, Ji SY, Zhou XE, Mao C, Shen DD, He X, Xiao P, Sun J, Melcher K, Zhang Y, Yu X, Xu HE 10.1038/S41467-022-33851-3 2022-11-09 Yes"
+P35372,fentanyl,1,OPRM,8EF5,"OPRM μ Opioid A Human Cryo-EM 8EFL 8EFL_refined 3.2 R Active 100 72 Gi/o αi1 - 64 - scFv16 CHEMBL4452384
+small-molecule Agonist endomorphin-1, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), dynorphin B, [Met]enkephalin, endomorphin-2 peptide No No Zhuang Y, Wang Y, He B, He X, Zhou XE, Guo S, Rao Q, Yang J, Liu J, Zhou Q, Wang X, Liu M, Liu W, Jiang X, Yang D, Jiang H, Shen J, Melcher K, Chen H, Jiang Y, Cheng X, Wang MW, Xie X, Xu HE 10.1016/J.CELL.2022.09.041 2022-11-09 Yes"
+P35372,PZM21,1,OPRM,8EFO,"OPRM μ Opioid A Human Cryo-EM 8EF5 - 3.3 R Active 100 72 Gi/o αi1 - 64 - scFv16 fentanyl
+small-molecule Agonist endomorphin-1, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), dynorphin B, [Met]enkephalin, endomorphin-2 peptide No No Zhuang Y, Wang Y, He B, He X, Zhou XE, Guo S, Rao Q, Yang J, Liu J, Zhou Q, Wang X, Liu M, Liu W, Jiang X, Yang D, Jiang H, Shen J, Melcher K, Chen H, Jiang Y, Cheng X, Wang MW, Xie X, Xu HE 10.1016/J.CELL.2022.09.041 2022-11-09 Yes"
+P35372,morphine,1,OPRM,8EF6,"OPRM μ Opioid A Human Cryo-EM 8EFO - 2.8 R Active 100 72 Gi/o αi1 - 64 - scFv16 PZM21
+small-molecule Agonist endomorphin-1, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), dynorphin B, [Met]enkephalin, endomorphin-2 peptide No No Zhuang Y, Wang Y, He B, He X, Zhou XE, Guo S, Rao Q, Yang J, Liu J, Zhou Q, Wang X, Liu M, Liu W, Jiang X, Yang D, Jiang H, Shen J, Melcher K, Chen H, Jiang Y, Cheng X, Wang MW, Xie X, Xu HE 10.1016/J.CELL.2022.09.041 2022-11-09 Yes"
+P35372,OLICERIDINE,1,OPRM,8EFB,"OPRM μ Opioid A Human Cryo-EM 8EFQ - 3.3 R Active 100 71 Gi/o αi1 - 61 - - DAMGO
+peptide Agonist endomorphin-1, β-endorphin, dynorphin A, dynorphin A-(1-8), [Leu]enkephalin, dynorphin A-(1-13), dynorphin B, [Met]enkephalin, endomorphin-2 peptide No No Zhuang Y, Wang Y, He B, He X, Zhou XE, Guo S, Rao Q, Yang J, Liu J, Zhou Q, Wang X, Liu M, Liu W, Jiang X, Yang D, Jiang H, Shen J, Melcher K, Chen H, Jiang Y, Cheng X, Wang MW, Xie X, Xu HE 10.1016/J.CELL.2022.09.041 2022-11-09 Yes"
+Q96LB2,compound 16 [PMID: 31498617],1,MRGX1,8DWH,"MRGX1 MRGPRX1 A orphans A Human Cryo-EM 8DWC - 2.9 R Active 100 78 Gq/11 αq Gs-mini-Gq chimera 57 - scFv16 Proenkephalin-A
+peptide Agonist bovine adrenal medulla peptide 8-22 peptide No No Liu Y, Cao C, Huang XP, Gumpper RH, Rachman MM, Shih SL, Krumm BE, Zhang S, Shoichet BK, Fay JF, Roth BL 10.1038/S41589-022-01173-6 2022-11-02 Yes"
+Q9H244,selatogrel,1,P2Y12,7PP1,"MRGX1 MRGPRX1 A orphans A Human Cryo-EM 8DWG - 2.7 R Active 100 77 Gq/11 αq Gs-mini-Gq chimera 57 - scFv16 Proenkephalin-A
+CHEMBL5177388
+peptide
+small-molecule Agonist
+PAM bovine adrenal medulla peptide 8-22 peptide No No Liu Y, Cao C, Huang XP, Gumpper RH, Rachman MM, Shih SL, Krumm BE, Zhang S, Shoichet BK, Fay JF, Roth BL 10.1038/S41589-022-01173-6 2022-11-02 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7Y27,"HRH3 H3 Histamine A Human X-ray 7F61 7F61_refined 2.6 A Inactive 12 68 - - - - BRIL - N-ethyl-3-fluoro-3-[3-fluoro-4-(pyrrolidin-1-ylmethyl)phenyl]cyclobutane-1-carboxamide
+small-molecule Antagonist histamine small-molecule No No Peng X, Yang L, Liu Z, Lou S, Mei S, Li M, Chen Z, Zhang H 10.1038/S41467-022-33880-Y 2022-10-26 Yes"
+P59540,strychnine,1,T2R46,7XP6,"T2R46 TAS2R46 Taste 2 T2 Human Cryo-EM 7XP5 - 3.1 R Active 100 97 Gi/o αgust - 63 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Xu W, Wu L, Liu S, Liu X, Cao X, Zhou C, Zhang J, Fu Y, Guo Y, Wu Y, Tan Q, Wang L, Liu J, Jiang L, Fan Z, Pei Y, Yu J, Cheng J, Zhao S, Hao X, Liu ZJ, Hua T 10.1126/SCIENCE.ABO1633 2022-10-12 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU8,"T2R46 TAS2R46 Taste 2 T2 Human Cryo-EM 7XP4 - 3.0 R Active 100 97 Gi/o αgust - 63 - Nanobody-35 Apo (no ligand)
+none Apo (no ligand) - - No No Xu W, Wu L, Liu S, Liu X, Cao X, Zhou C, Zhang J, Fu Y, Guo Y, Wu Y, Tan Q, Wang L, Liu J, Jiang L, Fan Z, Pei Y, Yu J, Cheng J, Zhao S, Hao X, Liu ZJ, Hua T 10.1126/SCIENCE.ABO1633 2022-10-12 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU3,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU8 - 4.5 R Active 100 80 Gi/o αi1 - 63 - scFv16 [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU4,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU3 7YU3_refined 3.4 R Active 100 80 Gi/o αi1 - 63 - scFv16 [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU5,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU4 7YU4_refined 3.3 A Active 99 73 - - - - - - [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU6,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU5 7YU5_refined 3.3 R Active 100 80 Gi/o αi1 - 63 - scFv16 [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+Q92633,[(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate,1,LPAR1,7YU7,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU6 7YU6_refined 3.5 R Active 100 80 Gi/o αi1 - 63 - scFv16 [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+P08913,N-pyridin-4-ylisoquinolin-4-amine,1,ADA2A,7W6P,"LPAR1 LPA1 Lysophospholipid (LPA) A Human Cryo-EM 7YU7 - 3.8 R Active 100 80 Gi/o αi1 - 63 - scFv16 [(2~{R})-2-[5-(2-hexylphenyl)pentanoylamino]-3-oxidanyl-propyl] dihydrogen phosphate
+small-molecule Agonist 1-O-Oleoyl-D-glycerol 3-phosphoric acid small-molecule No No Akasaka H, Tanaka T, Sano FK, Matsuzaki Y, Shihoya W, Nureki O 10.1038/S41467-022-33121-2 2022-10-05 Yes"
+P08913,"5-(3-Bicyclo[4.2.0]octa-1,3,5-trienyl)-1,2,3,6-tetrahydropyridine",1,ADA2A,7W7E,"ADA2A α2A Adrenoceptors A Human Cryo-EM 7W6P - 3.5 R Active 100 55 Gi/o αo - 58 - scFv16 N-pyridin-4-ylisoquinolin-4-amine
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Fink EA, Xu J, Hubner H, Braz JM, Seemann P, Avet C, Craik V, Weikert D, Schmidt MF, Webb CM, Tolmachova NA, Moroz YS, Huang XP, Kalyanaraman C, Gahbauer S, Chen G, Liu Z, Jacobson MP, Irwin JJ, Bouvier M, Du Y, Shoichet BK, Basbaum AI, Gmeiner P 10.1126/SCIENCE.ABN7065 2022-09-28 Yes"
+P21453,icanbelimod,1,S1PR1,7VIH,"AGRF1 ADGRF1 ADGRF B2 Human Cryo-EM 7WZ7 - 2.8 R Active 100 30 G12/13 α12 Mini-G12 55 - scFv16 Apo (no ligand)
+none Apo (no ligand) - - No No Zhu X, Qian Y, Li X, Xu Z, Xia R, Wang N, Liang J, Yin H, Zhang A, Guo C, Wang G, He Y 10.1038/S41467-022-33173-4 2022-09-28 Yes"
+P21453,icanbelimod,1,S1PR1,7VIG,"S1PR1 S1P1 Lysophospholipid (S1P) A Human Cryo-EM 7VIH 7VIH_refined 3.0 F Active 100 73 Gi/o αi1 - 64 - scFv16 icanbelimod
+small-molecule Agonist sphingosine 1-phosphate, dihydrosphingosine 1-phosphate, sphingosylphosphorylcholine small-molecule No No Yu L, He L, Gan B, Ti R, Xiao Q, Hu H, Zhu L, Wang S, Ren R 10.1073/PNAS.2117716119 2022-09-28 Yes"
+P21453,sphingosine 1-phosphate,1,S1PR1,7VIE,"S1PR1 S1P1 Lysophospholipid (S1P) A Human Cryo-EM 7VIG 7VIG_refined 2.9 F Active 100 73 Gi/o αi1 - 63 - scFv16 icanbelimod
+small-molecule Agonist sphingosine 1-phosphate, dihydrosphingosine 1-phosphate, sphingosylphosphorylcholine small-molecule No No Yu L, He L, Gan B, Ti R, Xiao Q, Hu H, Zhu L, Wang S, Ren R 10.1073/PNAS.2117716119 2022-09-28 Yes"
+P21453,(S)-FTY720-phosphate,1,S1PR1,7VIF,"S1PR1 S1P1 Lysophospholipid (S1P) A Human Cryo-EM 7VIE 7VIE_refined 2.9 F Active 100 73 Gi/o αi1 - 64 - scFv16 sphingosine 1-phosphate
+small-molecule Agonist sphingosine 1-phosphate, dihydrosphingosine 1-phosphate, sphingosylphosphorylcholine small-molecule No No Yu L, He L, Gan B, Ti R, Xiao Q, Hu H, Zhu L, Wang S, Ren R 10.1073/PNAS.2117716119 2022-09-28 Yes"
+P41595,Lysergide,1,5HT2B,7SRQ,"S1PR1 S1P1 Lysophospholipid (S1P) A Human Cryo-EM 7VIF 7VIF_refined 2.8 F Active 100 73 Gi/o αi1 - 64 - scFv16 (S)-FTY720-phosphate
+small-molecule Agonist sphingosine 1-phosphate, dihydrosphingosine 1-phosphate, sphingosylphosphorylcholine small-molecule No No Yu L, He L, Gan B, Ti R, Xiao Q, Hu H, Zhu L, Wang S, Ren R 10.1073/PNAS.2117716119 2022-09-28 Yes"
+P41595,Lysergide,1,5HT2B,7SRS,"5HT2B 5-HT2B 5-Hydroxytryptamine A Human Cryo-EM 7SRQ 7SRQ_refined 2.7 R Intermediate 55 53 - - - - - - Lysergide
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Cao C, Barros-Alvarez X, Zhang S, Kim K, Damgen MA, Panova O, Suomivuori CM, Fay JF, Zhong X, Krumm BE, Gumpper RH, Seven AB, Robertson MJ, Krogan NJ, Huttenhain R, Nichols DE, Dror RO, Skiniotis G, Roth BL 10.1016/J.NEURON.2022.08.006 2022-09-21 Yes"
+P41595,Lysergide,1,5HT2B,7SRR,"5HT2B 5-HT2B 5-Hydroxytryptamine A Human Cryo-EM 7SRS - 3.3 R Active 100 60 Beta Beta-arrestin-1 - 85 - Fab light chain
+Fab heavy chain
+Fab30 heavy chain
+Fab30 light chain Lysergide
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Cao C, Barros-Alvarez X, Zhang S, Kim K, Damgen MA, Panova O, Suomivuori CM, Fay JF, Zhong X, Krumm BE, Gumpper RH, Seven AB, Robertson MJ, Krogan NJ, Huttenhain R, Nichols DE, Dror RO, Skiniotis G, Roth BL 10.1016/J.NEURON.2022.08.006 2022-09-21 Yes"
+P47898,5-CT,1,5HT5A,7X5H,"FPR1 FPR1 Formylpeptide A Human Cryo-EM 7VFX 7VFX_refined 2.8 R Active 100 84 Gi/o αi1 - 62 - scFv16 Peptide agonist fMet-Ile-Phe-Leu
+peptide Agonist annexin I, fMet-Leu-Phe, cathepsin G, spinorphin peptide No No Chen G, Wang X, Liao Q, Ge Y, Jiao H, Chen Q, Liu Y, Lyu W, Zhu L, van Zundert GCP, Robertson MJ, Skiniotis G, Du Y, Hu H, Ye RD 10.1038/S41467-022-32822-Y 2022-09-21 Yes"
+P29274,LJ-4517,1,AA2AR,8CU6,"V2R V2 Vasopressin and oxytocin A Human Cryo-EM 7R0C - 4.7 A Active 100 76 Beta Beta-arrestin-1 - 84 - scFv30 vasopressin
+peptide Agonist oxytocin, vasopressin peptide No No Bous J, Fouillen A, Orcel H, Trapani S, Cong X, Fontanel S, Saint-Paul J, Lai-Kee-Him J, Urbach S, Sibille N, Sounier R, Granier S, Mouillac B, Bron P 10.1126/SCIADV.ABO7761 2022-09-14 Yes"
+P29274,LJ-4517,1,AA2AR,8CU7,"AA2AR A2A Adenosine A Human X-ray 8CU6 8CU6_refined 2.8 A Inactive 1 72 - - - - BRIL - LJ-4517
+small-molecule Antagonist adenosine small-molecule No No Shiriaeva A, Park D, Kim G, Lee Y, Hou X, Jarhad DB, Kim G, Yu J, Hyun YE, Kim W, Gao ZG, Jacobson KA, Han GW, Stevens RC, Jeong LS, Choi S, Cherezov V. 10.1021/acs.jmedchem.2c00462 2022-08-31 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7XAT,"SSR2 SST2 Somatostatin A Human Cryo-EM 7XAV 7XAV_refined 2.9 A Active 100 76 Gi/o αi1 - 63 - scFv16 lanreotide
+peptide Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Bo Q, Yang F, Li Y, Meng X, Zhang H, Zhou Y, Ling S, Sun D, Lv P, Liu L, Shi P, Tian C 10.1038/S41421-022-00405-2 2022-08-31 Yes"
+P34981,taltirelin,1,TRFR,7X1T,"SSR2 SST2 Somatostatin A Human Cryo-EM 7XAT 7XAT_refined 2.9 A Active 100 78 Gi/o αi1 - 63 - scFv16 SOMATOSTATIN
+protein Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Bo Q, Yang F, Li Y, Meng X, Zhang H, Zhou Y, Ling S, Sun D, Lv P, Liu L, Shi P, Tian C 10.1038/S41421-022-00405-2 2022-08-31 Yes"
+P28335,lorcaserin,1,5HT2C,8DPH,"TRFR TRH1 Thyrotropin-releasing hormone A Human Cryo-EM 7X1U 7X1U_refined 3.2 A Active 100 68 Gq/11 αq - 57 - scFv16 TRH
+peptide Agonist TRH peptide No No - - 2022-08-31 Yes"
+P28335,psilocin,1,5HT2C,8DPG,"5HT2C 5-HT2C 5-Hydroxytryptamine A Human Cryo-EM 8DPH - 3.2 A Active 100 58 Gq/11 αq Gi2-mini-Gq chimera 57 - scFv16 lorcaserin
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Gumpper RH, Fay JF, Roth BL 10.1016/J.CELREP.2022.111211 2022-08-24 Yes"
+P28335,lorcaserin,1,5HT2C,8DPF,"5HT2C 5-HT2C 5-Hydroxytryptamine A Human Cryo-EM 8DPG - 3.6 A Active 100 58 Gq/11 αq Gi2-mini-Gq chimera 57 - scFv16 psilocin
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Gumpper RH, Fay JF, Roth BL 10.1016/J.CELREP.2022.111211 2022-08-24 Yes"
+P28335,lorcaserin,1,5HT2C,8DPI,"5HT2C 5-HT2C 5-Hydroxytryptamine A Human Cryo-EM 8DPF - 2.8 A Active 100 58 Gq/11 αq Gi2-mini-Gq chimera 57 - scFv16 lorcaserin
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Gumpper RH, Fay JF, Roth BL 10.1016/J.CELREP.2022.111211 2022-08-24 Yes"
+Q8TDV5,APD668,1,GP119,7XZ6,"CCR3 CCR3 Chemokine A Human Cryo-EM 7X9Y 7X9Y_refined 3.1 R Active 100 83 Gi/o αi1 - 62 - scFv16 Apo (no ligand)
+none Apo (no ligand) CCL11, CXCL10, CCL28, CCL15, CCL2, CCL8, CXCL11, CCL5, CCL24, CCL13, CXCL9, CCL7, CCL26 peptide No No Shao Z, Tan Y, Shen Q, Hou L, Yao B, Qin J, Xu P, Mao C, Chen LN, Zhang H, Shen DD, Zhang C, Li W, Du X, Li F, Chen ZH, Jiang Y, Xu HE, Ying S, Ma H, Zhang Y, Shen H 10.1038/S41421-022-00403-4 2022-08-24 Yes"
+Q8TDV5,"(4R,7R,18E)-4,7-dihydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphaheptacos-18-en-1-aminium 4-oxide",1,GP119,7XZ5,"GP119 GPR119 GPR18, GPR55 and GPR119 A Human Cryo-EM 7XZ6 - 2.8 R Active 100 87 Gs αs - 60 BRIL Nanobody-35 APD668
+small-molecule Agonist N-palmitoylethanolamine, anandamide, N-oleoylethanolamide, SEA small-molecule No No Xu P, Huang S, Guo S, Yun Y, Cheng X, He X, Cai P, Lan Y, Zhou H, Jiang H, Jiang Y, Xie X, Xu HE 10.1038/S41594-022-00816-5 2022-08-24 Yes"
+P29274,CHEMBL5206530,1,AA2AR,8DU3,"TSHR TSH Glycoprotein hormone A Human Cryo-EM 7XW6 - 2.8 R Active 100 74 Gs αs - 59 - Nanobody-35 M22 antibody heavy chain
+M22 antibody light chain
+N-[4-[[5-[(2S)-3-benzyl-5-hydroxy-4-oxo-1,2-dihydroquinazolin-2-yl]-2-methoxyphenyl]methoxy]phenyl]acetamide
+protein
+protein
+small-molecule Agonist TSH peptide No No Duan J, Xu P, Luan X, Ji Y, He X, Song N, Yuan Q, Jin Y, Cheng X, Jiang H, Zheng J, Zhang S, Jiang Y, Xu HE 10.1038/S41586-022-05173-3 2022-08-17 Yes"
+P29274,ZM-241385,1,AA2AR,7T32,"AA2AR A2A Adenosine A Human X-ray 8DU3 8DU3_refined 2.5 A Inactive 1 72 - - - - BRIL - CHEMBL5206530
+small-molecule Antagonist adenosine small-molecule No No Bolteau R, Duroux R, Laversin A, Vreulz B, Shiriaeva A, Stauch B, Han GW, Cherezov V, Renault N, Barczyk A, Ravez S, Coevoet M, Melnyk P, Liberelle M, Yous S. 10.1016/j.ejmech.2022.114620 2022-08-10 Yes"
+Q9H228,"4-[6-(2-naphthalen-1-ylethoxy)-2,3,4,5-tetrahydro-1H-3-benzazepin-3-ium-3-yl]butanoic acid",1,S1PR5,7YXA,"OXYR OT Vasopressin and oxytocin A Human Cryo-EM 7QVM - 3.3 R Active 100 64 Gi/o αo - 59 - scFv16 oxytocin
+peptide Agonist oxytocin, vasopressin peptide No No Waltenspuhl Y, Ehrenmann J, Vacca S, Thom C, Medalia O, Pluckthun A 10.1038/S41467-022-31325-0 2022-08-10 Yes"
+P30874,"L-054,522",1,SSR2,7XN9,"SSR2 SST2 Somatostatin A Human X-ray 7XNA - 2.7 A Inactive 8 78 - - - - - - CYN 154806
+peptide Antagonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Zhao W, Han S, Qiu N, Feng W, Lu M, Zhang W, Wang M, Zhou Q, Chen S, Xu W, Du J, Chu X, Yi C, Dai A, Hu L, Shen MY, Sun Y, Zhang Q, Ma Y, Zhong W, Yang D, Wang MW, Wu B, Zhao Q 10.1038/S41422-022-00679-X 2022-08-03 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7XMR,"SSR2 SST2 Somatostatin A Human X-ray 7XN9 7XN9_refined 2.6 A Inactive 8 79 - - - - - - L-054,522
+small-molecule Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Zhao W, Han S, Qiu N, Feng W, Lu M, Zhang W, Wang M, Zhou Q, Chen S, Xu W, Du J, Chu X, Yi C, Dai A, Hu L, Shen MY, Sun Y, Zhang Q, Ma Y, Zhong W, Yang D, Wang MW, Wu B, Zhao Q 10.1038/S41422-022-00679-X 2022-08-03 Yes"
+P31391,J-2156,1,SSR4,7XMT,"SSR2 SST2 Somatostatin A Human Cryo-EM 7XMR 7XMR_refined 3.1 R Active 100 77 Gi/o αi1 - 63 - - SOMATOSTATIN
+protein Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Zhao W, Han S, Qiu N, Feng W, Lu M, Zhang W, Wang M, Zhou Q, Chen S, Xu W, Du J, Chu X, Yi C, Dai A, Hu L, Shen MY, Sun Y, Zhang Q, Ma Y, Zhong W, Yang D, Wang MW, Wu B, Zhao Q 10.1038/S41422-022-00679-X 2022-08-03 Yes"
+P31391,SOMATOSTATIN,1,SSR4,7XMS,"SSR4 SST4 Somatostatin A Human Cryo-EM 7XMT 7XMT_refined 2.8 R Active 100 68 Gi/o αi1 - 63 - scFv16 J-2156
+small-molecule Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Zhao W, Han S, Qiu N, Feng W, Lu M, Zhang W, Wang M, Zhou Q, Chen S, Xu W, Du J, Chu X, Yi C, Dai A, Hu L, Shen MY, Sun Y, Zhang Q, Ma Y, Zhong W, Yang D, Wang MW, Wu B, Zhao Q 10.1038/S41422-022-00679-X 2022-08-03 Yes"
+Q13639,5-hydroxytryptamine,1,5HT4R,7XT8,"TSHR TSH Glycoprotein hormone A Human Cryo-EM 7T9N - 2.9 R Active 100 73 Gs αs Mini-Gs 56 - M22 Fab light chain
+M22 Fab heavy chain
+Nanobody-35 M22 antibody heavy chain
+M22 antibody light chain
+protein
+protein Agonist TSH peptide No No Faust B, Billesbolle CB, Suomivuori CM, Singh I, Zhang K, Hoppe N, Pinto AFM, Diedrich JK, Muftuoglu Y, Szkudlinski MW, Saghatelian A, Dror RO, Cheng Y, Manglik A 10.1038/S41586-022-05159-1 2022-08-03 Yes"
+Q13639,5-hydroxytryptamine,1,5HT4R,7XTA,"5HT4R 5-HT4 5-Hydroxytryptamine A Human Cryo-EM 7XT8 - 3.1 R Active 100 76 Gs αs - 60 BRIL Nanobody-35 5-hydroxytryptamine
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Huang S, Xu P, Shen DD, Simon IA, Mao C, Tan Y, Zhang H, Harpsoe K, Li H, Zhang Y, You C, Yu X, Jiang Y, Zhang Y, Gloriam DE, Xu HE 10.1016/J.MOLCEL.2022.05.031 2022-07-27 Yes"
+Q13639,5-hydroxytryptamine,1,5HT4R,7XT9,"5HT4R 5-HT4 5-Hydroxytryptamine A Human Cryo-EM 7XTA 7XTA_refined 3.2 R Active 100 73 Gi/o αi1 - 62 BRIL scFv16 5-hydroxytryptamine
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Huang S, Xu P, Shen DD, Simon IA, Mao C, Tan Y, Zhang H, Harpsoe K, Li H, Zhang Y, You C, Yu X, Jiang Y, Zhang Y, Gloriam DE, Xu HE 10.1016/J.MOLCEL.2022.05.031 2022-07-27 Yes"
+P50406,5-hydroxytryptamine,1,5HT6R,7XTB,"5HT4R 5-HT4 5-Hydroxytryptamine A Human Cryo-EM 7XT9 - 3.2 R Active 100 76 Gs αs - 60 BRIL - 5-hydroxytryptamine
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Huang S, Xu P, Shen DD, Simon IA, Mao C, Tan Y, Zhang H, Harpsoe K, Li H, Zhang Y, You C, Yu X, Jiang Y, Zhang Y, Gloriam DE, Xu HE 10.1016/J.MOLCEL.2022.05.031 2022-07-27 Yes"
+P34969,5-CT,1,5HT7R,7XTC,"5HT6R 5-HT6 5-Hydroxytryptamine A Human Cryo-EM 7XTB 7XTB_refined 3.3 R Active 100 63 Gs αs - 60 BRIL Nanobody-35 5-hydroxytryptamine
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Huang S, Xu P, Shen DD, Simon IA, Mao C, Tan Y, Zhang H, Harpsoe K, Li H, Zhang Y, You C, Yu X, Jiang Y, Zhang Y, Gloriam DE, Xu HE 10.1016/J.MOLCEL.2022.05.031 2022-07-27 Yes"
+P25106,"(1R)-4-[7-(3-carboxypropoxy)-6-methylquinolin-8-yl]-1-{[2-(4-hydroxypiperidin-1-yl)-1,3-thiazol-4-yl]methyl}-1,4-diazepan-1-ium",1,ACKR3,7SK9,"ACKR3 ACKR3 Chemokine A Human Cryo-EM 7SK5 7SK5_refined 4.0 A Active 96 83 - - - - - CID24 Fab heavy chain
+CID24 Fab light chain
+anti-Fab Nanobody Stromal cell-derived factor 1
+peptide Agonist CXCL11, CXCL12α peptide No No Yen YC, Schafer CT, Gustavsson M, Eberle SA, Dominik PK, Deneka D, Zhang P, Schall TJ, Kossiakoff AA, Tesmer JJG, Handel TM 10.1126/SCIADV.ABN8063 2022-07-27 Yes"
+P35414,"(1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide",1,APJ,7W0L,"APJ apelin Apelin A Human Cryo-EM 7W0N - 4.2 R Active 100 78 Gi/o αi1 - 64 BRIL scFv16 Apelin receptor early endogenous ligand
+peptide Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No Yue Y, Liu L, Wu LJ, Wu Y, Wang L, Li F, Liu J, Han GW, Chen B, Lin X, Brouillette RL, Breault E, Longpre JM, Shi S, Lei H, Sarret P, Stevens RC, Hanson MA, Xu F 10.1038/S41594-022-00797-5 2022-07-27 Yes"
+P35414,"(1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide",1,APJ,7W0M,"APJ apelin Apelin A Human Cryo-EM 7W0L 7W0L_refined 3.6 R Active 100 78 Gi/o αi1 - 64 BRIL scFv16 (1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide
+small-molecule Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No Yue Y, Liu L, Wu LJ, Wu Y, Wang L, Li F, Liu J, Han GW, Chen B, Lin X, Brouillette RL, Breault E, Longpre JM, Shi S, Lei H, Sarret P, Stevens RC, Hanson MA, Xu F 10.1038/S41594-022-00797-5 2022-07-27 Yes"
+P35414,"(1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide",1,APJ,7SUS,"APJ apelin Apelin A Human Cryo-EM 7W0M 7W0M_refined 3.7 R Active 100 76 Gi/o αi1 - 62 BRIL scFv16 (1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide
+small-molecule Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No Yue Y, Liu L, Wu LJ, Wu Y, Wang L, Li F, Liu J, Han GW, Chen B, Lin X, Brouillette RL, Breault E, Longpre JM, Shi S, Lei H, Sarret P, Stevens RC, Hanson MA, Xu F 10.1038/S41594-022-00797-5 2022-07-27 Yes"
+P47898,5-CT,1,5HT5A,7UM5,"APJ apelin Apelin A Human X-ray 7SUS 7SUS_refined 2.7 A Inactive 8 76 - - - - Rubredoxin - (1R,2S)-N-[4-(2,6-dimethoxyphenyl)-5-(6-methylpyridin-2-yl)-1,2,4-triazol-3-yl]-1-(5-methylpyrimidin-2-yl)-1-oxidanyl-propane-2-sulfonamide
+small-molecule Agonist apelin-36, apelin-17, apelin-13, Elabela/Toddler-21, Elabela/Toddler-32, Elabela/Toddler-11, [Pyr]apelin-13, apelin receptor early endogenous ligand peptide No No Yue Y, Liu L, Wu LJ, Wu Y, Wang L, Li F, Liu J, Han GW, Chen B, Lin X, Brouillette RL, Breault E, Longpre JM, Shi S, Lei H, Sarret P, Stevens RC, Hanson MA, Xu F 10.1038/S41594-022-00797-5 2022-07-27 Yes"
+P47898,CHEMBL3654198,1,5HT5A,7UM4,"5HT5A 5-HT5A 5-Hydroxytryptamine A Human Cryo-EM 7UM5 7UM5_refined 2.7 A Active 100 75 Gi/o αo Mini-Go 60 - scFv16 5-CT
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Zhang S, Chen H, Zhang C, Yang Y, Popov P, Liu J, Krumm BE, Cao C, Kim K, Xiong Y, Katritch V, Shoichet BK, Jin J, Fay JF, Roth BL 10.1038/S41594-022-00796-6 2022-07-20 Yes"
+P47898,lisuride,1,5HT5A,7UM6,"5HT5A 5-HT5A 5-Hydroxytryptamine A Human X-ray 7UM4 7UM4_refined 2.8 A Inactive 16 71 - - - - PGS - CHEMBL3654198
+small-molecule Antagonist 5-hydroxytryptamine small-molecule No No Zhang S, Chen H, Zhang C, Yang Y, Popov P, Liu J, Krumm BE, Cao C, Kim K, Xiong Y, Katritch V, Shoichet BK, Jin J, Fay JF, Roth BL 10.1038/S41594-022-00796-6 2022-07-20 Yes"
+P47898,methylergonovine,1,5HT5A,7UM7,"5HT5A 5-HT5A 5-Hydroxytryptamine A Human Cryo-EM 7UM6 - 2.8 A Active 100 72 Gi/o αo Mini-Go 60 - scFv16 lisuride
+small-molecule Agonist 5-hydroxytryptamine small-molecule No No Zhang S, Chen H, Zhang C, Yang Y, Popov P, Liu J, Krumm BE, Cao C, Kim K, Xiong Y, Katritch V, Shoichet BK, Jin J, Fay JF, Roth BL 10.1038/S41594-022-00796-6 2022-07-20 Yes"
+P32238,SR146131,1,CCKAR,7XOV,"CCKAR CCK1 Cholecystokinin A Human Cryo-EM 7XOU - 3.2 R Active 100 67 Gs αs - 58 - Nanobody-35 CCK-8
+peptide Agonist CCK-8, desulfated cholecystokinin-8, CCK-39, CCK-58, CCK-33, CCK-4, gastrin-17 peptide No No Ding Y, Zhang H, Liao YY, Chen LN, Ji SY, Qin J, Mao C, Shen DD, Lin L, Wang H, Zhang Y, Li XM 10.1038/S41421-022-00420-3 2022-07-20 Yes"
+Q8TDS7,β-alanine,1,MRGRD,7Y14,"MRGRD MRGPRD A orphans A Human Cryo-EM 7Y15 7Y15_refined 2.9 R Active 100 82 Gi/o αi1 - 62 BRIL scFv16 Apo (no ligand)
+none Apo (no ligand) β-alanine small-molecule No No Suzuki S, Iida M, Hiroaki Y, Tanaka K, Kawamoto A, Kato T, Oshima A 10.1038/S42003-022-03668-3 2022-07-20 Yes"
+Q8TDS7,β-alanine,1,MRGRD,7Y12,"MRGRD MRGPRD A orphans A Human Cryo-EM 7Y13 7Y13_refined 3.1 R Intermediate 46 82 - - - - BRIL - Apo (no ligand)
+none Apo (no ligand) β-alanine small-molecule No No Suzuki S, Iida M, Hiroaki Y, Tanaka K, Kawamoto A, Kato T, Oshima A 10.1038/S42003-022-03668-3 2022-07-20 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7WJ5,"GALR2 GAL2 Galanin A Human Cryo-EM 7XBD 7XBD_refined 3.1 A Active 100 72 Gq/11 αq - 60 - scFv16 Galanin, Human
+peptide Agonist spexin-1, galanin-like peptide, galanin peptide No No Heo Y, Ishimoto N, Jeon YE, Yun JH, Ohki M, Anraku Y, Sasaki M, Kita S, Fukuhara H, Ikuta T, Kawakami K, Inoue A, Maenaka K, Tame JRH, Lee W, Park SY 10.1371/JOURNAL.PBIO.3001714 2022-07-13 Yes"
+P28223,"3-[(3R)-3-methyl-1,2,3,6-tetrahydropyridin-1-ium-5-yl]-1H-pyrrolo[2,3-b]pyridine",1,5HT2A,7RAN,"SSR2 SST2 Somatostatin A Human Cryo-EM 7WJ5 7WJ5_refined 3.7 R Active 100 76 Gi/o αi1 - 60 BRIL scFv16 SOMATOSTATIN
+protein Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Heo Y, Yoon E, Jeon YE, Yun JH, Ishimoto N, Woo H, Park SY, Song JJ, Lee W 10.7554/ELIFE.76823 2022-07-13 Yes"
+Q8TDU6,CHEMBL2181246,1,GPBAR,7XTQ,"5HT2A 5-HT2A 5-Hydroxytryptamine A Human Cryo-EM 7RAN - 3.5 A Active 100 57 Gq/11 αq Gi2-mini-Gq chimera 60 - scFv16 3-[(3R)-3-methyl-1,2,3,6-tetrahydropyridin-1-ium-5-yl]-1H-pyrrolo[2,3-b]pyridine
+small-molecule Agonist 5-hydroxytryptamine, tryptamine small-molecule No No Kaplan AL, Confair DN, Kim K, Barros-Alvarez X, Rodriguiz RM, Yang Y, Kweon OS, Che T, McCorvy JD, Kamber DN, Phelan JP, Martins LC, Pogorelov VM, DiBerto JF, Slocum ST, Huang XP, Kumar JM, Robertson MJ, Panova O, Seven AB, Wetsel AQ, Wetsel WC, Irwin JJ, Skiniotis G, Shoichet BK, Roth BL, Ellman JA 10.1038/S41586-022-05258-Z 2022-07-06 Yes"
+P21728,fenoldopam,1,DRD1,7X2C,"GPBAR GPBA Bile acid A Human Cryo-EM 7XTQ 7XTQ_refined 3.2 R Active 100 83 Gs αs - 58 - Nanobody-35 CHEMBL2181246
+small-molecule Agonist cholic acid, deoxycholic acid, chenodeoxycholic acid, lithocholic acid small-molecule No No Ma L, Yang F, Wu X, Mao C, Guo L, Miao T, Zang SK, Jiang X, Shen DD, Wei T, Zhou H, Wei Q, Li S, Shu Q, Feng S, Jiang C, Chu B, Du L, Sun JP, Yu X, Zhang Y, Zhang P 10.1073/PNAS.2117054119 2022-07-06 Yes"
+O43603,Spexin,1,GALR2,7XJL,"GALR2 GAL2 Galanin A Human Cryo-EM 7XJK 7XJK_refined 3.3 F Active 100 72 Gq/11 αq - 58 - scFv16 Galanin, Human
+peptide Agonist spexin-1, galanin-like peptide, galanin peptide No No Jiang W, Zheng S 10.1073/PNAS.2121465119 2022-06-29 Yes"
+P43220,WB4-24,1,GLP1R,7X8S,"GALR2 GAL2 Galanin A Human Cryo-EM 7XJL 7XJL_refined 3.5 F Active 100 72 Gq/11 αq - 58 - scFv16 Spexin
+small-molecule Agonist spexin-1, galanin-like peptide, galanin peptide No No Jiang W, Zheng S 10.1073/PNAS.2121465119 2022-06-29 Yes"
+P43220,CHEMBL2158411,1,GLP1R,7X8R,"GLP1R GLP-1 Glucagon B1 Human Cryo-EM 7X8S 7X8S_refined 3.1 R Active 100 65 Gs αs - 60 - Nanobody-35 WB4-24
+small-molecule Agonist glucagon-like peptide 1-(7-37), glucagon, glucagon-like peptide 1-(7-36) amide peptide No No Cong Z, Zhou Q, Li Y, Chen LN, Zhang ZC, Liang A, Liu Q, Wu X, Dai A, Xia T, Wu W, Zhang Y, Yang D, Wang MW 10.1073/PNAS.2200155119 2022-06-29 Yes"
+P25021,famotidine,1,HRH2,7UL3,"GLP1R GLP-1 Glucagon B1 Human Cryo-EM 7X8R - 2.6 R Active 100 64 Gs αs - 59 - Nanobody-35 CHEMBL2158411
+small-molecule Agonist glucagon-like peptide 1-(7-37), glucagon, glucagon-like peptide 1-(7-36) amide peptide No No Cong Z, Zhou Q, Li Y, Chen LN, Zhang ZC, Liang A, Liu Q, Wu X, Dai A, Xia T, Wu W, Zhang Y, Yang D, Wang MW 10.1073/PNAS.2200155119 2022-06-29 Yes"
+P30989,meclinertant,1,NTR1,7UL2,"HRH2 H2 Histamine A Human Cryo-EM 7UL3 7UL3_refined 3.0 A Inactive 8 75 - - - - - Nanobody-6M
+NabFab HC
+NabFab LC famotidine
+small-molecule Antagonist histamine small-molecule No No Robertson MJ, Papasergi-Scott MM, He F, Seven AB, Meyerowitz JG, Panova O, Peroto MC, Che T, Skiniotis G 10.1038/S41594-022-00859-8 2022-06-29 Yes"
+P21554,"CP55940
+6-methyl-3-[(1S)-2-nitro-1-thiophen-2-yl-ethyl]-2-phenyl-1H-indole",1,CNR1,7FEE,"SSR2 SST2 Somatostatin A Human Cryo-EM 7UL5 7UL5_refined 3.1 A Inactive 8 77 - - - - - Nanobody-6 Apo (no ligand)
+none Apo (no ligand) cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Robertson MJ, Papasergi-Scott MM, He F, Seven AB, Meyerowitz JG, Panova O, Peroto MC, Che T, Skiniotis G 10.1038/S41594-022-00859-8 2022-06-29 Yes"
+P21554,"CP55940
+6-methyl-3-[(1S)-2-nitro-1-thiophen-2-yl-ethyl]-2-phenyl-1H-indole",1,CNR1,7WV9,"CNR1 CB1 Cannabinoid A Human X-ray 7FEE 7FEE_refined 2.7 A Inactive 7 61 - - - - GlgA glycogen synthase - CP55940
+6-methyl-3-[(1S)-2-nitro-1-thiophen-2-yl-ethyl]-2-phenyl-1H-indole
+small-molecule
+small-molecule Agonist
+PAM 2-arachidonoylglycerol, anandamide small-molecule No No Yang X, Wang X, Xu Z, Wu C, Zhou Y, Wang Y, Lin G, Li K, Wu M, Xia A, Liu J, Cheng L, Zou J, Yan W, Shao Z, Yang S 10.1038/S41589-022-01038-Y 2022-06-15 Yes"
+P21728,dopamine,1,DRD1,7F1O,"CNR1 CB1 Cannabinoid A Human Cryo-EM 7WV9 - 3.4 R Active 100 61 Gi/o αi2 - 63 - scFv16 CP55940
+6-methyl-3-[(1S)-2-nitro-1-thiophen-2-yl-ethyl]-2-phenyl-1H-indole
+small-molecule
+small-molecule Agonist
+PAM 2-arachidonoylglycerol, anandamide small-molecule No No Yang X, Wang X, Xu Z, Wu C, Zhou Y, Wang Y, Lin G, Li K, Wu M, Xia A, Liu J, Cheng L, Zou J, Yan W, Shao Z, Yang S 10.1038/S41589-022-01038-Y 2022-06-15 Yes"
+P21728,"dopamine
+mevidalen",1,DRD1,7X2F,"DRD1 D1 Dopamine A Human Cryo-EM 7F1O - 3.1 F Active 100 62 Gs αs - 60 - Nanobody-35 dopamine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Wang Q, Chen Z, Wang X, Huang N, Zheng S 10.1126/SCIADV.ABO4158 2022-06-15 Yes"
+P21728,dopamine,1,DRD1,7F24,"DRD1 D1 Dopamine A Human Cryo-EM 7X2F 7X2F_refined 3.0 F Active 100 63 Gs αs - 58 - Nanobody-35 dopamine
+mevidalen
+small-molecule
+small-molecule Agonist
+PAM L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Nie Y, Xiao P, Yu X, Shao Z, Zheng S 10.1038/S41467-022-30929-W 2022-06-15 Yes"
+P21728,dopamine,1,DRD1,7F0T,"DRD1 D1 Dopamine A Human Cryo-EM 7F24 - 4.2 F Active 100 62 Gs αs - 57 - - dopamine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Wang Q, Chen Z, Wang X, Huang N, Zheng S 10.1126/SCIADV.ABO4158 2022-06-15 Yes"
+P21728,dopamine,1,DRD1,7F23,"DRD1 D1 Dopamine A Human Cryo-EM 7F0T - 3.1 F Active 100 63 Gs αs - 58 - Nanobody-35 dopamine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Wang Q, Chen Z, Wang X, Huang N, Zheng S 10.1126/SCIADV.ABO4158 2022-06-15 Yes"
+P21728,dopamine,1,DRD1,7F1Z,"DRD1 D1 Dopamine A Human Cryo-EM 7F23 - 3.6 F Active 100 62 Gs αs - 60 - Nanobody-35 dopamine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Wang Q, Chen Z, Wang X, Huang N, Zheng S 10.1126/SCIADV.ABO4158 2022-06-15 Yes"
+P21728,tavapadon,1,DRD1,7X2D,"DRD1 D1 Dopamine A Human Cryo-EM 7F1Z - 3.5 F Active 100 62 Gs αs - 60 - - dopamine
+small-molecule Agonist L-NOREPINEPHRINE, noradrenaline, (-)-noradrenaline, 5-hydroxytryptamine, dopamine small-molecule No No Teng X, Chen S, Wang Q, Chen Z, Wang X, Huang N, Zheng S 10.1126/SCIADV.ABO4158 2022-06-15 Yes"
+P43220,CHEMBL5191519,1,GLP1R,7S15,"TRFR TRH1 Thyrotropin-releasing hormone A Human Cryo-EM 7WKD - 3.0 R Active 100 66 Gq/11 αq - 60 - scFv16 TRH
+peptide Agonist TRH peptide No No Xu Y, Cai H, You C, He X, Yuan Q, Jiang H, Cheng X, Jiang Y, Xu HE 10.1038/S41422-022-00641-X 2022-06-15 Yes"
+P30874,"~{N}-[(2~{R})-1-[[(1~{R},3~{S})-3-(aminomethyl)cyclohexyl]methylamino]-3-(1~{H}-indol-3-yl)-1-oxidanylidene-propan-2-yl]spiro[indene-1,4'-piperidine]-1'-carboxamide",1,SSR2,7WIG,"OX2R OX2 Orexin A Human Cryo-EM 7SR8 - 3.3 R Active 100 64 Gq/11 αq - 58 - scFv16 methyl (2R,3S)-3-[(methanesulfonyl)amino]-2-({[(1s,4S)-4-phenylcyclohexyl]oxy}methyl)piperidine-1-carboxylate
+small-molecule Agonist orexin-B, orexin-A peptide No No Yin J, Kang Y, McGrath AP, Chapman K, Sjodt M, Kimura E, Okabe A, Koike T, Miyanohana Y, Shimizu Y, Rallabandi R, Lian P, Bai X, Flinspach M, De Brabander JK, Rosenbaum DM 10.1038/S41467-022-30601-3 2022-06-08 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7WIC,"SSR2 SST2 Somatostatin A Human Cryo-EM 7WIG 7WIG_refined 2.7 R Active 100 77 Gi/o αi1 - 64 - scFv16 ~{N}-[(2~{R})-1-[[(1~{R},3~{S})-3-(aminomethyl)cyclohexyl]methylamino]-3-(1~{H}-indol-3-yl)-1-oxidanylidene-propan-2-yl]spiro[indene-1,4'-piperidine]-1'-carboxamide
+small-molecule Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Chen LN, Wang WW, Dong YJ, Shen DD, Guo J, Yu X, Qin J, Ji SY, Zhang H, Shen Q, He Q, Yang B, Zhang Y, Li Q, Mao C 10.1038/S41422-022-00669-Z 2022-06-01 Yes"
+P08173,methyl 4-[4-(3-methyl-2-oxidanylidene-benzimidazol-1-yl)piperidin-1-yl]piperidine-1-carboxylate,1,ACM4,7V6A,"ACM4 M4 Acetylcholine (muscarinic) A Human Cryo-EM 7V69 - 3.4 R Active 100 58 Gi/o αi1 - 62 - scFv16 Apo (no ligand)
+none Apo (no ligand) acetylcholine small-molecule No No - - 2022-05-11 Yes"
+P08173,"iperoxo
+LY2119620",1,ACM4,7V68,"ACM4 M4 Acetylcholine (muscarinic) A Human Cryo-EM 7V6A - 3.6 R Active 100 58 Gi/o αi1 - 62 - scFv16 methyl 4-[4-(3-methyl-2-oxidanylidene-benzimidazol-1-yl)piperidin-1-yl]piperidine-1-carboxylate
+small-molecule Allosteric agonist acetylcholine small-molecule No No Wang J, Wu M, Chen Z, Wu L, Wang T, Cao D, Wang H, Liu S, Xu Y, Li F, Liu J, Chen N, Zhao S, Cheng J, Wang S, Hua T 10.1038/S41467-022-30595-Y 2022-05-11 Yes"
+P29274,"UK-432,097",1,AA2AR,7EZC,"NMUR2 NMU2 Neuromedin U A Human Cryo-EM 7W55 - 2.8 R Active 100 73 Gq/11 αq - 60 - scFv16 Neuromedin U-25 (human)
+peptide Agonist neuromedin U-25, neuromedin S-36, neuromedin S-33, neuromedin U-23 peptide No No You C, Zhang Y, Xu P, Huang S, Yin W, Eric Xu H, Jiang Y 10.1038/S41467-022-29683-W 2022-04-20 Yes"
+P08913,(-)-noradrenaline,1,ADA2A,7EJ0,"AA2AR A2A Adenosine A Human X-ray 7EZC 7EZC_refined 3.8 B Active 69 70 - - - - BRIL - UK-432,097
+small-molecule Agonist adenosine small-molecule No No Cui M, Zhou Q, Xu Y, Weng Y, Yao D, Zhao S, Song G 10.1107/S2052252522001907 2022-04-13 Yes"
+P08913,dexmedetomidine,1,ADA2A,7EJA,"ADA2A α2A Adrenoceptors A Human Cryo-EM 7EJ0 - 3.2 R Active 100 56 Gi/o αo - 61 - scFv16 (-)-noradrenaline
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Xu J, Cao S, Hubner H, Weikert D, Chen G, Lu Q, Yuan D, Gmeiner P, Liu Z, Du Y 10.1126/SCIADV.ABJ5347 2022-04-13 Yes"
+P08913,brimonidine (UK14304),1,ADA2A,7EJ8,"ADA2A α2A Adrenoceptors A Human Cryo-EM 7EJA - 3.6 R Active 100 58 Gi/o αo - 59 - scFv16 dexmedetomidine
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Xu J, Cao S, Hubner H, Weikert D, Chen G, Lu Q, Yuan D, Gmeiner P, Liu Z, Du Y 10.1126/SCIADV.ABJ5347 2022-04-13 Yes"
+P08913,oxymetazoline,1,ADA2A,7EJK,"ADA2A α2A Adrenoceptors A Human Cryo-EM 7EJ8 - 3.0 R Active 100 57 Gi/o αo - 61 - scFv16 brimonidine (UK14304)
+small-molecule Agonist (-)-noradrenaline, (-)-adrenaline small-molecule No No Xu J, Cao S, Hubner H, Weikert D, Chen G, Lu Q, Yuan D, Gmeiner P, Liu Z, Du Y 10.1126/SCIADV.ABJ5347 2022-04-13 Yes"
+Q9GZN0,compound 2 [PMID: 24793972],1,GPR88,7EJX,"GP183 GPR183 A orphans A Human Cryo-EM 7TUZ 7TUZ_refined 3.1 R Active 100 79 Gi/o αi1 - 64 - scFv16 (2S,4aS,4bS,7R,8S,8aS,9R,10aR)-7-[(2R,3R)-7-hydroxy-3,7-dimethyloctan-2-yl]-4a,7,8-trimethyltetradecahydrophenanthrene-2,9-diol
+small-molecule Agonist 27-hydroxycholesterol, 25-hydroxycholesterol, 7α,27-dihydroxycholesterol, 7α-hydroxycholesterol, 7β-hydroxycholesterol, 7β, 25-dihydroxycholesterol, 7α,25-dihydroxycholesterol, 7β, 27-dihydroxycholesterol small-molecule No No Chen H, Huang W, Li X 10.1016/J.STR.2022.04.006 2022-04-13 Yes"
+O95136,sphingosine 1-phosphate,1,S1PR2,7T6B,"GLP1R GLP-1 Glucagon B1 Human Cryo-EM 7VBH 7VBH_refined 3.0 R Active 100 83 Gs αs - 53 - Nanobody-35 Peptide 20
+peptide Agonist glucagon-like peptide 1-(7-37), glucagon, glucagon-like peptide 1-(7-36) amide peptide No No Zhao F, Zhou Q, Cong Z, Hang K, Zou X, Zhang C, Chen Y, Dai A, Liang A, Ming Q, Wang M, Chen LN, Xu P, Chang R, Feng W, Xia T, Zhang Y, Wu B, Yang D, Zhao L, Xu HE, Wang MW 10.1038/S41467-022-28683-0 2022-04-06 Yes"
+P30988,calcitonin (salmon synthetic),1,CALCR,7TYN,"CALCR CT Calcitonin B1 Human Cryo-EM 7TYX - 2.6 R Active 100 77 Gs αs - 59 - Nanobody-35 Amylin rat
+peptide Agonist calcitonin, adrenomedullin, amylin, α-CGRP, adrenomedullin 2/intermedin, β-CGRP peptide No No Cao J, Belousoff MJ, Liang YL, Johnson RM, Josephs TM, Fletcher MM, Christopoulos A, Hay DL, Danev R, Wootten D, Sexton PM 10.1126/SCIENCE.ABM9609 2022-03-30 Yes"
+P30988,calcitonin (salmon synthetic),1,CALCR,7TYY,"CALCR CT Calcitonin B1 Human Cryo-EM 7TYO - 2.7 R Active 100 76 Gs αs - 58 - Nanobody-35 Calcitonin human
+peptide Agonist calcitonin, adrenomedullin, amylin, α-CGRP, adrenomedullin 2/intermedin, β-CGRP peptide No No Cao J, Belousoff MJ, Liang YL, Johnson RM, Josephs TM, Fletcher MM, Christopoulos A, Hay DL, Danev R, Wootten D, Sexton PM 10.1126/SCIENCE.ABM9609 2022-03-23 Yes"
+P30988,calcitonin (salmon synthetic),1,CALCR,7TYW,"CALCR CT Calcitonin B1 Human Cryo-EM 7TYL - 3.3 R Active 100 78 Gs αs - 58 - Nanobody-35 Amylin rat
+peptide Agonist calcitonin, adrenomedullin, amylin, α-CGRP, adrenomedullin 2/intermedin, β-CGRP peptide No No Cao J, Belousoff MJ, Liang YL, Johnson RM, Josephs TM, Fletcher MM, Christopoulos A, Hay DL, Danev R, Wootten D, Sexton PM 10.1126/SCIENCE.ABM9609 2022-03-23 Yes"
+Q14832,LY341495,1,GRM3,7WI6,"CCR1 CCR1 Chemokine A Human Cryo-EM 7VL9 - 2.6 R Active 100 85 Gi/o αi1 - 62 - scFv16 CCL15(26-92)
+peptide Agonist CCL14, CCL15, CCL8, CCL5, CCL16, CCL4, CCL23, CCL13, CCL7, CCL3 peptide No No Shao Z, Shen Q, Yao B, Mao C, Chen LN, Zhang H, Shen DD, Zhang C, Li W, Du X, Li F, Ma H, Chen ZH, Xu HE, Ying S, Zhang Y, Shen H 10.1038/S41589-021-00918-Z 2022-03-23 Yes"
+Q14832,LY341495,1,GRM3,7WI8,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 7WI6 7WI6_refined 3.7 A Inactive - 82 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid, NAAG small-molecule No No Fang W, Yang F, Xu C, Ling S, Lin L, Zhou Y, Sun W, Wang X, Liu P, Rondard P, Shi P, Pin JP, Tian C, Liu J 10.1038/S41422-022-00623-Z 2022-03-16 Yes"
+Q14832,CHEMBL4081453,1,GRM3,7WIH,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 7WI8 7WI8_refined 4.2 A Inactive - 82 - - - - - - LY341495
+small-molecule Antagonist L-glutamic acid, NAAG small-molecule No No Fang W, Yang F, Xu C, Ling S, Lin L, Zhou Y, Sun W, Wang X, Liu P, Rondard P, Shi P, Pin JP, Tian C, Liu J 10.1038/S41422-022-00623-Z 2022-03-16 Yes"
+Q15722,LTB4,1,LT4R1,7VKT,"GRM3 mGlu3 Metabotropic glutamate C Human Cryo-EM 7WIH 7WIH_refined 3.7 A Active - 84 - - - - - - CHEMBL4081453
+small-molecule Agonist L-glutamic acid, NAAG small-molecule No No Fang W, Yang F, Xu C, Ling S, Lin L, Zhou Y, Sun W, Wang X, Liu P, Rondard P, Shi P, Pin JP, Tian C, Liu J 10.1038/S41422-022-00623-Z 2022-03-16 Yes"
+P30874,SOMATOSTATIN,1,SSR2,7T10,"SSR2 SST2 Somatostatin A Human Cryo-EM 7T11 7T11_refined 2.7 R Active 100 77 Gi/o αi3 - 62 - scFv16 Octreotide
+peptide Agonist cortistatin-14, SRIF-14, CST-17, SRIF-28 peptide No No Robertson MJ, Meyerowitz JG, Panova O, Borrelli K, Skiniotis G 10.1038/S41594-022-00727-5 2022-03-09 Yes"

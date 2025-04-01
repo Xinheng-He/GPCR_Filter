@@ -16,3 +16,6 @@ tmp.py
 run/
 *.txt
 tmp/
+crawl-0321
+test-visual-0324
+predict-split-random

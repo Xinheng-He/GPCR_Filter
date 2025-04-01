@@ -81,13 +81,13 @@ def make_masks(batch):
     return padded_proteins, padded_ligands, protein_mask, ligand_mask, labels
 
 def make_masks_protein(batch):
-    proteins, ligands, labels = zip(*batch)
+    proteins, ligands, labels, protein_ids, ligand_ids, pdb_ids = zip(*batch)
     proteins = list(proteins)
     ligands = Batch.from_data_list(list(ligands))
     padded_proteins = rnn_utils.pad_sequence(proteins, batch_first=True, padding_value=0)
     protein_mask = ~(torch.arange(padded_proteins.size(1))[None, :] < torch.tensor([p.size(0) for p in proteins])[:, None])
     labels = torch.stack(labels)
-    return padded_proteins, ligands, protein_mask, labels
+    return padded_proteins, ligands, protein_mask, labels, protein_ids, ligand_ids, pdb_ids
 
 def pad_graphs_with_mask(data):
     batch = data.batch
