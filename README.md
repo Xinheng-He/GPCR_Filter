@@ -38,7 +38,7 @@ git clone https://github.com/wayyzt/DTI.git
 ### Using Conda
 Navigate to the cloned directory and create the environment:
 ```
-cd XDTI
+cd DTI
 conda env create -f environment.yml
 ```
 
